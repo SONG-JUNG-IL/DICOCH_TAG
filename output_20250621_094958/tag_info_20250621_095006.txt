@@ -1,0 +1,178 @@
+FilePath	Group	Element	VR	Keyword	Value	ParentTag	ItemIndex	RescaleSlope	RescaleIntercept	RescaleType	CalPhantomID
+	0008	0020	DA	Study Date                         	20250620	00080000	1				
+	0008	0030	TM	Study Time                         	130801	00080000	1				
+	0010	0010	PN	Patient Name                       	Andong Hahoe Yangban Mask	00100000	1				
+	0010	0020	LO	Patient ID                         	KR-AHYM-NT121-YB	00100000	1				
+	0013	0010	LO	_PrivateCreator	DICOCH_NRICH by SONG JUNG IL	00130000	1				
+	0013	0011	LO	PrivateCreator20	DICOCH_Heritage Metadata Sequence		0				
+	0013	0012	LO	PrivateCreator30	DICOCH_Gray Value Calibration Sequence		0				
+	0013	0013	LO	PrivateCreator40	DICOCH_ROI Gray Value Sequence		0				
+	0013	0014	LO	PrivateCreator50	DICOCH_HU Calibration Sequence		0				
+	0013	0015	LO	PrivateCreator60	DICOCH_ROI-HU Sequence		0				
+	0013	0016	LO	PrivateCreator70	DICOCH_IIIF / International Norm Link Sequence		0				
+	0013	0017	LO	PrivateCreator80	DICOCH_Security / Access Sequence		0				
+	0013	0018	LO	PrivateCreator90	DICOCH_DICOCH Private Tag Sequence		0				
+	0013	1100	SQ	Heritage Metadata Sequence	Heritage Metadata Sequence		0				
+	0013	1101	LO	Heritage Name	Andong Hahoe Yangban Mask	00131100	1				
+	0013	1102	LO	Heritage ID	KR-AHYM-NT121-YB	00131100	1				
+	0013	1103	LO	Historic Period	Goryeo Dynasty, 12th–13th	00131100	1				
+	0013	1104	UT	Material Composition	Salix spp.	00131100	1				
+	0013	1105	UT	Condition Status	Surface_Crack_3	00131100	1				
+	0013	1106	LO	Cultural Significance	NationalTreasure NO.121	00131100	1				
+	0013	1107	UT	Investigation Purpose	X-ray Non-destructive Precision Documentation and Internal Structure Analysis	00131100	1				
+	0013	1108	PN	Investigator	National Research Institute of Cultural Heritage, NRICH	00131100	1				
+	0013	1109	LO	Site Location	132 Munji-ro, Yuseong-gu, Daejeon, South Korea	00131100	1				
+	0013	1200	SQ	Gray Value Calibration Sequence	Gray Value Calibration Sequence		0				
+	0013	1201	DS	Mean Gray Value	6000	00131200	1				
+	0013	1202	DS	Min Gray Value	1700	00131200	1				
+	0013	1303	DS	Max Gray Value	65535	00131200	1				
+	0013	1300	SQ	ROI Gray Value Sequence	ROI Gray Value Sequence		0				
+	0013	1301	LO	ROI Label	MASK_1	00131300	1				
+	0013	1302	LO	ROI Type	Polygon	00131300	1				
+	0013	1303	UT	ROI Coordinates	(1387,828), (1386,828), (1386,829), (1385,829), (1385,830), (1384,830)…...(994,638), (993,638), (993,639), (992,639), (992,640)	00131300	1				
+	0013	1304	DS	ROI Mean Gray Value	6000	00131300	1				
+	0013	1305	DS	ROI Min Gray Value	1700	00131300	1				
+	0013	1306	DS	ROI Max Gray Value	10300	00131300	1				
+	0013	1400	SQ	HU Calibration Sequence	HU Calibration Sequence		0				
+	0013	1401	LO	CH-HU CalRef	WaterPhantom	00131400	1				
+	0013	1402	UR	MassAttenDataSrc	NIST XCOM https://physics.nist.gov/PhysRefData/Xcom/html/xcom1.html	00131400	1				
+	0013	1403	DS	CH-HUCalibration Rescale Slope	1	00131400	1				
+	0013	1404	DS	CH-HUCalibration Rescale Intercept	-1024	00131400	1				
+	0013	1405	LO	CH-HUCalibration Rescale Type	CH-HU_NRICH	00131400	1				
+	0013	1500	SQ	ROI-HU Sequence	ROI-HU Sequence		0				
+	0013	1501	LO	ROI Label	MASK_1	00131500	1				
+	0013	1502	LO	ROI Type	Polygon	00131500	1				
+	0013	1503	UT	ROI Coordinates	(1387,828), (1386,828), (1386,829), (1385,829), (1385,830), (1384,830)…...(994,638), (993,638), (993,639), (992,639), (992,640)	00131500	1				
+	0013	1504	LO	Slice Number / Frame UID	slice300-ViewImage0770	00131500	1				
+	0013	1505	LO	Mean HU	676 HU	00131500	1				
+	0013	1506	LO	Min HU	4976 HU	00131500	1				
+	0013	1507	LO	Max HU	9276 HU	00131500	1				
+	0013	1508	LO	HU StdDev	1	00131500	1				
+	0013	1509	LO	Reference Material	wood	00131500	1				
+	0013	1600	SQ	IIIF / International Norm Link Sequence	IIIF / International Norm Link Sequence		0				
+	0013	1601	UR	IIIF Manifest URI	https://song-jung-il.github.io/Public_image/manifest.json	00131600	1				
+	0013	1602	UR	IIIF ImageService URI	https://raw.githubusercontent.com/SONG-JUNG-IL/Public_image/main/slice0300.jpg	00131600	1				
+	0013	1603	CS	IIIF Compliance Level	level1	00131600	1				
+	0013	1604	CS	Open License Statement	Public	00131600	1				
+	0013	1700	SQ	Security / Access Sequence	Security / Access Sequence		0				
+	0013	1701	CS	Access Level	Public	00131700	1				
+	0013	1702	DA	Embargo End Date	20250614	00131700	1				
+	0013	1703	LO	Encryption Method		00131700	1				
+	0013	1704	LO	Hash Algorithm		00131700	1				
+	0013	1705	LO	Data Checksum		00131700	1				
+	0013	1706	LO	License Type		00131700	1				
+	0013	1707	LO	Authorized User ID	NRICH	00131700	1				
+	0013	1708	UT	Access Audit Trail	Created:20250613;Accessed:20250613	00131700	1				
+	0013	1800	SQ	DICOCH Private Tag Sequence	DICOCH Private Tag DICOCH = Digital Imaging & Communications for Cultural Heritage		1				
+	0013	1801	UT	README_DICOCH_Private_Tags	"DICOCH Private Tag Group 0013 -- Complete List
+============================================
+
+File: DICOCH_Private_Tags_0013_FULL_20250614.txt
+Generated: 2025-06-14
+
+Scope
+-----
+This file contains every private tag entry in group (0013,xxxx) that appears in the master
+spreadsheet. Use it as the authoritative reference when embedding or validating DICOCH
+metadata in your DICOM files.
+
+Format
+------
+    (0013,EEEE) VR ""Keyword""
+
+0013  -- reserved private group for Digital Imaging & Communications for Cultural Heritage (DICOCH).
+EEEE  -- element number as four-digit hexadecimal.
+VR    -- Value Representation.
+Keyword -- tag name.
+
+
+Author & Contact
+----------------
+Song Jung‑il (송정일)
+Center for Conservation Science
+National Research Institute of Cultural Heritage, Republic of Korea
+Email: ssong85@korea.kr
+
+Redistribution permitted for cultural‑heritage research and archiving with attribution."	00131800	1				
+	0013	1802	UT	DICOCH private_dict	"Tag List
+--------
+(0013,0010) LO ""_PrivateCreator""
+(0013,1000) SQ ""Heritage Metadata Sequence""
+(0013,1001) LO ""Heritage Name""
+(0013,1002) LO ""Heritage ID""
+(0013,1003) LO ""Historic Period""
+(0013,1004) UT ""Material Composition""
+(0013,1005) UT ""Condition Status""
+(0013,1006) LO ""Cultural Significance""
+(0013,1007) UT ""Investigation Purpose""
+(0013,1008) LO ""Investigator""
+(0013,1009) LO ""Site Location""
+(0013,2000) SQ ""Gray Value Calibration Sequence""
+(0013,2001) DS ""Mean Gray Value""
+(0013,2002) DS ""Min Gray Value""
+(0013,2003) DS ""Max Gray Value""
+(0013,3000) SQ ""ROI Gray Value Sequence""
+(0013,3001) LO ""ROI Label""
+(0013,3002) LO ""ROI Type""
+(0013,3003) UT ""ROI Coordinates""
+(0013,3004) DS ""ROI Mean Gray Value""
+(0013,3005) DS ""ROI Min Gray Value""
+(0013,3006) DS ""ROI Max Gray Value""
+(0013,4000) SQ ""HU Calibration Sequence""
+(0013,4001) LO ""CH-HU CalRef""
+(0013,4002) LO ""MassAttenDataSrc""
+(0013,4003) DS ""CH-HUCalibration Rescale Slope""
+(0013,4004) DS ""CH-HUCalibration Rescale Intercept""
+(0013,4005) LO ""CH-HUCalibration Rescale Type""
+(0013,5000) SQ ""ROI-HU Sequence""
+(0013,5001) LO ""ROI Label""
+(0013,5002) LO ""ROI Type""
+(0013,5003) UT ""ROI Coordinates""
+(0013,5004) LO ""Slice Number / Frame UID""
+(0013,5005) DS ""Mean HU""
+(0013,5006) DS ""Min HU""
+(0013,5007) DS ""Max HU""
+(0013,5008) DS ""HU StdDev""
+(0013,5009) LO ""Reference Material""
+(0013,6000) SQ ""IIIF / International Norm Link Sequence""
+(0013,6001) UR ""IIIF Manifest URI""
+(0013,6002) UR ""IIIF ImageService URI""
+(0013,6003) CS ""IIIF Compliance Level""
+(0013,6005) CS ""Open License Statement""
+(0013,7000) SQ ""Security / Access Sequence""
+(0013,7001) CS ""Access Level""
+(0013,7002) DA ""Embargo End Date""
+(0013,7003) LO ""Encryption Method""
+(0013,7004) LO ""Hash Algorithm""
+(0013,7005) LO ""Data Checksum""
+(0013,7006) LO ""License Type""
+(0013,7007) LO ""Authorized User ID""
+(0013,7008) UT ""Access Audit Trail"""	00138000	1				
+	0018	0050	DS	Slice Thickness	0.116873 mm	00180000	1				
+	0018	0060	DS	KVP	90 kV	00180000	1				
+	0018	0088	DS	Spacing Between Slices	0.116873 mm	00180000	1				
+	0018	1110	DS	Distance Source-Detector	975.0 mm	00181100	1				
+	0018	1111	DS	Distance Source-Patient	735.065 mm	00181100	1				
+	0018	1120	DS	Gantry/Detector Tilt	720	00181100	1				
+	0018	1150	DS	Exposure Time	350	00181100	1				
+	0018	1151	IS	X-ray Tube Current	200 µA	00181100	1				
+	0018	1152	IS	Exposure	5.8	00181100	1				
+	0018	1190	DS	Focal Spot(s)	0.004 mm	00181100	1				
+	0018	7050	CS	Filter Material	COPPER	00187000	1				
+	0018	9310	FD	Table Feed per Rotation	0.019531	00189300	1				
+	0018	9315	CS	Reconstruction Algorithm	FBP	00189300	1				
+	0028	0002	US	Samples per Pixel	1	00280000	1				
+	0028	0004	CS	Photometric Interpretation	MONOCHROME2	00280000	1				
+	0028	0010	US	Rows	2000	00280000	1				
+	0028	0011	US	Columns	2000	00280000	1				
+	0028	0030	DS	Pixel Spacing	[0.143, 0.143]	00280000	1				
+	0028	0100	US	Bits Allocated                     	16	00280100	1				
+	0028	0101	US	Bits Stored                        	16	00280100	1				
+	0028	0102	US	High Bit                           	15	00280100	1				
+	0028	0103	US	Pixel Representation               	1	00280100	1				
+	0028	1050	DS	Window Center	1192	00281000	1				
+	0028	1051	DS	Window Width	2385	00281000	1				
+	0028	1052	DS	RescaleIntercept	-1024	00281000	1		-1024		
+	0028	1053	DS	RescaleSlope	1	00281000	1	1			
+	0028	1054	LO	RescaleType	HU 	00281000	1			HU	
+	7FE0	0010	OW	Pixel Data	<Binary Pixel Data>	7FE00000	1				
