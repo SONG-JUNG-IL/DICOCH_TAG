@@ -1,3 +1,0 @@
-[IIIF Link] https://song-jung-il.github.io/Public_image/manifest.json
-✔ 3.raw_TIFF_ViewImage0770_slice0300_roi.tif
-완료 1   실패 0
