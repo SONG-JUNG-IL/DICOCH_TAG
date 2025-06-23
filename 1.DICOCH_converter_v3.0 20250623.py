@@ -406,27 +406,26 @@ class ConverterGUI(tk.Tk):
         self.pb.config(value=0)
         threading.Thread(target=self._convert,daemon=True).start()
 
-    def _update_tag_view(self, df):
-        # 컬럼별 최소 폭 계산 = max(헤더길이, 값 최대길이) + 2
+    def _update_tag_view(self, df: pd.DataFrame) -> None:
+        """
+        태그 DataFrame(df)을 고정폭 문자열로 변환해 self.tag_view 위젯에 표시.
+        • 행간 0  • 수평 스크롤 지원
+        """
+        # 1) 컬럼별 최소 폭 = max(헤더, 값 최대) + 2
         widths = {c: max(len(c), df[c].astype(str).map(len).max()) + 2
                 for c in df.columns}
         pretty = df.to_string(index=False, col_space=widths, justify="left")
 
-        # 출력 + 행간 압축
+        # 2) 기존 위젯 내용만 갱신
+        self.tag_view.config(state="normal")
         self.tag_view.delete("1.0", tk.END)
         self.tag_view.insert(tk.END, pretty)
+
+        # 3) 행간·스크롤 설정
         self.tag_view.tag_add("tight", "1.0", "end")
-        self.tag_view.tag_configure("tight", spacing1=0, spacing3=0)  # 행간 0
-        self.tag_view.see("1.0")
-        # ── tag_view : 태그 출력 창 ─────────────────────────────
-        self.tag_view = scrolledtext.ScrolledText(
-            frm,
-            height=12,
-            font=("Consolas", 9),     # <= 좁은 고정폭 글꼴
-            padx=2, pady=0,           # <= 내부 여백 최소화
-            wrap="none"               # <= 수평 스크롤 사용
-        )
-        self.tag_view.grid(row=9, column=0, columnspan=5, sticky="nsew")
+        self.tag_view.tag_configure("tight", spacing1=0, spacing3=0)
+        self.tag_view.config(state="disabled")
+
 
 
     # ── 태그 결과 저장
