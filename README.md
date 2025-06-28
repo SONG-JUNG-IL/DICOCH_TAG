@@ -1,116 +1,97 @@
-# DICOCH_TAG
-DICOCH is a DICOM-based format designed to support the documentation and preservation of cultural heritage through standardized metadata for X-ray images. DICOCH: Digital Imaging and Communication for Cultural Heritage
+#DICOCH_TAG
+DICOCH is a DICOM-based format designed to support the documentation and preservation of cultural heritage through standardized metadata for X-ray images.
+DICOCH = Digital Communication for Cultural Heritage
 
+#DICOCH DICOM Converter – GUI Edition
+Version: 3.1 · 2025-06-24
+Author: Song Jung-il (National Research Institute of Cultural Heritage, Korea)
+Contact: ssong85@korea.kr
 
-# DICOCH DICOM Converter – GUI Edition
+📌 Overview
+The converter turns 16-bit TIFF (or TIFF stacks) into standard-compliant .dcm files enriched with a rich set of DICOCH private tags (group 0013) that capture provenance, imaging conditions and IIIF links.
+Everything is performed through an intuitive Tkinter GUI—no command line knowledge or external dependencies required.
 
-**Version**: 2.9m · 2025-06-15  
-**Author**: Song Jung-il (National Research Institute of Cultural Heritage, Korea)  
-**Contact**: ssong85@korea.kr
+✨ What’s new in v3.1
+Area	Enhancement	Details
+HU calibration	GUI-priority checkbox	A single click forces the GUI Slope / Intercept to override values coming from the tag template.
+Tag export	JSON support	In addition to TXT & XLSX, the full tag table is now exported as pretty-printed tag_info_*.json.
+Stability	NameError fix	Internal tag-viewer widget is reused instead of being rebuilt, eliminating occasional NameError on repeated conversions.
+Changelog panel	Up-to-date Info tab	The GUI “Info” tab summarises feature history and author credits.
 
----
+📂 Repository Layout
 
-## 📌 Overview
+📁 DICOCH_TAG/
+├── 1.DICOCH_converter_v3.1.py        # Main GUI application
+├── 2.tag_template_base.xlsx          # Editable tag template (0013,xxxx hierarchy)
+├── 3.example_dicoch.tif              # Sample 16-bit X-ray slice
+├── README.md                         # (you are here)
 
-**DICOCH** (Digital Imaging and Communication for Cultural Heritage) is a metadata specification and conversion system that extends the DICOM standard for use in cultural heritage X-ray and CT imaging.  
-This tool converts 16-bit TIFF image stacks into valid `.dcm` files with customized private tags under group `0013`, supporting digital archiving, preservation, and automated metadata integration.
+Tip Start by duplicating 2.tag_template_base.xlsx and inserting project-specific metadata before your first run.
 
----
+🚀 Quick Start
 
-## ✨ Key Features
+python 1.DICOCH_converter_v3.1.py
+1.TIFF 폴더 – pick a folder that contains one or more 16-bit .tif images.
+2.태그 엑셀 – select your (possibly edited) tag template.
+3.출력 폴더 – accept the auto-generated path or choose another location.
+4.(Optional) set Slope & Intercept; tick GUI 우선 적용 if these must override the Excel values.
+5.Click [변환 시작] – a progress bar tracks multithreaded conversion.
+6. When finished you will find:
 
-- 🧠 DICOCH Private Tag Format (0013,xxxx) fully supported
-- 🗂️ Excel-based tag template with hierarchical `ParentTag` and `ItemIndex`
-- ♻️ Nested `SQ` (Sequence) tag builder with cycle pruning (depth ≤ 20)
-- 🏷️ RescaleSlope / Intercept auto-assigned unless overridden
-- 🧪 Bio-Formats-compatible: `UR → UT` auto-conversion
-- 💾 Output DICOM files + `dicom.dic` dictionary + conversion log saved
-- 🌐 Fully GUI-based, portable, with no external dependencies
+output_YYYYMMDD_HHMMSS/
+ ├─ *.dcm                         # One file per input slice
+ ├─ dicom.dic                     # Private-tag dictionary
+ ├─ log_YYYYMMDD_HHMMSS.txt       # Conversion log
+ ├─ tag_info_*.txt / .xlsx / .json# Saved tag table
+ └─ (optional) Mirador link       # Auto-opens if IIIF URL present
 
----
+ 
+🖥️ GUI Walk-through
+Element	                         Purpose
+Slope / Intercept fields	       Provide calibration values (defaults 1 / -1024).
+Slope/Intercept GUI 우선 적용	    Ensures those values always win over Excel.
+태그 검사	                         Runs a pre-flight check for invalid DA / TM formats and missing sequences.
+태그 결과 저장	                   Exports the in-memory tag DataFrame to TXT / XLSX / JSON.
+IIIF 뷰어 열기	                   Launches Mirador with the detected (or manually entered) manifest.
 
-## 📂 Folder Structure
+The Info tab (second notebook page) lists the full contact information, CC-BY-SA license notice, and a condensed changelog.
 
-```
-📁 DICOCH_Converter/
-├── 1.DICOCH_converter20250614 10.py             # Main GUI converter
-├── 2.Modified_Excel_Tag_Template_ParentItem.xlsx # Editable tag template
-├── 3.raw_TIFF_ViewImage0770_slice0300.tif       # Sample input TIFF
-├── 3.raw_TIFF_ViewImage0770_slice0300.dcm       # Output DICOM (with tags)
-├── dicom.dic                                     # Generated tag dictionary
-├── log_20250615_180318.txt                       # Conversion result log
-```
+🔖 DICOCH Private Tag Map (0013,xxxx)
+A condensed sample (see generated dicom.dic for the full list):
 
----
+(0013,0010) LO “DICOCH”                     # Private Creator
+(0013,1001) LO “HeritageName”
+(0013,1002) LO “HeritageID”
+(0013,1100) SQ “HeritageMetaSeq”  → Item 0 … n
+(0013,1200) DS “MeanGrayValue”
+(0013,1300) DS “RescaleSlope”
+(0013,1400) DS “RescaleIntercept”
+(0013,1700) UT “IIIFManifestURL”
+Each nested SQ item automatically receives a block-specific creator plus the top-level “DICOCH” creator, keeping the dataset perfectly legal under the DICOM private-tag rules.
 
-## 🚀 How to Use
+✅ Example Output
+3.example_dicoch.tif → 3.example_dicoch.dcm (37 private tags, 2 nested sequences).
+All tags validated with pydicom and load correctly in RadiAnt, Horos and Myrian.
 
-1. Run the script:
-   ```bash
-   python 1.DICOCH_converter20250614\ 10.py
-   ```
+🔄 Change History (excerpt)
+Date	          Ver.	            Highlights
+2025-06-24	    3.1	            GUI-priority Slope / Intercept, JSON export, widget fix
+2025-06-23	    3.0	            Improved Info tab UI, creator de-duplication
+2025-06-22	    2.9u	            Automatic IIIF viewer link, rewritten dicom.dic
+see CHANGELOG_legacy.md for earlier versions.		
 
-2. In the GUI:
-   - Select the **TIFF folder** (must contain 16-bit `.tif`)
-   - Select the **Excel tag template** (e.g. `2.Modified_Excel_Tag_Template_ParentItem.xlsx`)
-   - Choose **output folder** (auto-suffix with date/time)
+📘 License
+Creative Commons BY-NC-SA 4.0 – free to use, modify and redistribute for non-commercial cultural-heritage purposes with attribution.
 
-3. Optionally:
-   - Adjust **Rescale Slope/Intercept** if HU correction is needed
-   - Click **"태그 검사"** to validate tag structure
-   - Click **"변환 시작"** to generate `.dcm` files
+📞 Contact
+Song Jung-il (송정일)
+Center for Conservation Science, National Research Institute of Cultural Heritage, Republic of Korea
+📧 ssong85@korea.kr | GitHub https://github.com/SONG-JUNG-IL/DICOCH_TAG
 
----
-
-## 🔖 DICOCH Private Tags (0013,xxxx)
-
-DICOCH defines structured private metadata to describe heritage object imaging context. For example:
-
-```
-(0013,1001) LO "Heritage Name"
-(0013,1002) LO "Heritage ID"
-(0013,2001) DS "Mean Gray Value"
-(0013,4003) DS "CH-HUCalibration Rescale Slope"
-(0013,5005) LO "Mean HU"
-```
-
-📄 Full tag dictionary → see [`dicom.dic`](./dicom.dic)
-
----
-
-## ✅ Example Output
-
-✔ `3.raw_TIFF_ViewImage0770_slice0300.tif`  
-✔ `3.raw_TIFF_ViewImage0770_slice0300_roi.tif`  
-→ Converted successfully to `.dcm` files with nested private metadata sequences.  
-Log saved to [`log_20250615_180318.txt`](./log_20250615_180318.txt)
-
----
-
-## 📘 License
-
-This project is distributed under the **Creative Commons BY-NC-SA 4.0 License**.  
-Use permitted for research and cultural heritage preservation with proper attribution.
-
----
-
-## 📞 Contact
-
-**Song Jung-il (송정일)**  
-Center for Conservation Science  
-National Research Institute of Cultural Heritage, Republic of Korea  
-📧 ssong85@korea.kr
-
----
-
-## 🔖 Citation
-
-```bibtex
-@misc{DICOCH2025,
-  author    = {Jung-il Song},
-  title     = {DICOCH DICOM Converter: Metadata Embedding Tool for Cultural Heritage Imaging},
-  year      = {2025},
-  howpublished = {\url{https://github.com/YOUR_ORG/DICOCH-Converter}},
-  note      = {National Research Institute of Cultural Heritage}
-}
-```
+🔖 Citation
+@misc{Song2025_DICOCH,
+  author       = {Jung-il Song},
+  title        = {DICOCH DICOM Converter v3.1: Metadata Embedding Tool for Cultural Heritage Imaging},
+  year         = {2025},
+  howpublished = {\url{https://github.com/SONG-JUNG-IL/DICOCH_TAG}},
+  note         = {National Research Institute of Cultural Heritage}
