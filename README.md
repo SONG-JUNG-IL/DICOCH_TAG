@@ -33,6 +33,7 @@ Everything happens through an intuitive Tkinter GUI—no command-line skills or 
 
 ## 📂 Repository Layout
 DICOCH_TAG
+
 ├── 1.DICOCH_converter_v3.1.py # Main GUI application
 
 ├── 2.tag_template_base.xlsx # Editable tag template (0013,xxxx hierarchy)
@@ -49,6 +50,7 @@ DICOCH_TAG
 ## 🚀 Quick Start
 
 python 1.DICOCH_converter_v3.1.py
+
 1.TIFF 폴더 – choose a folder containing one or more 16-bit .tif images.
 
 2.태그 엑셀 – select your (possibly edited) tag template.
@@ -60,7 +62,9 @@ python 1.DICOCH_converter_v3.1.py
 5.Click [변환 시작] – a progress bar tracks multithreaded conversion.
 
 6.When finished you will find:
+
 output_YYYYMMDD_HHMMSS/
+
 ├─ *.dcm                       # One file per input slice
 
 ├─ dicom.dic                   # Private-tag dictionary
