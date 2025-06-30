@@ -32,10 +32,13 @@ Everything happens through an intuitive Tkinter GUI—no command-line skills or 
 ---
 
 ## 📂 Repository Layout
-DICOCH_TAG/
+DICOCH_TAG
 ├── 1.DICOCH_converter_v3.1.py # Main GUI application
+
 ├── 2.tag_template_base.xlsx # Editable tag template (0013,xxxx hierarchy)
+
 ├── 3.example_dicoch.tif # Sample 16-bit X-ray slice
+
 └── README.md # (this file)
 
 
@@ -59,9 +62,13 @@ python 1.DICOCH_converter_v3.1.py
 6.When finished you will find:
 output_YYYYMMDD_HHMMSS/
 ├─ *.dcm                       # One file per input slice
+
 ├─ dicom.dic                   # Private-tag dictionary
+
 ├─ log_YYYYMMDD_HHMMSS.txt     # Conversion log
+
 ├─ tag_info_*.txt/.xlsx/.json  # Saved tag table
+
 └─ (optional) Mirador link     # Auto-opens if IIIF URL present
 
 🖥️ GUI Walk-through
