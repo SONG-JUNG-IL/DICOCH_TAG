@@ -1,0 +1,1260 @@
+{
+  "@context": "https://iiif.io/api/presentation/3/context.json",
+  "id": "https://song-jung-il.github.io/Public_image/manifest_20250703_131413.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "DICOCH DICOM Study"
+    ]
+  },
+  "summary": {
+    "en": [
+      "2025-07-03T13:14:19.816087"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://song-jung-il.github.io/Public_image/canvas/1",
+      "type": "Canvas",
+      "height": 2000,
+      "width": 2000,
+      "items": [
+        {
+          "id": "https://song-jung-il.github.io/Public_image/canvas/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://song-jung-il.github.io/Public_image/canvas/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://raw.githubusercontent.com/SONG-JUNG-IL/Public_image/main/3.example_dicoch.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2000,
+                "width": 2000
+              },
+              "target": "https://song-jung-il.github.io/Public_image/canvas/1"
+            }
+          ]
+        }
+      ],
+      "metadata": [
+        {
+          "label": {
+            "none": [
+              "SpecificCharacterSet"
+            ]
+          },
+          "value": {
+            "none": [
+              "ISO_IR 192"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Study Date"
+            ]
+          },
+          "value": {
+            "none": [
+              "20250702"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "SeriesDate"
+            ]
+          },
+          "value": {
+            "none": [
+              "20250702"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "ContentDate"
+            ]
+          },
+          "value": {
+            "none": [
+              "20250702"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Study Time"
+            ]
+          },
+          "value": {
+            "none": [
+              "160015"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "SeriesTime"
+            ]
+          },
+          "value": {
+            "none": [
+              "160015"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "ContentTime"
+            ]
+          },
+          "value": {
+            "none": [
+              "160015"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Modality"
+            ]
+          },
+          "value": {
+            "none": [
+              "OT"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "_PrivateCreator"
+            ]
+          },
+          "value": {
+            "none": [
+              "DICOCH"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "PrivateCreator20"
+            ]
+          },
+          "value": {
+            "none": [
+              "DICOCH_Heritage Metadata Sequence"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "PrivateCreator30"
+            ]
+          },
+          "value": {
+            "none": [
+              "DICOCH_Gray Value Calibration Sequence"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "PrivateCreator40"
+            ]
+          },
+          "value": {
+            "none": [
+              "DICOCH_ROI Gray Value Sequence"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "PrivateCreator50"
+            ]
+          },
+          "value": {
+            "none": [
+              "DICOCH_HU Calibration Sequence"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "PrivateCreator60"
+            ]
+          },
+          "value": {
+            "none": [
+              "DICOCH_ROI-HU Sequence"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "PrivateCreator70"
+            ]
+          },
+          "value": {
+            "none": [
+              "DICOCH_IIIF / International Norm Link Sequence"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "PrivateCreator80"
+            ]
+          },
+          "value": {
+            "none": [
+              "DICOCH_Security / Access Sequence"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "PrivateCreator90"
+            ]
+          },
+          "value": {
+            "none": [
+              "DICOCH_DICOCH Private Tag Sequence"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Heritage Metadata Sequence"
+            ]
+          },
+          "value": {
+            "none": [
+              "[(0013,0010) Private Creator                     LO: 'DICOCH'\n(0013,0011) Private Creator                     LO: 'DICOCH_HeritageMetaSeq'\n(0013,1101) Private tag data                    LO: 'Andong Hahoe Yangban Mask'\n(0013,1102) Private tag data                    LO: 'KR-AHYM-NT121-YB'\n(0013,1103) Private tag data                    LO: 'Goryeo Dynasty, 12th–13th'\n(0013,1104) Private tag data                    UT: 'Salix spp.'\n(0013,1105) Private tag data                    UT: 'Surface_Crack_3'\n(0013,1106) Private tag data                    LO: 'NationalTreasure NO.121'\n(0013,1107) Private tag data                    UT: Array of 77 elements\n(0013,1108) Private tag data                    PN: 'National Research Institute of Cultural Heritage, NRICH'\n(0013,1109) Private tag data                    LO: '132 Munji-ro, Yuseong-gu, Daejeon, South Korea']"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "_PrivateCreator"
+            ]
+          },
+          "value": {
+            "none": [
+              "DICOCH"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "PrivateCreator20"
+            ]
+          },
+          "value": {
+            "none": [
+              "DICOCH_HeritageMetaSeq"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Heritage Name"
+            ]
+          },
+          "value": {
+            "none": [
+              "Andong Hahoe Yangban Mask"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Heritage ID"
+            ]
+          },
+          "value": {
+            "none": [
+              "KR-AHYM-NT121-YB"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Historic Period"
+            ]
+          },
+          "value": {
+            "none": [
+              "Goryeo Dynasty, 12th–13th"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Material Composition"
+            ]
+          },
+          "value": {
+            "none": [
+              "Salix spp."
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Condition Status"
+            ]
+          },
+          "value": {
+            "none": [
+              "Surface_Crack_3"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Cultural Significance"
+            ]
+          },
+          "value": {
+            "none": [
+              "NationalTreasure NO.121"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Investigation Purpose"
+            ]
+          },
+          "value": {
+            "none": [
+              "X-ray Non-destructive Precision Documentation and Internal Structure Analysis"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Investigator"
+            ]
+          },
+          "value": {
+            "none": [
+              "National Research Institute of Cultural Heritage, NRICH"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Site Location"
+            ]
+          },
+          "value": {
+            "none": [
+              "132 Munji-ro, Yuseong-gu, Daejeon, South Korea"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Gray Value Calibration Sequence"
+            ]
+          },
+          "value": {
+            "none": [
+              "[(0013,0010) Private Creator                     LO: 'DICOCH'\n(0013,0012) Private Creator                     LO: 'DICOCH_GrayCalSeq'\n(0013,1201) Private tag data                    DS: '6000'\n(0013,1202) Private tag data                    DS: '1700'\n(0013,1303) Private tag data                    DS: '65535']"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "_PrivateCreator"
+            ]
+          },
+          "value": {
+            "none": [
+              "DICOCH"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "PrivateCreator30"
+            ]
+          },
+          "value": {
+            "none": [
+              "DICOCH_GrayCalSeq"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Mean Gray Value"
+            ]
+          },
+          "value": {
+            "none": [
+              "6000"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Min Gray Value"
+            ]
+          },
+          "value": {
+            "none": [
+              "1700"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "ROI Coordinates"
+            ]
+          },
+          "value": {
+            "none": [
+              "65535"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "ROI Gray Value Sequence"
+            ]
+          },
+          "value": {
+            "none": [
+              "[(0013,0010) Private Creator                     LO: 'DICOCH'\n(0013,0013) Private Creator                     LO: 'DICOCH_ROIGraySeq'\n(0013,1301) Private tag data                    LO: 'MASK_1'\n(0013,1302) Private tag data                    LO: 'Polygon'\n(0013,1303) Private tag data                    UT: Array of 127 elements\n(0013,1304) Private tag data                    DS: '6000'\n(0013,1305) Private tag data                    DS: '1700'\n(0013,1306) Private tag data                    DS: '10300']"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "_PrivateCreator"
+            ]
+          },
+          "value": {
+            "none": [
+              "DICOCH"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "PrivateCreator40"
+            ]
+          },
+          "value": {
+            "none": [
+              "DICOCH_ROIGraySeq"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "ROI Label"
+            ]
+          },
+          "value": {
+            "none": [
+              "MASK_1"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "ROI Type"
+            ]
+          },
+          "value": {
+            "none": [
+              "Polygon"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "ROI Coordinates"
+            ]
+          },
+          "value": {
+            "none": [
+              "(1387,828), (1386,828), (1386,829), (1385,829), (1385,830), (1384,830)…...(994,638), (993,638), (993,639), (992,639), (992,640)"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "ROI Mean Gray Value"
+            ]
+          },
+          "value": {
+            "none": [
+              "6000"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "ROI Min Gray Value"
+            ]
+          },
+          "value": {
+            "none": [
+              "1700"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "ROI Max Gray Value"
+            ]
+          },
+          "value": {
+            "none": [
+              "10300"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "HU Calibration Sequence"
+            ]
+          },
+          "value": {
+            "none": [
+              "[(0013,0010) Private Creator                     LO: 'DICOCH'\n(0013,0014) Private Creator                     LO: 'DICOCH_HUCalSeq'\n(0013,1401) Private tag data                    LO: 'WaterPhantom'\n(0013,1402) Private tag data                    UT: Array of 67 elements\n(0013,1403) Private tag data                    DS: '1'\n(0013,1404) Private tag data                    DS: '-1024'\n(0013,1405) Private tag data                    LO: 'CH-HU_NRICH']"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "_PrivateCreator"
+            ]
+          },
+          "value": {
+            "none": [
+              "DICOCH"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "PrivateCreator50"
+            ]
+          },
+          "value": {
+            "none": [
+              "DICOCH_HUCalSeq"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "CH-HU CalRef"
+            ]
+          },
+          "value": {
+            "none": [
+              "WaterPhantom"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "MassAttenDataSrc"
+            ]
+          },
+          "value": {
+            "none": [
+              "NIST XCOM https://physics.nist.gov/PhysRefData/Xcom/html/xcom1.html"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "CH-HUCalibration Rescale Slope"
+            ]
+          },
+          "value": {
+            "none": [
+              "1"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "CH-HUCalibration Rescale Intercept"
+            ]
+          },
+          "value": {
+            "none": [
+              "-1024"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "CH-HUCalibration Rescale Type"
+            ]
+          },
+          "value": {
+            "none": [
+              "CH-HU_NRICH"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "ROI-HU Sequence"
+            ]
+          },
+          "value": {
+            "none": [
+              "[(0013,0010) Private Creator                     LO: 'DICOCH'\n(0013,0015) Private Creator                     LO: 'DICOCH_ROIHUSeq'\n(0013,1501) Private tag data                    LO: 'MASK_1'\n(0013,1502) Private tag data                    LO: 'Polygon'\n(0013,1503) Private tag data                    UT: Array of 127 elements\n(0013,1504) Private tag data                    LO: 'slice300-ViewImage0770'\n(0013,1505) Private tag data                    LO: '676 HU'\n(0013,1506) Private tag data                    LO: '4976 HU'\n(0013,1507) Private tag data                    LO: '9276 HU'\n(0013,1508) Private tag data                    LO: '1'\n(0013,1509) Private tag data                    LO: 'wood']"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "_PrivateCreator"
+            ]
+          },
+          "value": {
+            "none": [
+              "DICOCH"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "PrivateCreator60"
+            ]
+          },
+          "value": {
+            "none": [
+              "DICOCH_ROIHUSeq"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "ROI Label"
+            ]
+          },
+          "value": {
+            "none": [
+              "MASK_1"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "ROI Type"
+            ]
+          },
+          "value": {
+            "none": [
+              "Polygon"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "ROI Coordinates"
+            ]
+          },
+          "value": {
+            "none": [
+              "(1387,828), (1386,828), (1386,829), (1385,829), (1385,830), (1384,830)…...(994,638), (993,638), (993,639), (992,639), (992,640)"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Slice Number / Frame UID"
+            ]
+          },
+          "value": {
+            "none": [
+              "slice300-ViewImage0770"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Mean HU"
+            ]
+          },
+          "value": {
+            "none": [
+              "676 HU"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Min HU"
+            ]
+          },
+          "value": {
+            "none": [
+              "4976 HU"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Max HU"
+            ]
+          },
+          "value": {
+            "none": [
+              "9276 HU"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "HU StdDev"
+            ]
+          },
+          "value": {
+            "none": [
+              "1"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Reference Material"
+            ]
+          },
+          "value": {
+            "none": [
+              "wood"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "IIIF / International Norm Link Sequence"
+            ]
+          },
+          "value": {
+            "none": [
+              "[(0013,0010) Private Creator                     LO: 'DICOCH'\n(0013,0016) Private Creator                     LO: 'DICOCH_IIIFLinkSeq'\n(0013,1601) Private tag data                    UT: Array of 57 elements\n(0013,1602) Private tag data                    UT: Array of 78 elements\n(0013,1603) Private tag data                    CS: 'LEVEL1'\n(0013,1604) Private tag data                    CS: 'PUBLIC']"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "_PrivateCreator"
+            ]
+          },
+          "value": {
+            "none": [
+              "DICOCH"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "PrivateCreator70"
+            ]
+          },
+          "value": {
+            "none": [
+              "DICOCH_IIIFLinkSeq"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "IIIF Manifest URI"
+            ]
+          },
+          "value": {
+            "none": [
+              "https://song-jung-il.github.io/Public_image/manifest.json"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "IIIF ImageService URI"
+            ]
+          },
+          "value": {
+            "none": [
+              "https://raw.githubusercontent.com/SONG-JUNG-IL/Public_image/main/slice0300.jpg"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "IIIF Compliance Level"
+            ]
+          },
+          "value": {
+            "none": [
+              "LEVEL1"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Open License Statement"
+            ]
+          },
+          "value": {
+            "none": [
+              "PUBLIC"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Security / Access Sequence"
+            ]
+          },
+          "value": {
+            "none": [
+              "[(0013,0010) Private Creator                     LO: 'DICOCH'\n(0013,0017) Private Creator                     LO: 'DICOCH_SecuritySeq'\n(0013,1701) Private tag data                    CS: 'PUBLIC'\n(0013,1702) Private tag data                    DA: '20250614'\n(0013,1703) Private tag data                    LO: ''\n(0013,1704) Private tag data                    LO: ''\n(0013,1705) Private tag data                    LO: ''\n(0013,1706) Private tag data                    LO: ''\n(0013,1707) Private tag data                    LO: 'NRICH'\n(0013,1708) Private tag data                    UT: Array of 34 elements]"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "_PrivateCreator"
+            ]
+          },
+          "value": {
+            "none": [
+              "DICOCH"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "PrivateCreator80"
+            ]
+          },
+          "value": {
+            "none": [
+              "DICOCH_SecuritySeq"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Access Level"
+            ]
+          },
+          "value": {
+            "none": [
+              "PUBLIC"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Embargo End Date"
+            ]
+          },
+          "value": {
+            "none": [
+              "20250614"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Encryption Method"
+            ]
+          },
+          "value": {
+            "none": [
+              ""
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Hash Algorithm"
+            ]
+          },
+          "value": {
+            "none": [
+              ""
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Data Checksum"
+            ]
+          },
+          "value": {
+            "none": [
+              ""
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "License Type"
+            ]
+          },
+          "value": {
+            "none": [
+              ""
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Authorized User ID"
+            ]
+          },
+          "value": {
+            "none": [
+              "NRICH"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Access Audit Trail"
+            ]
+          },
+          "value": {
+            "none": [
+              "Created:20250613;Accessed:20250613"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "DICOCH Private Tag Sequence"
+            ]
+          },
+          "value": {
+            "none": [
+              "[(0013,0010) Private Creator                     LO: 'DICOCH'\n(0013,0018) Private Creator                     LO: 'DICOCH_PrivTagSeq'\n(0013,1801) Private tag data                    UT: Array of 901 elements]"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "_PrivateCreator"
+            ]
+          },
+          "value": {
+            "none": [
+              "DICOCH"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "PrivateCreator90"
+            ]
+          },
+          "value": {
+            "none": [
+              "DICOCH_PrivTagSeq"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "README_DICOCH_Private_Tags"
+            ]
+          },
+          "value": {
+            "none": [
+              "DICOCH Private Tag Group 0013 -- Complete List\n============================================\n\nFile: DICOCH_Private_Tags_0013_FULL_20250614.txt\nGenerated: 2025-06-14\n\nScope\n-----\nThis file contains every private tag entry in group (0013,xxxx) that appears in the master\nspreadsheet. Use it as the authoritative reference when embedding or validating DICOCH\nmetadata in your DICOM files.\n\nFormat\n------\n    (0013,EEEE) VR \"Keyword\"\n\n0013  -- reserved private group for Digital Imaging & Communications for Cultural Heritage (DICOCH).\nEEEE  -- element number as four-digit hexadecimal.\nVR    -- Value Representation.\nKeyword -- tag name.\n\n\nAuthor & Contact\n----------------\nSong Jung‑il (송정일)\nCenter for Conservation Science\nNational Research Institute of Cultural Heritage, Republic of Korea\nEmail: ssong85@korea.kr\n\nRedistribution permitted for cultural‑heritage research and archiving with attribution."
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Samples per Pixel"
+            ]
+          },
+          "value": {
+            "none": [
+              "1"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Photometric Interpretation"
+            ]
+          },
+          "value": {
+            "none": [
+              "MONOCHROME2"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Rows"
+            ]
+          },
+          "value": {
+            "none": [
+              "2000"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Columns"
+            ]
+          },
+          "value": {
+            "none": [
+              "2000"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Bits Allocated"
+            ]
+          },
+          "value": {
+            "none": [
+              "16"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Bits Stored"
+            ]
+          },
+          "value": {
+            "none": [
+              "16"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "High Bit"
+            ]
+          },
+          "value": {
+            "none": [
+              "15"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Pixel Representation"
+            ]
+          },
+          "value": {
+            "none": [
+              "0"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "RescaleIntercept"
+            ]
+          },
+          "value": {
+            "none": [
+              "-1024.0"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "RescaleSlope"
+            ]
+          },
+          "value": {
+            "none": [
+              "1.0"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "RescaleType"
+            ]
+          },
+          "value": {
+            "none": [
+              "HU"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "Total Tags"
+        ]
+      },
+      "value": {
+        "none": [
+          "97"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Private Tags"
+        ]
+      },
+      "value": {
+        "none": [
+          "0"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "HU Min"
+        ]
+      },
+      "value": {
+        "none": [
+          "676.0"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "HU Max"
+        ]
+      },
+      "value": {
+        "none": [
+          "676.0"
+        ]
+      }
+    }
+  ]
+}
