@@ -171,19 +171,22 @@ Nested SQ items automatically inherit both a block-specific creator and the root
 
 ---
 
-
 ## 📌 Overview
-The GUI ingests an entire **DICOM folder** and produces—without any command-line work—
+This GUI ingests an entire DICOM folder and, without any command-line work, produces:
+- **8-bit JPEG slices** (`/images/*.jpg`)
+- **Tag table** (`tags_*.xlsx`)
+- **Fully compliant IIIF Presentation API v3 manifest** (`manifest_*.json`)
 
-* 8-bit **JPEG slices** (`/images/*.jpg`)
+The manifest employs a Canvas + Range structure, automatically excludes binary VR elements (Pixel Data, OB/OW, etc.), and embeds public URLs so that Mirador or any IIIF-compatible viewer can open it instantly.
 
-* A **tag table** (`tags_*.xlsx`)  
+### dciodvfy Description
+`dciodvfy` is a command-line utility from the **dicom3tools** suite that validates a DICOM file against the PS3 standard:
+- Verifies required modules and attributes for each Information Object Definition (IOD) :contentReference[oaicite:0]{index=0}
+- Checks data element encoding rules and coherence with PS 3.5 (Data Structures & Encoding) and PS 3.6 (Data Dictionary) :contentReference[oaicite:1]{index=1}
 
-* A fully compliant **IIIF Presentation 3.0 manifest** (`manifest_*.json`)
-
-The manifest uses **Canvas**+**Range** structure, auto-excludes binary VR (Pixel Data, OB/OW/…),
-and embeds public URLs so Mirador or any IIIF viewer can open it instantly.
-
+### Installation
+1. Copy the provided `tools` folder to `C:\tools\dicom3tools`.  
+2. Open **System Properties** → **Environment Variables** → **Path** and add:
 
 ---
 
