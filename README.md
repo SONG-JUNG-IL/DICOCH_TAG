@@ -12,7 +12,7 @@
 # **DICOCH DICOM Converter – GUI Edition**
 | Item | Value |
 |------|-------|
-| **Version** | **3.1 · 2025-06-24** |
+| **Version** | **2.9 · 2025-06-24** |
 | **Author**  | **Song Jung-il** (National Research Institute of Cultural Heritage, Korea) |
 | **Contact** | **ssong85@korea.kr** |
 
@@ -44,7 +44,7 @@ Everything happens through an intuitive Tkinter GUI—no command-line skills or 
 ## 📂 Repository Layout
 DICOCH_TAG
 
-├── 1.DICOCH_converter_v3.1.py # Main GUI application
+├── 1.DICOCH_converter_v2.9.py # Main GUI application
 
 ├── 2.tag_template_base.xlsx # Editable tag template (0013,xxxx hierarchy)
 
@@ -60,7 +60,7 @@ DICOCH_TAG
 
 ## 🚀 Quick Start
 
-python 1.DICOCH_converter_v3.1.py
+python 1.DICOCH_converter_v2.9.py
 
 1.TIFF 폴더 – choose a folder containing one or more 16-bit .tif images.
 
@@ -144,9 +144,9 @@ Nested SQ items automatically inherit both a block-specific creator and the root
 ## 🔄 Change History (excerpt)
 | Date       | Ver.    | Highlights                                              |
 | ---------- | ------- | ------------------------------------------------------- |
-| 2025-06-24 | **3.1** | GUI-priority Slope / Intercept, JSON export, widget fix |
-| 2025-06-23 | 3.0     | Improved Info tab UI, creator de-duplication            |
-| 2025-06-22 | 2.9u    | Automatic IIIF viewer link, rewritten `dicom.dic`       |
+| 2025-06-24 | **2.9.** | GUI-priority Slope / Intercept, JSON export, widget fix |
+| 2025-06-23 | 2.8     | Improved Info tab UI, creator de-duplication            |
+| 2025-06-22 | 2.7    | Automatic IIIF viewer link, rewritten `dicom.dic`       |
 
 
 
@@ -302,7 +302,7 @@ Center for Conservation Science, National Research Institute of Cultural Heritag
 🔖 Citation
 @misc{Song2025_DICOCH,
   author       = {Jung-il Song},
-  title        = {DICOCH DICOM Converter v3.1: Metadata Embedding Tool for Cultural Heritage Imaging}, {IIIF Manifest Generator v1.3: A DICOM-to-IIIF Toolkit for Cultural Heritage},
+  title        = {DICOCH DICOM Converter v2.9: Metadata Embedding Tool for Cultural Heritage Imaging}, {IIIF Manifest Generator v1.3: A DICOM-to-IIIF Toolkit for Cultural Heritage},
   year         = {2025},
   howpublished = {\url{https://github.com/SONG-JUNG-IL/DICOCH_TAG}},
   note         = {National Research Institute of Cultural Heritage}
