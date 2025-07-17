@@ -1,7 +1,7 @@
 
 ---
 
-# **1.DICOCH_converter_v3.1**
+# **1.DICOCH_converter_v2.9**
 *DICOCH* is a DICOM-based format created to document and preserve cultural heritage by attaching standardized metadata to X-ray images.  
 **DICOCH = Digital Communication for Cultural Heritage**
 
@@ -28,7 +28,7 @@ Everything happens through an intuitive Tkinter GUI—no command-line skills or 
 ---
 
 
-## ✨ What’s New in v3.1
+## ✨ What’s New in v2.9
 
 | Area | Enhancement | Details |
 |------|-------------|---------|
