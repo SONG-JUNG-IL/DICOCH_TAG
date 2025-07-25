@@ -1,0 +1,3 @@
+[IIIF Link] https:\\song-jung-il.github.io\Public_image\manifest.json
+✔ 3.example_dicoch.tif
+Completed 1   Failed 0

@@ -1,0 +1,233 @@
+group	element	parenttag	filepath	vr	keyword	value	itemindex	level	type	description	publicflag	rescaleslope	rescaleintercept	rescaletype	calphantomid	error
+0002	0000			UL	File Meta Information Group Length	206	1	FileMeta	1	File Meta Information Group Length 	Public					
+0002	0001			OB	File Meta Information Version	0x00\0x01	1	FileMeta	1	File Meta Information Version      	Public					
+0002	0002			UI	MediaStorageSOPClassUID	1.2.410.10008.5.1.4.1.1.7	1	FileMeta	1	Class UID for storage	Public					
+0002	0003			UI	MediaStorageSOPInstanceUID	1.2.410.0.1.3680043.8.498.72086671478977588136793328147620910378	1	FileMeta	1	Instance UID for storage	Public					
+0002	0010			UI	Transfer Syntax UID	1.2.410.10008.1.2.1	1	FileMeta	1	Transfer Syntax UID                	Public					
+0002	0012			UI	Implementation Class UID	1.2.410.0.1.3680043.8.498.1	1	FileMeta	1	Implementation Class UID           	Public					
+0002	0013			SH	Implementation Version Name	PYDICOM 3.0.1	1	FileMeta	1	Implementation Version Name        	Public					
+0002	0016			AE	SourceApplicationEntityTitle	NRICH_AE	1	FileMeta	1	SourceApplicationEntityTitle	Public					
+0002	0017			AE	SourceApplicationEntityTitle	NRICH_AE	1	FileMeta	2	SourceApplicationEntityTitle	Public					
+0002	0018			AE	SendingApplicationEntityTitle	NRICH_AE	1	FileMeta	1	SendingApplicationEntityTitle	Public					
+0002	0030			UI	PrivateInformationCreatorUID	1.2.410.0.1.3680043.8.498.1	1	FileMeta	1	PrivateInformationCreatorUID	Public					
+0008	0005			CS	Specific Character Set	ISO_IR192	1	FileMeta	1	Specific Character Set             	Public					
+0008	0007			LO	Manufacturer	DICOCH	1	FileMeta	2	Manufacturer	Public					
+0008	0016			UI	SOPClassUID	1.2.410.10008.5.1.4.1.1.7	1	Image	3	SOPClassUID	Public					
+0008	0018			UI	SOPInstanceUID	1.2.410.0.1.3680043.8.498.72086671478977588136793328147620910378	1	Image	3	SOPInstanceUID	Public					
+0008	0020			DA	Study Date	20250723	1	FileMeta	1	Series Date                        	Public					
+0008	0021			DA	Series Date	20250723	1	FileMeta	1	Content Date                       	Public					
+0008	0023			DA	Content Date	20250723	1	FileMeta	1	Study Time                         	Public					
+0008	0030			TM	Study Time	140925	1	FileMeta	1	Series Time                        	Public					
+0008	0031			TM	Series Time	140925	1	FileMeta	1	Content Time                       	Public					
+0008	0033			TM	Content Time	140925	1	FileMeta	1	Modality                           	Public					
+0008	0060			CS	Modality	OT	1	Series	1	Type of equipment that originally acquired the data	Public					
+0008	0061			CS	Modalities In Study	OT	1	Study	3	Modalities In Study	Public					
+0008	0062			UI	SOP Classes In Study	1.2.410.0.1.3680043.8.498.72086671478977588136793328147620910378	1	Study	3	SOP Classes In Study	Public					
+0008	0064			CS	Conversion Type	WSD	1	Study	1	Conversion Type	Public					
+0008	0070			LO		DICOCH										
+0008	0080			SH	AccessionNumber	1	1	Study	3	AccessionNumber	Public					
+0008	103E			LO	Series Description	Cultural Heritage X-ray CT Scan	1	Study	3	Series Description	Public					
+0008	1090			LO	Manufacturer’s Model Name	Converter v3.1	1	FileMeta	3	Manufacturer’s Model Name	Public					
+0008	4144			LO	StudyDescription	X-ray CT scan of cultural heritage	1	Study	3	Text description of the study	Public					
+0008	4158			LO	SeriesDescription	National Treasure No. 21 Andong Hahoe Mask	1	Series	3	Description of the series	Public					
+0010	0010			PN	Patient Name	UNKNOWN	1	Image	3	Patient Name	Public					
+0010	0020			LO	Patient ID	0000	1	Image	3	Patient ID	Public					
+0010	0030			DA	PatientBirthDate	20250723	1	Image	3	PatientBirthDate	Public					
+0010	0040			CS	PatientSex	O	1	Image	3	PatientSex	Public					
+0013	0010			LO	_PrivateCreator	DICOCH_NRICH by SONG JUNG IL	1	Private	3	_PrivateCreator	Private					
+0013	0011			LO	PrivateCreator20	DICOCH_Heritage Metadata Sequence	1	Private	3	PrivateCreator20	Private					
+0013	0012			LO	PrivateCreator30	DICOCH_Gray Value Calibration Sequence	1	Private	3	PrivateCreator30	Private					
+0013	0013			LO	PrivateCreator40	DICOCH_ROI Gray Value Sequence	1	Private	3	PrivateCreator40	Private					
+0013	0014			LO	PrivateCreator50	DICOCH_HU Calibration Sequence	1	Private	3	PrivateCreator50	Private					
+0013	0015			LO	PrivateCreator60	DICOCH_ROI-HU Sequence	1	Private	3	PrivateCreator60	Private					
+0013	0016			LO	PrivateCreator70	DICOCH_IIIF \ International Norm Link Sequence	1	Private	3	PrivateCreator70	Private					
+0013	0017			LO	PrivateCreator80	DICOCH_Security \ Access Sequence	1	Private	3	PrivateCreator80	Private					
+0013	0018			LO	PrivateCreator90	DICOCH_DICOCH Private Tag Sequence	1	Private	3	PrivateCreator90	Private					
+0013	1100			SQ	Heritage Metadata Sequence	Heritage Metadata Sequence	1	Private	3	Heritage Metadata Sequence	Private					
+0013	1101			LO	Heritage Name	Andong Hahoe Yangban Mask	1	Private	3	Heritage Name	Private					
+0013	1102			LO	Heritage ID	KR-AHYM-NT121-YB	1	Private	3	Heritage ID	Private					
+0013	1103			LO	Historic Period	Goryeo Dynasty, 12th–13th	1	Private	3	Historic Period	Private					
+0013	1104			UT	Material Composition	Salix spp.	1	Private	3	Material Composition	Private					
+0013	1105			UT	Condition Status	Surface_Crack_3	1	Private	3	Condition Status	Private					
+0013	1106			LO	Cultural Significance	NationalTreasure NO.121	1	Private	3	Cultural Significance	Private					
+0013	1107			UT	Investigation Purpose	X-ray Non-destructive Precision Documentation and Internal Structure Analysis	1	Private	3	Investigation Purpose	Private					
+0013	1108			PN	Investigator	National Research Institute of Cultural Heritage, NRICH	1	Private	3	Investigator	Private					
+0013	1109			LO	Site Location	132 Munji-ro, Yuseong-gu, Daejeon, South Korea	1	Private	3	Site Location	Private					
+0013	1200			SQ	Gray Value Calibration Sequence	Gray Value Calibration Sequence	1	Private	3	Gray Value Calibration Sequence	Private					
+0013	1201			LO	Mean Gray Value	6000	1	Private	3	Mean Gray Value	Private					
+0013	1202			LO	Min Gray Value	1700	1	Private	3	Min Gray Value	Private					
+0013	1203			LO	Max Gray Value	65535	1	Private	3	Max Gray Value	Private					
+0013	1300			SQ	ROI Gray Value Sequence	ROI Gray Value Sequence	1	Private	3	ROI Gray Value Sequence	Private					
+0013	1301			LO	ROI Label	MASK_1	1	Private	3	ROI Label	Private					
+0013	1302			LO	ROI Type	Polygon	1	Private	3	ROI Type	Private					
+0013	1303			UT	ROI Coordinates	(1387,828), (1386,828), (1386,829), (1385,829), (1385,830), (1384,830)…...(994,638), (993,638), (993,639), (992,639), (992,640)	1	Private	3	ROI Coordinates	Private					
+0013	1304			LO	ROI Mean Gray Value	6000	1	Private	3	ROI Mean Gray Value	Private					
+0013	1305			LO	ROI Min Gray Value	1700	1	Private	3	ROI Min Gray Value	Private					
+0013	1306			LO	ROI Max Gray Value	10300	1	Private	3	ROI Max Gray Value	Private					
+0013	1400			SQ	HU Calibration Sequence	HU Calibration Sequence	1	Private	3	HU Calibration Sequence	Private					
+0013	1401			LO	CH-HU CalRef	WaterPhantom	1	Private	3	CH-HU CalRef	Private					
+0013	1402			UT	MassAttenDataSrc	NIST XCOM https:\\physics.nist.gov\PhysRefData\Xcom\html\xcom1.html	1	Private	3	MassAttenDataSrc	Private					
+0013	1403			LO	CH-HUCalibration Rescale Slope	1	1	Private	3	CH-HUCalibration Rescale Slope	Private					
+0013	1404			LO	CH-HUCalibration Rescale Intercept	-1024	1	Private	3	CH-HUCalibration Rescale Intercept	Private					
+0013	1405			LO	CH-HUCalibration Rescale Type	CH-HU_NRICH	1	Private	3	CH-HUCalibration Rescale Type	Private					
+0013	1500			SQ	ROI-HU Sequence	ROI-HU Sequence	1	Private	3	ROI-HU Sequence	Private					
+0013	1501			LO	ROI Label	MASK_1	1	Private	3	ROI Label	Private					
+0013	1502			LO	ROI Type	Polygon	1	Private	3	ROI Type	Private					
+0013	1503			UT	ROI Coordinates	(1387,828), (1386,828), (1386,829), (1385,829), (1385,830), (1384,830)…...(994,638), (993,638), (993,639), (992,639), (992,640)	1	Private	3	ROI Coordinates	Private					
+0013	1504			LO	Slice Number \ Frame UID	slice300-ViewImage0770	1	Private	3	Slice Number \ Frame UID	Private					
+0013	1505			LO	Mean HU	676 HU	1	Private	3	Mean HU	Private					
+0013	1506			LO	Min HU	4976 HU	1	Private	3	Min HU	Private					
+0013	1507			LO	Max HU	9276 HU	1	Private	3	Max HU	Private					
+0013	1508			LO	HU StdDev	1	1	Private	3	HU StdDev	Private					
+0013	1509			LO	Reference Material	wood	1	Private	3	Reference Material	Private					
+0013	1600			SQ	IIIF \ International Norm Link Sequence	IIIF \ International Norm Link Sequence	1	Private	3	IIIF \ International Norm Link Sequence	Private					
+0013	1601			UT	IIIF Manifest URI	https:\\song-jung-il.github.io\Public_image\manifest.json	1	Private	3	IIIF Manifest URI	Private					
+0013	1602			UT	IIIF ImageService URI	https:\\raw.githubusercontent.com\SONG-JUNG-IL\Public_image\main\slice0300.jpg	1	Private	3	IIIF ImageService URI	Private					
+0013	1603			LO	IIIF Compliance Level	LEVEL1	1	Private	3	IIIF Compliance Level	Private					
+0013	1604			LO	Open License Statement	PUBLIC	1	Private	3	Open License Statement	Private					
+0013	1700			SQ	Security \ Access Sequence	Security \ Access Sequence	1	Private	3	Security \ Access Sequence	Private					
+0013	1701			LO	Access Level	PUBLIC	1	Private	3	Access Level	Private					
+0013	1702			DA	Embargo End Date	20250101	1	Private	3	Embargo End Date	Private					
+0013	1703			LO	Encryption Method	AES-256-GCM	1	Private	3	Encryption Method	Private					
+0013	1704			LO	Hash Algorithm	SHA-256	1	Private	3	Hash Algorithm	Private					
+0013	1705			LO	Data Checksum	16 byte MD5	1	Private	3	Data Checksum	Private					
+0013	1706			LO	License Type	NRICH-INT-DATA v1	1	Private	3	License Type	Private					
+0013	1707			LO	Authorized User ID	DICOCH_NRICH by SONG JUNG IL	1	Private	3	Authorized User ID	Private					
+0013	1708			UT	Access Audit Trail	Created:20250613;Accessed:20250613	1	Private	3	Access Audit Trail	Private					
+0013	1800			SQ	DICOCH Private Tag Sequence	DICOCH Private Tag DICOCH = Digital Imaging & Communications for Cultural Heritage	1	Private	3	DICOCH Private Tag Sequence	Private					
+0013	1801			UT	README_DICOCH_Private_Tags	"DICOCH Private Tag Group 0013 -- Complete List
+============================================
+
+File: DICOCH_Private_Tags_0013_FULL_20250614.txt
+Generated: 2025-06-14
+
+Scope
+-----
+This file contains every private tag entry in group (0013,xxxx) that appears in the master
+spreadsheet. Use it as the authoritative reference when embedding or validating DICOCH
+metadata in your DICOM files.
+
+Format
+------
+    (0013,EEEE) VR ""Keyword""
+
+0013  -- reserved private group for Digital Imaging & Communications for Cultural Heritage (DICOCH).
+EEEE  -- element number as four-digit hexadecimal.
+VR    -- Value Representation.
+Keyword -- tag name.
+
+
+Author & Contact
+----------------
+Song Jung‑il (송정일)
+Center for Conservation Science
+National Research Institute of Cultural Heritage, Republic of Korea
+Email: ssong85@korea.kr
+
+Redistribution permitted for cultural‑heritage research and archiving with attribution."	1	Private	3	README_DICOCH_Private_Tags	Private					
+0013	1802			UT	DICOCH private_dict	"Tag List
+--------
+(0013,0010) LO ""Heritage Metadata Sequence""
+(0013,1100) SQ ""Heritage Metadata Sequence""
+(0013,1101) LO ""Heritage Name""
+(0013,1102) LO ""Heritage ID""
+(0013,1103) LO ""Historic Period""
+(0013,1104) UT ""Material Composition""
+(0013,1105) UT ""Condition Status""
+(0013,1106) LO ""Cultural Significance""
+(0013,1107) UT ""Investigation Purpose""
+(0013,1108) LO ""Investigator""
+(0013,1109) LO ""Site Location“
+(0013,0010) LO ""Gray Value Calibration Sequence""
+(0013,1200) SQ ""Gray Value Calibration Sequence""
+(0013,1201) DS ""Mean Gray Value""
+(0013,1202) DS ""Min Gray Value""
+(0013,1203) DS ""Max Gray Value“
+(0013,0010) LO ""ROI Gray Value Sequence""
+(0013,1300) SQ ""ROI Gray Value Sequence""
+(0013,1301) LO ""ROI Label""
+(0013,1302) LO ""ROI Type""
+(0013,1303) UT ""ROI Coordinates""
+(0013,1304) DS ""ROI Mean Gray Value""
+(0013,1305) DS ""ROI Min Gray Value""
+(0013,1306) DS ""ROI Max Gray Value“
+(0013,0010) LO ""HU Calibration Sequence""
+(0013,1400) SQ ""HU Calibration Sequence""
+(0013,1401) LO ""CH-HU CalRef""
+(0013,1402) LO ""MassAttenDataSrc""
+(0013,1403) DS ""CH-HUCalibration Rescale Slope""
+(0013,1404) DS ""CH-HUCalibration Rescale Intercept""
+(0013,1405) LO ""CH-HUCalibration Rescale Type“
+(0013,0010) LO ""ROI-HU Sequence""
+(0013,1500) SQ ""ROI-HU Sequence""
+(0013,1501) LO ""ROI Label""
+(0013,1502) LO ""ROI Type""
+(0013,1503) UT ""ROI Coordinates""
+(0013,1504) LO ""Slice Number \ Frame UID""
+(0013,1505) DS ""Mean HU""
+(0013,1506) DS ""Min HU""
+(0013,1507) DS ""Max HU""
+(0013,1508) DS ""HU StdDev""
+(0013,1509) LO ""Reference Material“
+(0013,0010) LO ""IIIF \ International Norm Link Sequence""
+(0013,1600) SQ ""IIIF \ International Norm Link Sequence""
+(0013,1601) UR ""IIIF Manifest URI""
+(0013,1602) UR ""IIIF ImageService URI""
+(0013,1603) CS ""IIIF Compliance Level""
+(0013,1605) CS ""Open License Statement“
+(0013,0010) LO ""Security \ Access Sequence""
+(0013,1700) SQ ""Security \ Access Sequence""
+(0013,1701) CS ""Access Level""
+(0013,1702) DA ""Embargo End Date""
+(0013,1703) LO ""Encryption Method""
+(0013,1704) LO ""Hash Algorithm""
+(0013,1705) LO ""Data Checksum""
+(0013,1706) LO ""License Type""
+(0013,1707) LO ""Authorized User ID""
+(0013,1708) UT ""Access Audit Trail“
+(0013,0010) LO ""DICOCH Private Tag Sequence""
+(0013,1800) SQ ""DICOCH Private Tag Sequence""
+(0013,1801) UT ""README_DICOCH_Private_Tags""
+(0013,1802) UT “DICOCH private_dict”"	1	Private	3	DICOCH private_dict	Private					
+0018	0034			CS	ScanOptions	SE	1	Series	3	Options used for scanning	Public					
+0018	0050			DS	Slice Thickness	0.116873	1	Image	3	Slice Thickness	Public					
+0018	0060			DS	KVP	90	1	Image	3	KVP	Public					
+0018	0088			DS	Spacing Between Slices	0.116873	1	Image	3	Spacing Between Slices	Public					
+0018	1110			DS	Distance Source-Detector	975	1	Image	3	Distance Source-Detector	Public					
+0018	1111			DS	Distance Source-Patient	735.065	1	Image	3	Distance Source-Patient	Public					
+0018	1120			DS	Gantry\Detector Tilt	720	1	Image	3	Gantry\Detector Tilt	Public					
+0018	1150			DS	Exposure Time	350	1	Image	3	Exposure Time	Public					
+0018	1151			IS	X-ray Tube Current	200	1	Image	3	X-ray Tube Current	Public					
+0018	1152			IS	Exposure	6	1	Image	3	Exposure	Public					
+0018	1190			DS	Focal Spot(s)	0.004	1	Image	3	Focal Spot(s)	Public					
+0018	4144			LO	ProtocolName	DICOCH_NRICH by SONG JUNG IL	1	Series	3	Name of the protocol used	Public					
+0018	7050			CS	Filter Material	COPPER	1	Image	3	Filter Material	Public					
+0018	9310			FD	Table Feed per Rotation	0.019531	1	Image	3	Table Feed per Rotation	Public					
+0018	9315			CS	Reconstruction Algorithm	FBP	1	Image	3	Reconstruction Algorithm	Public					
+0020	000D			UI	StudyInstanceUID	1.2.410.82.42.860.9387	1	FileMeta	1	StudyInstanceUID	Public					
+0020	000E			UI	SeriesInstanceUID	1.2.410.82.42.860.9387	1	FileMeta	1	SeriesInstanceUID	Public					
+0020	0010			SH	StudyID	1	1	Study	2	User-defined study ID	Public					
+0020	0011			IS	SeriesNumber	1	1	Series	2	SeriesNumber	Public					
+0020	0013			IS	InstanceNumber	1	1	Study	1	Unique identifier for the Study	Public					
+0020	0014			UI	SeriesInstanceUID	1.2.410.0.1.3680043.8.498.20250723.125814.1	1	Series	1	Unique identifier for the Series	Public					
+0020	0017			IS	SeriesNumber	1	1	Series	2	Series number for ordering	Public					
+0020	0019			IS	InstanceNumber	330	1	Image	2	Number identifying the image order	Public					
+0020	0050			DS	ImagePositionPatient	-120.000000\120.	1	Image	2	Image position in patient coordinates	Public					
+0020	0052			UI	Frame of Reference UID	1.2.410.10008.5.1.4.1.1.7	1	Image	2	Frame of Reference UID	Public					
+0020	0055			DS	ImageOrientationPatient	1\0\0\0\1\0	1	Image	2	Image orientation	Public					
+0020	4161			DS	SliceLocation	770	1	Image	3	Relative position of slice	Public					
+0028	0002			US	Samples per Pixel	1	1	Image	3	Samples per Pixel	Public					
+0028	0004			CS	Photometric Interpretation	MONOCHROME2	1	Image	3	Photometric Interpretation	Public					
+0028	0010			US	Rows	2000	1	Image	3	Rows	Public					
+0028	0011			US	Columns	2000	1	Image	3	Columns	Public					
+0028	0030			DS	Pixel Spacing	0.1\0.1	1	Image	3	Pixel Spacing	Public					
+0028	0100			US	Bits Allocated	16	1	Image	3	Bits Allocated	Public					
+0028	0101			US	Bits Stored	16	1	Image	3	Bits Stored	Public					
+0028	0102			US	High Bit	15	1	Image	3	High Bit	Public					
+0028	0103			US	Pixel Representation	1	1	Image	3	Pixel Representation	Public					
+0028	1050			DS	Window Center	-849	1	Image	3	Window Center	Public					
+0028	1051			DS	Window Width	158	1	Image	3	Window Width	Public					
+0028	1052			DS	RescaleIntercept	-1024	1	Image	3	RescaleIntercept	Public		-1024			
+0028	1053			DS	RescaleSlope	1	1	Image	3	RescaleSlope	Public	1				
+0028	1054			LO	RescaleType	HU	1	Image	3	RescaleType	Public			HU		
+7FE0	0010			OW	Pixel Data	<Binary Pixel Data>	1	Image	3	Pixel Data	Public					
