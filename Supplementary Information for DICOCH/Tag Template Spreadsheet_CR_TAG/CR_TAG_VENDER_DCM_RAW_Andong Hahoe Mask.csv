@@ -1,0 +1,70 @@
+(Group:Element)  ,TAG Description                    ,VR,VM,Length    ,Value
+(0002:0000)      ,File Meta Information Group Length ,UL,1,4         ,204
+(0002:0001)      ,File Meta Information Version      ,OB,1,2         ,00\01
+(0002:0002)      ,Media Storage SOP Class UID        ,UI,1,26        ,1.2.840.10008.5.1.4.1.1.7
+(0002:0003)      ,Media Storage SOP Instance UID     ,UI,1,64        ,1.2.528.1.1001.100.4.11681.8413.66325071390980.20250825013503590
+(0002:0010)      ,Transfer Syntax UID                ,UI,1,20        ,1.2.840.10008.1.2.1 (Explicit VR Little Endian)
+(0002:0012)      ,Implementation Class UID           ,UI,1,28        ,1.2.528.1.1001.2.20060808.1
+(0002:0013)      ,Implementation Version Name        ,SH,1,12        ,GEHC_DCM06_1
+(0008:0005)      ,Specific Character Set             ,CS,1,10        ,ISO_IR 192
+(0008:0008)      ,Image Type                         ,CS,3,30        ,DERIVED\SECONDARY\SINGLE PLANE
+(0008:0016)      ,SOP Class UID                      ,UI,1,26        ,1.2.840.10008.5.1.4.1.1.7
+(0008:0018)      ,SOP Instance UID                   ,UI,1,64        ,1.2.528.1.1001.100.4.11681.8413.66325071390980.20250825013503590
+(0008:0020)      ,Study Date                         ,DA,1,8         ,20250825
+(0008:0021)      ,Series Date                        ,DA,1,8         ,20250825
+(0008:0030)      ,Study Time                         ,TM,1,6         ,103503
+(0008:0031)      ,Series Time                        ,TM,1,6         ,103503
+(0008:0050)      ,Accession Number                   ,SH,1,12        ,UNSPECIFIED
+(0008:0060)      ,Modality                           ,CS,1,2         ,SC
+(0008:0061)      ,Modalities In Study                ,CS,1,2         ,CR
+(0008:0070)      ,Manufacturer                       ,LO,1,26        ,GE Inspection Technologies
+(0008:0090)      ,Referring Physician Name           ,PN,0,0         ,
+(0008:1010)      ,Station Name                       ,SH,1,10        ,CZC75173PY
+(0008:1030)      ,Study Description                  ,LO,1,10        ,20213401-3
+(0008:103E)      ,Series Description                 ,LO,1,18        ,Secondary Capture
+(0008:1048)      ,Physicians Of Record               ,PN,1,12        ,UNSPECIFIED
+(0008:1060)      ,Name Of Physicians Reading Study   ,PN,1,12        ,UNSPECIFIED
+(0008:1090)      ,Manufacturer Model Name            ,LO,1,14        ,Rhythm Review
+(0008:2111)      ,Derivation Description             ,ST,1,12        ,Image Export
+(0008:2112)      ,Source Image Sequence              ,SQ,1,72        ,
+   (FFFE:E000)   ,Item                               ,,1,64        ,
+      (0008:1150),Referenced SOP Class UID           ,UI,1,26        ,1.2.840.10008.5.1.4.1.1.1
+      (0008:1155),Referenced SOP Instance UID        ,UI,1,22        ,1.1.20210824.105814949
+   (FFFE:E00D)   ,Item Delimitation Item             ,,0,          ,
+(FFFE:E0DD)      ,Sequence Delimitation Item         ,,0,          ,
+(0010:0010)      ,Patient Name                       ,PN,1,8         ,20213401
+(0010:0020)      ,Patient ID                         ,LO,1,10        ,2021-08-20
+(0010:0030)      ,Patient Birth Date                 ,DA,1,8         ,20210824
+(0010:0040)      ,Patient Sex                        ,CS,1,2         ,O
+(0018:1000)      ,Device Serial Number               ,LO,1,14        ,66325071390980
+(0018:1020)      ,Software Versions                  ,LO,1,4         ,8.0
+(0020:000D)      ,Study Instance UID                 ,UI,1,64        ,1.2.528.1.1001.100.2.11681.8413.66325071390980.20250825013503641
+(0020:000E)      ,Series Instance UID                ,UI,1,64        ,1.2.528.1.1001.100.3.11681.8413.66325071390980.20250825013503588
+(0020:0010)      ,Study ID                           ,SH,1,10        ,20213401-3
+(0020:0011)      ,Series Number                      ,IS,1,2         ,1
+(0020:0013)      ,Instance Number                    ,IS,1,2         ,1
+(0020:1206)      ,Number Of Study Related Series     ,IS,1,2         ,1
+(0020:1208)      ,Number Of Study Related Instances  ,IS,1,2         ,1
+(0028:0002)      ,Samples Per Pixel                  ,US,1,2         ,1
+(0028:0004)      ,Photometric Interpretation         ,CS,1,12        ,MONOCHROME2
+(0028:0006)      ,Planar Configuration               ,US,1,2         ,0
+(0028:0008)      ,Number Of Frames                   ,IS,1,2         ,1
+(0028:0010)      ,Rows                               ,US,1,2         ,12361
+(0028:0011)      ,Columns                            ,US,1,2         ,10131
+(0028:0034)      ,Pixel Aspect Ratio                 ,IS,0,0         ,
+(0028:0100)      ,Bits Allocated                     ,US,1,2         ,16
+(0028:0101)      ,Bits Stored                        ,US,1,2         ,16
+(0028:0102)      ,High Bit                           ,US,1,2         ,15
+(0028:0103)      ,Pixel Representation               ,US,1,2         ,0
+(0028:1050)      ,Window Center                      ,DS,1,6         ,32768
+(0028:1051)      ,Window Width                       ,DS,1,6         ,65536
+(0028:1055)      ,Window Center Width Explanation    ,LO,1,12        ,32768/65536
+(3109:0010)      ,Private Creator                    ,LO,1,30        ,Applicare/RadWorks/Version 5.0
+(3109:0011)      ,Private Creator                    ,LO,1,38        ,Applicare/RadWorks/Version 6.0/Summary
+(3109:1001)      ,Unknown  Tag &  Data               ,ST,0,0         ,
+(3109:1002)      ,Unknown  Tag &  Data               ,SH,1,4         ,SEEN
+(3109:1008)      ,Unknown  Tag &  Data               ,LO,1,10        ,CZC75173PY
+(3109:100A)      ,Unknown  Tag &  Data               ,DA,1,8         ,20210824
+(3109:100B)      ,Unknown  Tag &  Data               ,TM,1,6         ,105816
+(3109:1112)      ,Unknown  Tag &  Data               ,ST,1,14        ,AE_Changename
+(7FE0:0010)      ,Pixel Data                         ,OW,1,250458582 ,ddff\ddff\ddff\ddff\ddff\ddff\ddff\ddff\ddff\ddff\ddff\ddff\ddff...

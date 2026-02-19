@@ -1,0 +1,43 @@
+(Group:Element)  ,TAG Description                    ,VR,VM,Length    ,Value
+(0002:0000)      ,File Meta Information Group Length ,UL,1,4,196
+(0002:0001)      ,File Meta Information Version      ,OB,1,2,00\01
+(0002:0002)      ,Media Storage SOP Class UID        ,UI,1,26,1.2.840.10008.5.1.4.1.1.2
+(0002:0003)      ,Media Storage SOP Instance UID     ,UI,1,54,1.2.276.0.7230010.3.1.4.3719806279.3380.1645489980.437
+(0002:0010)      ,Transfer Syntax UID                ,UI,1,18,1.2.840.10008.1.2 (Implicit VR Endian)
+(0002:0012)      ,Implementation Class UID           ,UI,1,28,1.2.276.0.7230010.3.0.3.6.0
+(0002:0013)      ,Implementation Version Name        ,SH,1,16,OFFIS_DCMTK_360
+(0008:0016)      ,SOP Class UID                      ,UI,1,26,1.2.840.10008.5.1.4.1.1.2
+(0008:0018)      ,SOP Instance UID                   ,UI,1,56,1.2.276.0.7230010.3.1.4.3719806279.3380.1645512530.9818
+(0008:0020)      ,Study Date                         ,DA,1,8,20220222
+(0008:0030)      ,Study Time                         ,TM,1,8,154144
+(0008:0060)      ,Modality                           ,CS,1,2,CT
+(0008:0070)      ,Manufacturer                       ,LO,1,16,SEC Engineering
+(0008:1030)      ,Study Description                  ,LO,0,0,
+(0008:103E)      ,Series Description                 ,LO,0,0,
+(0008:1070)      ,Operators Name                     ,PN,0,0,
+(0010:0010)      ,Patient Name                       ,PN,1,10,SfxImage2D
+(0018:0050)      ,Slice Thickness                    ,DS,1,8,0.127204
+(0018:0060)      ,KVP                                ,DS,1,8,0
+(0018:1110)      ,Distance Source To Detector        ,DS,1,8,0
+(0018:1111)      ,Distance Source To Patient         ,DS,1,8,0
+(0018:1150)      ,Exposure Time                      ,IS,1,8,0
+(0018:1151)      ,X Ray Tube Current                 ,IS,1,8,0
+(0018:1152)      ,Exposure                           ,IS,1,8,0
+(0018:1190)      ,Focal Spots                        ,DS,1,8,0
+(0020:000D)      ,Study Instance UID                 ,UI,1,56,1.2.276.0.7230010.3.1.4.3719806279.3380.1645512104.8639
+(0020:000E)      ,Series Instance UID                ,UI,1,56,1.2.276.0.7230010.3.1.4.3719806279.3380.1645512104.8640
+(0020:0013)      ,Instance Number                    ,IS,1,4,1177
+(0020:0032)      ,Image Position Patient             ,DS,3,34,-159.328949\159.328949\-19.525833
+(0020:0037)      ,Image Orientation Patient          ,DS,6,54,1.000000\0.000000\0.000000\0.000000\-1.000000\0.000000
+(0020:1041)      ,Slice Location                     ,DS,1,10,149.719269
+(0028:0002)      ,Samples Per Pixel                  ,US,1,2,1
+(0028:0004)      ,Photometric Interpretation         ,CS,1,12,MONOCHROME2
+(0028:0010)      ,Rows                               ,US,1,2,2048
+(0028:0011)      ,Columns                            ,US,1,2,2048
+(0028:0030)      ,Pixel Spacing                      ,DS,2,18,0.155671\0.155671
+(0028:0034)      ,Pixel Aspect Ratio                 ,IS,2,4,1\1
+(0028:0100)      ,Bits Allocated                     ,US,1,2,16
+(0028:0101)      ,Bits Stored                        ,US,1,2,16
+(0028:0102)      ,High Bit                           ,US,1,2,15
+(0028:0103)      ,Pixel Representation               ,US,1,2,1
+(7FE0:0010)      ,Pixel Data                         ,OW,1,8388608,0000\0000\0000\0000\0000\0000\0000\0000\0000\0000\0000\0000\0000...

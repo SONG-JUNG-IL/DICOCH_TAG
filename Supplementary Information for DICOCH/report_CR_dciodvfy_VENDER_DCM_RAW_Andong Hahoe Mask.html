@@ -1,0 +1,886 @@
+<!doctype html><html lang='ko'><head><meta charset='utf-8'>
+<title>DICOM Validation Report</title>
+<style>
+:root{--fg:#222;--muted:#666;--err:#d9534f;--warn:#b06c00;--priv:#1e88e5}
+body{font-family:Segoe UI,Arial,sans-serif;color:var(--fg);margin:24px;max-width:1100px}
+h1{margin:.2rem 0 1rem} h2{margin:1rem 0 .4rem}
+table{border-collapse:collapse;width:100%;margin:.4rem 0 1rem}
+th,td{border:1px solid #ddd;padding:6px 8px} thead th{position:sticky;top:0;background:#fafafa}
+tbody tr:nth-child(even){background:#fafafa}
+.num{text-align:right}
+.err{color:var(--err)} .warn{color:var(--warn)} .priv{color:var(--priv)}
+details{border:1px solid #ddd;padding:.4rem .6rem;margin:.6rem 0}
+pre{white-space:pre-wrap;font-family:Consolas,monospace;max-height:420px;overflow:auto}
+.muted{color:var(--muted)}
+</style></head><body><h1>DICOM Validation Report <span class='muted' style='font-weight:normal'>– 2025-09-11 14:47</span></h1><h2>File Summary</h2><table><thead><tr><th>File</th><th class='num err'>Errors</th><th class='num warn'>Warnings</th><th class='num priv'>Private</th><th class='num'>Total</th></tr></thead><tbody><tr><td><b>All files</b></td><td class='num err'><b>5</b></td><td class='num warn'><b>10</b></td><td class='num priv'><b>0</b></td><td class='num'><b>15</b></td></tr><tr><td>image_current_dcm_하회탈_raw_filter.dcm</td><td class='num err'>5</td><td class='num warn'>10</td><td class='num priv'>0</td><td class='num'>15</td></tr></tbody></table><h2>Detailed Messages</h2><table><thead><tr><th>File</th><th>Severity</th><th>Tag</th><th>Message</th></tr></thead><tbody><tr><td>image_current_dcm_하회탈_raw_filter.dcm</td><td class='err'>ERR</td><td></td><td>Error - Missing attribute Type 2C Conditional Element=&lt;Laterality&gt; Module=&lt;GeneralSeries&gt;</td></tr><tr><td>image_current_dcm_하회탈_raw_filter.dcm</td><td class='err'>ERR</td><td></td><td>Error - Missing attribute Type 1 Required Element=&lt;ConversionType&gt; Module=&lt;SCEquipment&gt;</td></tr><tr><td>image_current_dcm_하회탈_raw_filter.dcm</td><td class='err'>ERR</td><td></td><td>Error - Missing attribute Type 2C Conditional Element=&lt;PatientOrientation&gt; Module=&lt;GeneralImage&gt;</td></tr><tr><td>image_current_dcm_하회탈_raw_filter.dcm</td><td class='err'>ERR</td><td></td><td>Error - Attribute present when condition unsatisfied (which may not be present otherwise) Type 1C Conditional Element=&lt;PlanarConfiguration&gt; Module=&lt;ImagePixelDescriptionMacro&gt;</td></tr><tr><td>image_current_dcm_하회탈_raw_filter.dcm</td><td class='err'>ERR</td><td></td><td>Error - Empty attribute (no value) Type 1C Conditional Element=&lt;PixelAspectRatio&gt; Module=&lt;ImagePixelDescriptionMacro&gt;</td></tr><tr><td>image_current_dcm_하회탈_raw_filter.dcm</td><td class='warn'>WARN</td><td>0008,1048</td><td>Warning - Value dubious for this VR - (0x0008,0x1048) PN Physician(s) of Record  PN [1] = &lt;UNSPECIFIED&gt; - Retired Person Name form</td></tr><tr><td>image_current_dcm_하회탈_raw_filter.dcm</td><td class='warn'>WARN</td><td>0008,1060</td><td>Warning - Value dubious for this VR - (0x0008,0x1060) PN Name of Physician(s) Reading Study  PN [1] = &lt;UNSPECIFIED&gt; - Retired Person Name form</td></tr><tr><td>image_current_dcm_하회탈_raw_filter.dcm</td><td class='warn'>WARN</td><td>0010,0010</td><td>Warning - Value dubious for this VR - (0x0010,0x0010) PN Patient's Name  PN [1] = &lt;20213401&gt; - Retired Person Name form</td></tr><tr><td>image_current_dcm_하회탈_raw_filter.dcm</td><td class='warn'>WARN</td><td></td><td>Warning - Unrecognized defined term &lt;SC&gt; for value 1 of attribute &lt;Modality&gt;</td></tr><tr><td>image_current_dcm_하회탈_raw_filter.dcm</td><td class='warn'>WARN</td><td></td><td>Warning - Unrecognized defined term &lt;SC&gt; for value 1 of attribute &lt;Modality&gt;</td></tr><tr><td>image_current_dcm_하회탈_raw_filter.dcm</td><td class='warn'>WARN</td><td>0008,0061</td><td>Warning - Attribute is not present in standard DICOM IOD - (0x0008,0x0061) CS Modalities in Study </td></tr><tr><td>image_current_dcm_하회탈_raw_filter.dcm</td><td class='warn'>WARN</td><td>0020,1206</td><td>Warning - Attribute is not present in standard DICOM IOD - (0x0020,0x1206) IS Number of Study Related Series </td></tr><tr><td>image_current_dcm_하회탈_raw_filter.dcm</td><td class='warn'>WARN</td><td>0020,1208</td><td>Warning - Attribute is not present in standard DICOM IOD - (0x0020,0x1208) IS Number of Study Related Instances </td></tr><tr><td>image_current_dcm_하회탈_raw_filter.dcm</td><td class='warn'>WARN</td><td>0028,0008</td><td>Warning - Attribute is not present in standard DICOM IOD - (0x0028,0x0008) IS Number of Frames </td></tr><tr><td>image_current_dcm_하회탈_raw_filter.dcm</td><td class='warn'>WARN</td><td></td><td>Warning - Dicom dataset contains attributes not present in standard DICOM IOD - this is a Standard Extended SOP Class</td></tr></tbody></table><h2>Full dciodvfy Dumps</h2><details><summary>image_current_dcm_하회탈_raw_filter.dcm</summary><pre>******** While reading ... ********
+@0x00000084,0x00000000 of 0xffffffff: (0x0002,0x0000) UL File Meta Information Group Length 	 VR=&lt;UL&gt;   VL=&lt;0x0004&gt;  [0x000000cc] 
+@0x00000090,0x0000000c of 0xffffffff: (0x0002,0x0001) OB File Meta Information Version 	 VR=&lt;OB&gt;   VL=&lt;0x0002&gt;  [0x00,0x01] 
+@0x0000009e,0x0000001a of 0xffffffff: (0x0002,0x0002) UI Media Storage SOP Class UID 	 VR=&lt;UI&gt;   VL=&lt;0x001a&gt;  &lt;1.2.840.10008.5.1.4.1.1.7&gt; 
+@0x000000c0,0x0000003c of 0xffffffff: (0x0002,0x0003) UI Media Storage SOP Instance UID 	 VR=&lt;UI&gt;   VL=&lt;0x0040&gt;  &lt;1.2.528.1.1001.100.4.11681.8413.66325071390980.20250825013503590&gt; 
+@0x00000108,0x00000084 of 0xffffffff: (0x0002,0x0010) UI Transfer Syntax UID 	 VR=&lt;UI&gt;   VL=&lt;0x0014&gt;  &lt;1.2.840.10008.1.2.1&gt; 
+@0x00000124,0x000000a0 of 0xffffffff: (0x0002,0x0012) UI Implementation Class UID 	 VR=&lt;UI&gt;   VL=&lt;0x001c&gt;  &lt;1.2.528.1.1001.2.20060808.1&gt; 
+@0x00000148,0x000000c4 of 0xffffffff: (0x0002,0x0013) SH Implementation Version Name 	 VR=&lt;SH&gt;   VL=&lt;0x000c&gt;  &lt;GEHC_DCM06_1&gt; 
+@0x0000015c,0x000000d8 of 0xffffffff: (0x0008,0x0005) CS Specific Character Set 	 VR=&lt;CS&gt;   VL=&lt;0x000a&gt;  &lt;ISO_IR 192&gt; 
+@0x0000016e,0x000000ea of 0xffffffff: (0x0008,0x0008) CS Image Type 	 VR=&lt;CS&gt;   VL=&lt;0x001e&gt;  &lt;DERIVED\SECONDARY\SINGLE PLANE&gt; 
+@0x00000194,0x00000110 of 0xffffffff: (0x0008,0x0016) UI SOP Class UID 	 VR=&lt;UI&gt;   VL=&lt;0x001a&gt;  &lt;1.2.840.10008.5.1.4.1.1.7&gt; 
+@0x000001b6,0x00000132 of 0xffffffff: (0x0008,0x0018) UI SOP Instance UID 	 VR=&lt;UI&gt;   VL=&lt;0x0040&gt;  &lt;1.2.528.1.1001.100.4.11681.8413.66325071390980.20250825013503590&gt; 
+@0x000001fe,0x0000017a of 0xffffffff: (0x0008,0x0020) DA Study Date 	 VR=&lt;DA&gt;   VL=&lt;0x0008&gt;  &lt;20250825&gt; 
+@0x0000020e,0x0000018a of 0xffffffff: (0x0008,0x0021) DA Series Date 	 VR=&lt;DA&gt;   VL=&lt;0x0008&gt;  &lt;20250825&gt; 
+@0x0000021e,0x0000019a of 0xffffffff: (0x0008,0x0030) TM Study Time 	 VR=&lt;TM&gt;   VL=&lt;0x0006&gt;  &lt;103503&gt; 
+@0x0000022c,0x000001a8 of 0xffffffff: (0x0008,0x0031) TM Series Time 	 VR=&lt;TM&gt;   VL=&lt;0x0006&gt;  &lt;103503&gt; 
+@0x0000023a,0x000001b6 of 0xffffffff: (0x0008,0x0050) SH Accession Number 	 VR=&lt;SH&gt;   VL=&lt;0x000c&gt;  &lt;UNSPECIFIED &gt; 
+@0x0000024e,0x000001ca of 0xffffffff: (0x0008,0x0060) CS Modality 	 VR=&lt;CS&gt;   VL=&lt;0x0002&gt;  &lt;SC&gt; 
+@0x00000258,0x000001d4 of 0xffffffff: (0x0008,0x0061) CS Modalities in Study 	 VR=&lt;CS&gt;   VL=&lt;0x0002&gt;  &lt;CR&gt; 
+@0x00000262,0x000001de of 0xffffffff: (0x0008,0x0070) LO Manufacturer 	 VR=&lt;LO&gt;   VL=&lt;0x001a&gt;  &lt;GE Inspection Technologies&gt; 
+@0x00000284,0x00000200 of 0xffffffff: (0x0008,0x0090) PN Referring Physician's Name 	 VR=&lt;PN&gt;   VL=&lt;0x0000&gt;  &lt;&gt; 
+@0x0000028c,0x00000208 of 0xffffffff: (0x0008,0x1010) SH Station Name 	 VR=&lt;SH&gt;   VL=&lt;0x000a&gt;  &lt;CZC75173PY&gt; 
+@0x0000029e,0x0000021a of 0xffffffff: (0x0008,0x1030) LO Study Description 	 VR=&lt;LO&gt;   VL=&lt;0x000a&gt;  &lt;20213401-3&gt; 
+@0x000002b0,0x0000022c of 0xffffffff: (0x0008,0x103e) LO Series Description 	 VR=&lt;LO&gt;   VL=&lt;0x0012&gt;  &lt;Secondary Capture &gt; 
+@0x000002ca,0x00000246 of 0xffffffff: (0x0008,0x1048) PN Physician(s) of Record 	 VR=&lt;PN&gt;   VL=&lt;0x000c&gt;  &lt;UNSPECIFIED &gt; 
+@0x000002de,0x0000025a of 0xffffffff: (0x0008,0x1060) PN Name of Physician(s) Reading Study 	 VR=&lt;PN&gt;   VL=&lt;0x000c&gt;  &lt;UNSPECIFIED &gt; 
+@0x000002f2,0x0000026e of 0xffffffff: (0x0008,0x1090) LO Manufacturer's Model Name 	 VR=&lt;LO&gt;   VL=&lt;0x000e&gt;  &lt;Rhythm Review &gt; 
+@0x00000308,0x00000284 of 0xffffffff: (0x0008,0x2111) ST Derivation Description 	 VR=&lt;ST&gt;   VL=&lt;0x000c&gt;  &lt;Image Export&gt; 
+@0x0000031c,0x00000298 of 0xffffffff: (0x0008,0x2112) SQ Source Image Sequence 	 VR=&lt;SQ&gt;   VL=&lt;0x0048&gt;  
+@0x00000328,0x000002a4 of 0x00000048: (0xfffe,0xe000) NONE Item 	 VR=&lt;&gt;   VL=&lt;0x0040&gt;  
+@0x00000330,0x00000000 of 0x00000040: (0x0008,0x1150) UI Referenced SOP Class UID 	 VR=&lt;UI&gt;   VL=&lt;0x001a&gt;  &lt;1.2.840.10008.5.1.4.1.1.1&gt; 
+@0x00000352,0x00000022 of 0x00000040: (0x0008,0x1155) UI Referenced SOP Instance UID 	 VR=&lt;UI&gt;   VL=&lt;0x0016&gt;  &lt;1.1.20210824.105814949&gt; 
+@0x00000370,0x000002ec of 0xffffffff: (0x0010,0x0010) PN Patient's Name 	 VR=&lt;PN&gt;   VL=&lt;0x0008&gt;  &lt;20213401&gt; 
+@0x00000380,0x000002fc of 0xffffffff: (0x0010,0x0020) LO Patient ID 	 VR=&lt;LO&gt;   VL=&lt;0x000a&gt;  &lt;2021-08-20&gt; 
+@0x00000392,0x0000030e of 0xffffffff: (0x0010,0x0030) DA Patient's Birth Date 	 VR=&lt;DA&gt;   VL=&lt;0x0008&gt;  &lt;20210824&gt; 
+@0x000003a2,0x0000031e of 0xffffffff: (0x0010,0x0040) CS Patient's Sex 	 VR=&lt;CS&gt;   VL=&lt;0x0002&gt;  &lt;O &gt; 
+@0x000003ac,0x00000328 of 0xffffffff: (0x0018,0x1000) LO Device Serial Number 	 VR=&lt;LO&gt;   VL=&lt;0x000e&gt;  &lt;66325071390980&gt; 
+@0x000003c2,0x0000033e of 0xffffffff: (0x0018,0x1020) LO Software Versions 	 VR=&lt;LO&gt;   VL=&lt;0x0004&gt;  &lt;8.0 &gt; 
+@0x000003ce,0x0000034a of 0xffffffff: (0x0020,0x000d) UI Study Instance UID 	 VR=&lt;UI&gt;   VL=&lt;0x0040&gt;  &lt;1.2.528.1.1001.100.2.11681.8413.66325071390980.20250825013503641&gt; 
+@0x00000416,0x00000392 of 0xffffffff: (0x0020,0x000e) UI Series Instance UID 	 VR=&lt;UI&gt;   VL=&lt;0x0040&gt;  &lt;1.2.528.1.1001.100.3.11681.8413.66325071390980.20250825013503588&gt; 
+@0x0000045e,0x000003da of 0xffffffff: (0x0020,0x0010) SH Study ID 	 VR=&lt;SH&gt;   VL=&lt;0x000a&gt;  &lt;20213401-3&gt; 
+@0x00000470,0x000003ec of 0xffffffff: (0x0020,0x0011) IS Series Number 	 VR=&lt;IS&gt;   VL=&lt;0x0002&gt;  &lt;1 &gt; 
+@0x0000047a,0x000003f6 of 0xffffffff: (0x0020,0x0013) IS Instance Number 	 VR=&lt;IS&gt;   VL=&lt;0x0002&gt;  &lt;1 &gt; 
+@0x00000484,0x00000400 of 0xffffffff: (0x0020,0x1206) IS Number of Study Related Series 	 VR=&lt;IS&gt;   VL=&lt;0x0002&gt;  &lt;1 &gt; 
+@0x0000048e,0x0000040a of 0xffffffff: (0x0020,0x1208) IS Number of Study Related Instances 	 VR=&lt;IS&gt;   VL=&lt;0x0002&gt;  &lt;1 &gt; 
+@0x00000498,0x00000414 of 0xffffffff: (0x0028,0x0002) US Samples per Pixel 	 VR=&lt;US&gt;   VL=&lt;0x0002&gt;  [0x0001] 
+@0x000004a2,0x0000041e of 0xffffffff: (0x0028,0x0004) CS Photometric Interpretation 	 VR=&lt;CS&gt;   VL=&lt;0x000c&gt;  &lt;MONOCHROME2 &gt; 
+@0x000004b6,0x00000432 of 0xffffffff: (0x0028,0x0006) US Planar Configuration 	 VR=&lt;US&gt;   VL=&lt;0x0002&gt;  [0x0000] 
+@0x000004c0,0x0000043c of 0xffffffff: (0x0028,0x0008) IS Number of Frames 	 VR=&lt;IS&gt;   VL=&lt;0x0002&gt;  &lt;1 &gt; 
+@0x000004ca,0x00000446 of 0xffffffff: (0x0028,0x0010) US Rows 	 VR=&lt;US&gt;   VL=&lt;0x0002&gt;  [0x3049] 
+@0x000004d4,0x00000450 of 0xffffffff: (0x0028,0x0011) US Columns 	 VR=&lt;US&gt;   VL=&lt;0x0002&gt;  [0x2793] 
+@0x000004de,0x0000045a of 0xffffffff: (0x0028,0x0034) IS Pixel Aspect Ratio 	 VR=&lt;IS&gt;   VL=&lt;0x0000&gt;  &lt;&gt; 
+@0x000004e6,0x00000462 of 0xffffffff: (0x0028,0x0100) US Bits Allocated 	 VR=&lt;US&gt;   VL=&lt;0x0002&gt;  [0x0010] 
+@0x000004f0,0x0000046c of 0xffffffff: (0x0028,0x0101) US Bits Stored 	 VR=&lt;US&gt;   VL=&lt;0x0002&gt;  [0x0010] 
+@0x000004fa,0x00000476 of 0xffffffff: (0x0028,0x0102) US High Bit 	 VR=&lt;US&gt;   VL=&lt;0x0002&gt;  [0x000f] 
+@0x00000504,0x00000480 of 0xffffffff: (0x0028,0x0103) US Pixel Representation 	 VR=&lt;US&gt;   VL=&lt;0x0002&gt;  [0x0000] 
+@0x0000050e,0x0000048a of 0xffffffff: (0x0028,0x1050) DS Window Center 	 VR=&lt;DS&gt;   VL=&lt;0x0006&gt;  &lt;32768 &gt; 
+@0x0000051c,0x00000498 of 0xffffffff: (0x0028,0x1051) DS Window Width 	 VR=&lt;DS&gt;   VL=&lt;0x0006&gt;  &lt;65536 &gt; 
+@0x0000052a,0x000004a6 of 0xffffffff: (0x0028,0x1055) LO Window Center &amp; Width Explanation 	 VR=&lt;LO&gt;   VL=&lt;0x000c&gt;  &lt;32768/65536 &gt; 
+@0x0000053e,0x000004ba of 0xffffffff: (0x3109,0x0010) LO PrivateCreator 	 VR=&lt;LO&gt;   VL=&lt;0x001e&gt;  &lt;Applicare/RadWorks/Version 5.0&gt; 
+@0x00000564,0x000004e0 of 0xffffffff: (0x3109,0x0011) LO PrivateCreator 	 VR=&lt;LO&gt;   VL=&lt;0x0026&gt;  &lt;Applicare/RadWorks/Version 6.0/Summary&gt; 
+@0x00000592,0x0000050e of 0xffffffff: (0x3109,0x1001) ST Worklist Filename 	 VR=&lt;ST&gt;   VL=&lt;0x0000&gt;  &lt;&gt; 
+@0x0000059a,0x00000516 of 0xffffffff: (0x3109,0x1002) SH NEW/SEEN Status 	 VR=&lt;SH&gt;   VL=&lt;0x0004&gt;  &lt;SEEN&gt; 
+@0x000005a6,0x00000522 of 0xffffffff: (0x3109,0x1008) LO Receive Origin 	 VR=&lt;LO&gt;   VL=&lt;0x000a&gt;  &lt;CZC75173PY&gt; 
+@0x000005b8,0x00000534 of 0xffffffff: (0x3109,0x100a) DA Receive Date 	 VR=&lt;DA&gt;   VL=&lt;0x0008&gt;  &lt;20210824&gt; 
+@0x000005c8,0x00000544 of 0xffffffff: (0x3109,0x100b) TM Receive Time 	 VR=&lt;TM&gt;   VL=&lt;0x0006&gt;  &lt;105816&gt; 
+@0x000005d6,0x00000552 of 0xffffffff: (0x3109,0x1112) ST Receive Origin Description 	 VR=&lt;ST&gt;   VL=&lt;0x000e&gt;  &lt;AE_Changename &gt; 
+@0x000005ec,0x00000568 of 0xffffffff: (0x7fe0,0x0010) OX Pixel Data 	 VR=&lt;OW&gt;   VL=&lt;0xeedb1d6&gt;  
+success after manual checks success
+Warning - Value dubious for this VR - (0x0008,0x1048) PN Physician(s) of Record  PN [1] = &lt;UNSPECIFIED&gt; - Retired Person Name form
+Warning - Value dubious for this VR - (0x0008,0x1060) PN Name of Physician(s) Reading Study  PN [1] = &lt;UNSPECIFIED&gt; - Retired Person Name form
+Warning - Value dubious for this VR - (0x0010,0x0010) PN Patient's Name  PN [1] = &lt;20213401&gt; - Retired Person Name form
+success after validateVR success
+SCImage
+Verifying Composite Information Object SCImage
+Verifying Module FileMetaInformation
+Valid Element - Type 1 Required Element=&lt;FileMetaInformationGroupLength&gt; Module=&lt;FileMetaInformation&gt;
+FileMetaInformation success after verifying FileMetaInformationGroupLength success
+Valid Element - Type 1 Required Element=&lt;FileMetaInformationVersion&gt; Module=&lt;FileMetaInformation&gt;
+FileMetaInformation success after verifying FileMetaInformationVersion success
+Valid Element - Type 1 Required Element=&lt;MediaStorageSOPClassUID&gt; Module=&lt;FileMetaInformation&gt;
+FileMetaInformation success after verifying MediaStorageSOPClassUID success
+Valid Element - Type 1 Required Element=&lt;MediaStorageSOPInstanceUID&gt; Module=&lt;FileMetaInformation&gt;
+FileMetaInformation success after verifying MediaStorageSOPInstanceUID success
+Valid Element - Type 1 Required Element=&lt;TransferSyntaxUID&gt; Module=&lt;FileMetaInformation&gt;
+FileMetaInformation success after verifying TransferSyntaxUID success
+Valid Element - Type 1 Required Element=&lt;ImplementationClassUID&gt; Module=&lt;FileMetaInformation&gt;
+FileMetaInformation success after verifying ImplementationClassUID success
+Valid Element - Type 3 Optional Element=&lt;ImplementationVersionName&gt; Module=&lt;FileMetaInformation&gt;
+FileMetaInformation success after verifying ImplementationVersionName success
+FileMetaInformation success after verifying SourceApplicationEntityTitle success
+FileMetaInformation success after verifying SendingApplicationEntityTitle success
+FileMetaInformation success after verifying ReceivingApplicationEntityTitle success
+FileMetaInformation success after verifying SourcePresentationAddress success
+FileMetaInformation success after verifying SendingPresentationAddress success
+FileMetaInformation success after verifying ReceivingPresentationAddress success
+FileMetaInformation success after verifying PrivateInformationCreatorUID success
+FileMetaInformation success after verifying PrivateInformation success
+SCImage success after verifying FileMetaInformation success
+Verifying Module Patient
+Valid Element - Type 2 Required Element=&lt;PatientName&gt; Module=&lt;Patient&gt;
+Patient success after verifying PatientName success
+Valid Element - Type 2 Required Element=&lt;PatientID&gt; Module=&lt;Patient&gt;
+Patient success after verifying PatientID success
+Verifying Macro IssuerOfPatientIDMacro
+IssuerOfPatientIDMacro success after verifying IssuerOfPatientID success
+IssuerOfPatientIDMacro success after verifying IssuerOfPatientIDQualifiersSequence success
+Patient success after verifying IssuerOfPatientIDMacro success
+Patient success after verifying TypeOfPatientID success
+Patient success after verifying string defined terms TypeOfPatientID success
+Valid Element - Type 2 Required Element=&lt;PatientBirthDate&gt; Module=&lt;Patient&gt;
+Patient success after verifying PatientBirthDate success
+Patient success after verifying PatientBirthDateInAlternativeCalendar success
+Patient success after verifying PatientDeathDateInAlternativeCalendar success
+Patient success after verifying PatientAlternativeCalendar success
+Patient success after verifying string defined terms PatientAlternativeCalendar success
+Valid Element - Type 2 Required Element=&lt;PatientSex&gt; Module=&lt;Patient&gt;
+Patient success after verifying PatientSex success
+Recognized enumerated value &lt;O&gt; is &lt;Other&gt; for value 1 of attribute &lt;&gt;Patient's Sex
+Patient success after verifying string enumerated values PatientSex success
+Patient success after verifying ReferencedPatientPhotoSequence success
+Patient success after verifying QualityControlSubject success
+Patient success after verifying string enumerated values QualityControlSubject success
+Patient success after verifying ReferencedPatientSequence success
+Patient success after verifying PatientBirthTime success
+Patient success after verifying OtherPatientIDsSequence success
+Patient success after verifying OtherPatientNames success
+Patient success after verifying EthnicGroup success
+Patient success after verifying EthnicGroupCodeSequence success
+Patient success after verifying PatientComments success
+Patient success after verifying PatientSpeciesDescription success
+Patient success after verifying PatientSpeciesCodeSequence success
+Patient success after verifying PatientBreedDescription success
+Patient success after verifying PatientBreedCodeSequence success
+Patient success after verifying BreedRegistrationSequence success
+Patient success after verifying StrainDescription success
+Patient success after verifying StrainNomenclature success
+Patient success after verifying StrainCodeSequence success
+Patient success after verifying StrainAdditionalInformation success
+Patient success after verifying StrainStockSequence success
+Patient success after verifying GeneticModificationsSequence success
+Patient success after verifying ResponsiblePerson success
+Patient success after verifying ResponsiblePersonRole success
+Patient success after verifying string defined terms ResponsiblePersonRole success
+Patient success after verifying ResponsibleOrganization success
+Patient success after verifying PatientIdentityRemoved success
+Patient success after verifying string enumerated values PatientIdentityRemoved success
+Patient success after verifying DeidentificationMethod success
+Patient success after verifying DeidentificationMethodCodeSequence success
+Verifying Macro PatientGroupMacro
+PatientGroupMacro success after verifying SourcePatientGroupIdentificationSequence success
+PatientGroupMacro success after verifying GroupOfPatientsIdentificationSequence success
+Patient success after verifying PatientGroupMacro success
+SCImage success after verifying Patient success
+SCImage success after verifying ClinicalTrialSubject success
+Verifying Module GeneralStudy
+Valid Element - Type 1 Required Element=&lt;StudyInstanceUID&gt; Module=&lt;GeneralStudy&gt;
+GeneralStudy success after verifying StudyInstanceUID success
+Valid Element - Type 2 Required Element=&lt;StudyDate&gt; Module=&lt;GeneralStudy&gt;
+GeneralStudy success after verifying StudyDate success
+Valid Element - Type 2 Required Element=&lt;StudyTime&gt; Module=&lt;GeneralStudy&gt;
+GeneralStudy success after verifying StudyTime success
+Valid Element - Type 2 Required Element=&lt;ReferringPhysicianName&gt; Module=&lt;GeneralStudy&gt;
+GeneralStudy success after verifying ReferringPhysicianName success
+GeneralStudy success after verifying ReferringPhysicianIdentificationSequence success
+GeneralStudy success after verifying ConsultingPhysicianName success
+GeneralStudy success after verifying ConsultingPhysicianIdentificationSequence success
+Valid Element - Type 2 Required Element=&lt;StudyID&gt; Module=&lt;GeneralStudy&gt;
+GeneralStudy success after verifying StudyID success
+Valid Element - Type 2 Required Element=&lt;AccessionNumber&gt; Module=&lt;GeneralStudy&gt;
+GeneralStudy success after verifying AccessionNumber success
+GeneralStudy success after verifying IssuerOfAccessionNumberSequence success
+Valid Element - Type 3 Optional Element=&lt;StudyDescription&gt; Module=&lt;GeneralStudy&gt;
+GeneralStudy success after verifying StudyDescription success
+Valid Element - Type 3 Optional Element=&lt;PhysiciansOfRecord&gt; Module=&lt;GeneralStudy&gt;
+GeneralStudy success after verifying PhysiciansOfRecord success
+GeneralStudy success after verifying PhysiciansOfRecordIdentificationSequence success
+Valid Element - Type 3 Optional Element=&lt;NameOfPhysiciansReadingStudy&gt; Module=&lt;GeneralStudy&gt;
+GeneralStudy success after verifying NameOfPhysiciansReadingStudy success
+GeneralStudy success after verifying PhysiciansReadingStudyIdentificationSequence success
+GeneralStudy success after verifying RequestingServiceCodeSequence success
+GeneralStudy success after verifying ReferencedStudySequence success
+GeneralStudy success after verifying ProcedureCodeSequence success
+GeneralStudy success after verifying ReasonForPerformedProcedureCodeSequence success
+SCImage success after verifying GeneralStudy success
+Verifying Module PatientStudy
+PatientStudy success after verifying AdmittingDiagnosesDescription success
+PatientStudy success after verifying AdmittingDiagnosesCodeSequence success
+PatientStudy success after verifying PatientAge success
+PatientStudy success after verifying PatientSize success
+PatientStudy success after verifying PatientWeight success
+PatientStudy success after verifying PatientBodyMassIndex success
+PatientStudy success after verifying MeasuredAPDimension success
+PatientStudy success after verifying MeasuredLateralDimension success
+PatientStudy success after verifying PatientSizeCodeSequence success
+PatientStudy success after verifying MedicalAlerts success
+PatientStudy success after verifying Allergies success
+PatientStudy success after verifying SmokingStatus success
+PatientStudy success after verifying string enumerated values SmokingStatus success
+PatientStudy success after verifying PregnancyStatus success
+PatientStudy success after verifying binary enumerated values PregnancyStatus success
+PatientStudy success after verifying LastMenstrualDate success
+PatientStudy success after verifying PatientState success
+PatientStudy success after verifying Occupation success
+PatientStudy success after verifying AdditionalPatientHistory success
+PatientStudy success after verifying AdmissionID success
+PatientStudy success after verifying IssuerOfAdmissionID success
+PatientStudy success after verifying IssuerOfAdmissionIDSequence success
+PatientStudy success after verifying ReasonForVisit success
+PatientStudy success after verifying ReasonForVisitCodeSequence success
+PatientStudy success after verifying ServiceEpisodeID success
+PatientStudy success after verifying IssuerOfServiceEpisodeIDSequence success
+PatientStudy success after verifying ServiceEpisodeDescription success
+PatientStudy success after verifying PatientSexNeutered success
+PatientStudy success after verifying string enumerated values PatientSexNeutered success
+SCImage success after verifying PatientStudy success
+SCImage success after verifying ClinicalTrialStudy success
+Verifying Module GeneralSeries
+Valid Element - Type 1C Conditional Element=&lt;Modality&gt; Module=&lt;GeneralSeries&gt;
+GeneralSeries success after verifying Modality success
+Warning - Unrecognized defined term &lt;SC&gt; for value 1 of attribute &lt;Modality&gt;
+GeneralSeries success after verifying string defined terms Modality success
+Valid Element - Type 1 Required Element=&lt;SeriesInstanceUID&gt; Module=&lt;GeneralSeries&gt;
+GeneralSeries success after verifying SeriesInstanceUID success
+Valid Element - Type 2 Required Element=&lt;SeriesNumber&gt; Module=&lt;GeneralSeries&gt;
+GeneralSeries success after verifying SeriesNumber success
+Error - Missing attribute Type 2C Conditional Element=&lt;Laterality&gt; Module=&lt;GeneralSeries&gt;
+GeneralSeries success after verifying Laterality failure
+GeneralSeries success after verifying string enumerated values Laterality failure
+Valid Element - Type 3 Optional Element=&lt;SeriesDate&gt; Module=&lt;GeneralSeries&gt;
+GeneralSeries success after verifying SeriesDate failure
+Valid Element - Type 3 Optional Element=&lt;SeriesTime&gt; Module=&lt;GeneralSeries&gt;
+GeneralSeries success after verifying SeriesTime failure
+GeneralSeries success after verifying PerformingPhysicianName failure
+GeneralSeries success after verifying PerformingPhysicianIdentificationSequence failure
+GeneralSeries success after verifying ProtocolName failure
+Valid Element - Type 3 Optional Element=&lt;SeriesDescription&gt; Module=&lt;GeneralSeries&gt;
+GeneralSeries success after verifying SeriesDescription failure
+GeneralSeries success after verifying SeriesDescriptionCodeSequence failure
+GeneralSeries success after verifying OperatorsName failure
+GeneralSeries success after verifying OperatorIdentificationSequence failure
+GeneralSeries success after verifying ReferencedPerformedProcedureStepSequence failure
+GeneralSeries success after verifying RelatedSeriesSequence failure
+GeneralSeries success after verifying BodyPartExamined failure
+GeneralSeries success after verifying string defined terms BodyPartExamined failure
+GeneralSeries success after verifying string defined terms BodyPartExamined failure
+GeneralSeries success after verifying PatientPosition failure
+GeneralSeries success after verifying string defined terms PatientPosition failure
+GeneralSeries success after verifying SmallestPixelValueInSeries failure
+GeneralSeries success after verifying LargestPixelValueInSeries failure
+GeneralSeries success after verifying RequestAttributesSequence failure
+Verifying Macro PerformedProcedureStepSummaryMacro
+PerformedProcedureStepSummaryMacro success after verifying PerformedProcedureStepID success
+PerformedProcedureStepSummaryMacro success after verifying PerformedProcedureStepStartDate success
+PerformedProcedureStepSummaryMacro success after verifying PerformedProcedureStepStartTime success
+PerformedProcedureStepSummaryMacro success after verifying PerformedProcedureStepEndDate success
+PerformedProcedureStepSummaryMacro success after verifying PerformedProcedureStepEndTime success
+PerformedProcedureStepSummaryMacro success after verifying PerformedProcedureStepDescription success
+PerformedProcedureStepSummaryMacro success after verifying PerformedProtocolCodeSequence success
+PerformedProcedureStepSummaryMacro success after verifying CommentsOnThePerformedProcedureStep success
+GeneralSeries success after verifying PerformedProcedureStepSummaryMacro failure
+GeneralSeries success after verifying AnatomicalOrientationType failure
+GeneralSeries success after verifying string enumerated values AnatomicalOrientationType failure
+SCImage success after verifying GeneralSeries failure
+SCImage success after verifying ClinicalTrialSeries failure
+SCImage success after verifying FrameOfReference failure
+SCImage success after verifying Synchronization failure
+Verifying Module GeneralEquipment
+Valid Element - Type 2 Required Element=&lt;Manufacturer&gt; Module=&lt;GeneralEquipment&gt;
+GeneralEquipment success after verifying Manufacturer success
+GeneralEquipment success after verifying InstitutionName success
+GeneralEquipment success after verifying InstitutionAddress success
+Valid Element - Type 3 Optional Element=&lt;StationName&gt; Module=&lt;GeneralEquipment&gt;
+GeneralEquipment success after verifying StationName success
+GeneralEquipment success after verifying InstitutionalDepartmentName success
+GeneralEquipment success after verifying InstitutionalDepartmentTypeCodeSequence success
+Valid Element - Type 3 Optional Element=&lt;ManufacturerModelName&gt; Module=&lt;GeneralEquipment&gt;
+GeneralEquipment success after verifying ManufacturerModelName success
+GeneralEquipment success after verifying ManufacturerDeviceClassUID success
+Valid Element - Type 3 Optional Element=&lt;DeviceSerialNumber&gt; Module=&lt;GeneralEquipment&gt;
+GeneralEquipment success after verifying DeviceSerialNumber success
+Valid Element - Type 3 Optional Element=&lt;SoftwareVersions&gt; Module=&lt;GeneralEquipment&gt;
+GeneralEquipment success after verifying SoftwareVersions success
+GeneralEquipment success after verifying GantryID success
+GeneralEquipment success after verifying UDISequence success
+GeneralEquipment success after verifying DeviceUID success
+GeneralEquipment success after verifying SpatialResolution success
+GeneralEquipment success after verifying DateOfManufacture success
+GeneralEquipment success after verifying DateOfInstallation success
+GeneralEquipment success after verifying DateOfLastCalibration success
+GeneralEquipment success after verifying TimeOfLastCalibration success
+GeneralEquipment success after verifying PixelPaddingValue success
+SCImage success after verifying GeneralEquipment failure
+Verifying Module SCEquipment
+Error - Missing attribute Type 1 Required Element=&lt;ConversionType&gt; Module=&lt;SCEquipment&gt;
+SCEquipment success after verifying ConversionType failure
+SCEquipment success after verifying string defined terms ConversionType failure
+Valid Element - Type 3 Optional Element=&lt;Modality&gt; Module=&lt;SCEquipment&gt;
+SCEquipment success after verifying Modality failure
+Warning - Unrecognized defined term &lt;SC&gt; for value 1 of attribute &lt;Modality&gt;
+SCEquipment success after verifying string defined terms Modality failure
+SCEquipment success after verifying SecondaryCaptureDeviceID failure
+SCEquipment success after verifying SecondaryCaptureDeviceManufacturer failure
+SCEquipment success after verifying SecondaryCaptureDeviceManufacturerModelName failure
+SCEquipment success after verifying SecondaryCaptureDeviceSoftwareVersions failure
+SCEquipment success after verifying VideoImageFormatAcquired failure
+SCEquipment success after verifying DigitalImageFormatAcquired failure
+SCImage success after verifying SCEquipment failure
+Verifying Module GeneralAcquisition
+GeneralAcquisition success after verifying AcquisitionUID success
+GeneralAcquisition success after verifying AcquisitionNumber success
+GeneralAcquisition success after verifying AcquisitionDate success
+GeneralAcquisition success after verifying AcquisitionTime success
+GeneralAcquisition success after verifying AcquisitionDateTime success
+GeneralAcquisition success after verifying ImagesInAcquisition success
+GeneralAcquisition success after verifying IrradiationEventUID success
+SCImage success after verifying GeneralAcquisition failure
+Verifying Module GeneralImage
+Valid Element - Type 2 Required Element=&lt;InstanceNumber&gt; Module=&lt;GeneralImage&gt;
+GeneralImage success after verifying InstanceNumber success
+Error - Missing attribute Type 2C Conditional Element=&lt;PatientOrientation&gt; Module=&lt;GeneralImage&gt;
+GeneralImage success after verifying PatientOrientation failure
+GeneralImage success after verifying ContentDate failure
+GeneralImage success after verifying ContentTime failure
+Valid Element - Type 3 Optional Element=&lt;ImageType&gt; Module=&lt;GeneralImage&gt;
+GeneralImage success after verifying ImageType failure
+Recognized enumerated value &lt;DERIVED&gt; is &lt;DERIVED&gt; for value 1 of attribute &lt;&gt;Image Type
+GeneralImage success after verifying string enumerated values ImageType failure
+Recognized enumerated value &lt;SECONDARY&gt; is &lt;SECONDARY&gt; for value 2 of attribute &lt;&gt;Image Type
+GeneralImage success after verifying string enumerated values ImageType failure
+GeneralImage success after verifying ImageComments failure
+GeneralImage success after verifying QualityControlImage failure
+GeneralImage success after verifying string enumerated values QualityControlImage failure
+GeneralImage success after verifying BurnedInAnnotation failure
+GeneralImage success after verifying string enumerated values BurnedInAnnotation failure
+GeneralImage success after verifying RecognizableVisualFeatures failure
+GeneralImage success after verifying string enumerated values RecognizableVisualFeatures failure
+GeneralImage success after verifying LossyImageCompression failure
+GeneralImage success after verifying string enumerated values LossyImageCompression failure
+GeneralImage success after verifying LossyImageCompressionRatio failure
+GeneralImage success after verifying LossyImageCompressionMethod failure
+GeneralImage success after verifying string defined terms LossyImageCompressionMethod failure
+GeneralImage success after verifying IconImageSequence failure
+GeneralImage success after verifying PresentationLUTShape failure
+GeneralImage success after verifying string enumerated values PresentationLUTShape failure
+GeneralImage success after verifying string enumerated values PresentationLUTShape failure
+GeneralImage success after verifying string enumerated values PresentationLUTShape failure
+GeneralImage success after verifying string enumerated values PresentationLUTShape failure
+GeneralImage success after verifying RealWorldValueMappingSequence failure
+GeneralImage success after verifying ImageLaterality failure
+GeneralImage success after verifying string enumerated values ImageLaterality failure
+GeneralImage success after verifying AnatomicRegionSequence failure
+Verifying Macro PrimaryAnatomicStructureMacro
+PrimaryAnatomicStructureMacro success after verifying PrimaryAnatomicStructureSequence success
+GeneralImage success after verifying PrimaryAnatomicStructureMacro failure
+GeneralImage success after verifying AnatomicRegionModifierSequence failure
+GeneralImage success after verifying PrimaryAnatomicStructureModifierSequence failure
+SCImage success after verifying GeneralImage failure
+Verifying Module GeneralReference
+GeneralReference success after verifying ReferencedImageSequence success
+GeneralReference success after verifying ReferencedInstanceSequence success
+Valid Element - Type 3 Optional Element=&lt;DerivationDescription&gt; Module=&lt;GeneralReference&gt;
+GeneralReference success after verifying DerivationDescription success
+GeneralReference success after verifying DerivationCodeSequence success
+Valid Element - Type 3 Optional Element=&lt;SourceImageSequence&gt; Module=&lt;GeneralReference&gt;
+GeneralReference success after verifying SourceImageSequence success
+SourceImageSequence item [1]
+Verifying Macro ImageSOPInstanceReferenceMacro
+Verifying Macro SOPInstanceReferenceMacro
+Valid Element - Type 1 Required Element=&lt;ReferencedSOPClassUID&gt; Module=&lt;SOPInstanceReferenceMacro&gt;
+SOPInstanceReferenceMacro success after verifying ReferencedSOPClassUID success
+Valid Element - Type 1 Required Element=&lt;ReferencedSOPInstanceUID&gt; Module=&lt;SOPInstanceReferenceMacro&gt;
+SOPInstanceReferenceMacro success after verifying ReferencedSOPInstanceUID success
+ImageSOPInstanceReferenceMacro success after verifying SOPInstanceReferenceMacro success
+ImageSOPInstanceReferenceMacro success after verifying ReferencedFrameNumber success
+ImageSOPInstanceReferenceMacro success after verifying ReferencedSegmentNumber success
+GeneralReference success after verifying ImageSOPInstanceReferenceMacro success
+GeneralReference success after verifying PurposeOfReferenceCodeSequence success
+GeneralReference success after verifying SpatialLocationsPreserved success
+GeneralReference success after verifying string enumerated values SpatialLocationsPreserved success
+GeneralReference success after verifying PatientOrientation success
+GeneralReference success after verifying SourceInstanceSequence success
+SCImage success after verifying GeneralReference failure
+SCImage success after verifying ImagePlane failure
+Verifying Module ImagePixel
+Verifying Macro ImagePixelDescriptionMacro
+Valid Element - Type 1 Required Element=&lt;SamplesPerPixel&gt; Module=&lt;ImagePixelDescriptionMacro&gt;
+ImagePixelDescriptionMacro success after verifying SamplesPerPixel success
+Recognized enumerated value &lt;0x1&gt; is &lt;0x0001&gt; for value 1 of attribute &lt;Samples per Pixel&gt;
+ImagePixelDescriptionMacro success after verifying binary enumerated values SamplesPerPixel success
+ImagePixelDescriptionMacro success after verifying binary enumerated values SamplesPerPixel success
+Valid Element - Type 1 Required Element=&lt;PhotometricInterpretation&gt; Module=&lt;ImagePixelDescriptionMacro&gt;
+ImagePixelDescriptionMacro success after verifying PhotometricInterpretation success
+Recognized defined term &lt;MONOCHROME2&gt; is &lt;MONOCHROME2&gt; for value 1 of attribute &lt;Photometric Interpretation&gt;
+ImagePixelDescriptionMacro success after verifying string defined terms PhotometricInterpretation success
+ImagePixelDescriptionMacro success after verifying string enumerated values PhotometricInterpretation success
+ImagePixelDescriptionMacro success after verifying string enumerated values PhotometricInterpretation success
+ImagePixelDescriptionMacro success after verifying string enumerated values PhotometricInterpretation success
+ImagePixelDescriptionMacro success after verifying string enumerated values PhotometricInterpretation success
+ImagePixelDescriptionMacro success after verifying string enumerated values PhotometricInterpretation success
+ImagePixelDescriptionMacro success after verifying string enumerated values PhotometricInterpretation success
+ImagePixelDescriptionMacro success after verifying string enumerated values PhotometricInterpretation success
+ImagePixelDescriptionMacro success after verifying string enumerated values PhotometricInterpretation success
+ImagePixelDescriptionMacro success after verifying string enumerated values PhotometricInterpretation success
+ImagePixelDescriptionMacro success after verifying string enumerated values PhotometricInterpretation success
+ImagePixelDescriptionMacro success after verifying string enumerated values PhotometricInterpretation success
+ImagePixelDescriptionMacro success after verifying string enumerated values PhotometricInterpretation success
+ImagePixelDescriptionMacro success after verifying string enumerated values PhotometricInterpretation success
+ImagePixelDescriptionMacro success after verifying string enumerated values PhotometricInterpretation success
+ImagePixelDescriptionMacro success after verifying string enumerated values PhotometricInterpretation success
+ImagePixelDescriptionMacro success after verifying string enumerated values PhotometricInterpretation success
+Valid Element - Type 1 Required Element=&lt;Rows&gt; Module=&lt;ImagePixelDescriptionMacro&gt;
+ImagePixelDescriptionMacro success after verifying Rows success
+Valid Element - Type 1 Required Element=&lt;Columns&gt; Module=&lt;ImagePixelDescriptionMacro&gt;
+ImagePixelDescriptionMacro success after verifying Columns success
+Valid Element - Type 1 Required Element=&lt;BitsAllocated&gt; Module=&lt;ImagePixelDescriptionMacro&gt;
+ImagePixelDescriptionMacro success after verifying BitsAllocated success
+Valid Element - Type 1 Required Element=&lt;BitsStored&gt; Module=&lt;ImagePixelDescriptionMacro&gt;
+ImagePixelDescriptionMacro success after verifying BitsStored success
+Valid Element - Type 1 Required Element=&lt;HighBit&gt; Module=&lt;ImagePixelDescriptionMacro&gt;
+ImagePixelDescriptionMacro success after verifying HighBit success
+Valid Element - Type 1 Required Element=&lt;PixelRepresentation&gt; Module=&lt;ImagePixelDescriptionMacro&gt;
+ImagePixelDescriptionMacro success after verifying PixelRepresentation success
+Recognized enumerated value &lt;0&gt; is &lt;unsigned&gt; for value 1 of attribute &lt;Pixel Representation&gt;
+ImagePixelDescriptionMacro success after verifying binary enumerated values PixelRepresentation success
+Error - Attribute present when condition unsatisfied (which may not be present otherwise) Type 1C Conditional Element=&lt;PlanarConfiguration&gt; Module=&lt;ImagePixelDescriptionMacro&gt;
+Valid Element - Type 1C Conditional Element=&lt;PlanarConfiguration&gt; Module=&lt;ImagePixelDescriptionMacro&gt;
+ImagePixelDescriptionMacro success after verifying PlanarConfiguration success
+ImagePixelDescriptionMacro success after verifying binary enumerated values PlanarConfiguration success
+Error - Empty attribute (no value) Type 1C Conditional Element=&lt;PixelAspectRatio&gt; Module=&lt;ImagePixelDescriptionMacro&gt;
+ImagePixelDescriptionMacro success after verifying PixelAspectRatio failure
+ImagePixelDescriptionMacro success after verifying SmallestImagePixelValue failure
+ImagePixelDescriptionMacro success after verifying LargestImagePixelValue failure
+ImagePixelDescriptionMacro success after verifying RedPaletteColorLookupTableDescriptor failure
+ImagePixelDescriptionMacro success after verifying binary enumerated values RedPaletteColorLookupTableDescriptor failure
+ImagePixelDescriptionMacro success after verifying GreenPaletteColorLookupTableDescriptor failure
+ImagePixelDescriptionMacro success after verifying binary enumerated values GreenPaletteColorLookupTableDescriptor failure
+ImagePixelDescriptionMacro success after verifying BluePaletteColorLookupTableDescriptor failure
+ImagePixelDescriptionMacro success after verifying binary enumerated values BluePaletteColorLookupTableDescriptor failure
+ImagePixelDescriptionMacro success after verifying RedPaletteColorLookupTableData failure
+ImagePixelDescriptionMacro success after verifying GreenPaletteColorLookupTableData failure
+ImagePixelDescriptionMacro success after verifying BluePaletteColorLookupTableData failure
+ImagePixelDescriptionMacro success after verifying ICCProfile failure
+ImagePixelDescriptionMacro success after verifying ColorSpace failure
+ImagePixel success after verifying ImagePixelDescriptionMacro failure
+Valid Element - Type 1C Conditional Element=&lt;PixelData&gt; Module=&lt;ImagePixel&gt;
+ImagePixel success after verifying PixelData failure
+ImagePixel success after verifying PixelDataProviderURL failure
+ImagePixel success after verifying PixelPaddingRangeLimit failure
+ImagePixel success after verifying ExtendedOffsetTable failure
+ImagePixel success after verifying ExtendedOffsetTableLengths failure
+SCImage success after verifying ImagePixel failure
+SCImage success after verifying Device failure
+SCImage success after verifying Specimen failure
+Verifying Module SCImage
+SCImage success after verifying DateOfSecondaryCapture success
+SCImage success after verifying TimeOfSecondaryCapture success
+SCImage success after verifying NominalScannedPixelSpacing success
+SCImage success after verifying DocumentClassCodeSequence success
+Verifying Macro BasicPixelSpacingCalibrationMacro
+BasicPixelSpacingCalibrationMacro success after verifying PixelSpacing success
+BasicPixelSpacingCalibrationMacro success after verifying PixelSpacingCalibrationType success
+BasicPixelSpacingCalibrationMacro success after verifying PixelSpacingCalibrationDescription success
+SCImage success after verifying BasicPixelSpacingCalibrationMacro success
+Verifying Macro OptionalViewAndSliceProgressionDirectionMacro
+OptionalViewAndSliceProgressionDirectionMacro success after verifying ViewCodeSequence success
+OptionalViewAndSliceProgressionDirectionMacro success after verifying SliceProgressionDirection success
+OptionalViewAndSliceProgressionDirectionMacro success after verifying string enumerated values SliceProgressionDirection success
+SCImage success after verifying OptionalViewAndSliceProgressionDirectionMacro success
+SCImage success after verifying SCImage failure
+SCImage success after verifying OverlayPlane failure
+SCImage success after verifying ModalityLUT failure
+Verifying Module VOILUT
+Verifying Macro VOILUTMacro
+VOILUTMacro success after verifying VOILUTSequence success
+Valid Element - Type 1C Conditional Element=&lt;WindowCenter&gt; Module=&lt;VOILUTMacro&gt;
+VOILUTMacro success after verifying WindowCenter success
+Valid Element - Type 1C Conditional Element=&lt;WindowWidth&gt; Module=&lt;VOILUTMacro&gt;
+VOILUTMacro success after verifying WindowWidth success
+Valid Element - Type 3 Optional Element=&lt;WindowCenterWidthExplanation&gt; Module=&lt;VOILUTMacro&gt;
+VOILUTMacro success after verifying WindowCenterWidthExplanation success
+VOILUTMacro success after verifying VOILUTFunction success
+VOILUTMacro success after verifying string defined terms VOILUTFunction success
+VOILUT success after verifying VOILUTMacro success
+SCImage success after verifying VOILUT failure
+SCImage success after verifying ICCProfile failure
+Verifying Module SOPCommon
+Valid Element - Type 1 Required Element=&lt;SOPClassUID&gt; Module=&lt;SOPCommon&gt;
+SOPCommon success after verifying SOPClassUID success
+Valid Element - Type 1 Required Element=&lt;SOPInstanceUID&gt; Module=&lt;SOPCommon&gt;
+SOPCommon success after verifying SOPInstanceUID success
+Valid Element - Type 1C Conditional Element=&lt;SpecificCharacterSet&gt; Module=&lt;SOPCommon&gt;
+SOPCommon success after verifying SpecificCharacterSet success
+Recognized defined term &lt;ISO_IR 192&gt; is &lt;Unicode UTF-8&gt; for value 1 of attribute &lt;Specific Character Set&gt;
+SOPCommon success after verifying string defined terms SpecificCharacterSet success
+SOPCommon success after verifying InstanceCreationDate success
+SOPCommon success after verifying InstanceCreationTime success
+SOPCommon success after verifying InstanceCoercionDateTime success
+SOPCommon success after verifying InstanceCreatorUID success
+SOPCommon success after verifying RelatedGeneralSOPClassUID success
+SOPCommon success after verifying OriginalSpecializedSOPClassUID success
+SOPCommon success after verifying SyntheticData success
+SOPCommon success after verifying CodingSchemeIdentificationSequence success
+SOPCommon success after verifying ContextGroupIdentificationSequence success
+SOPCommon success after verifying MappingResourceIdentificationSequence success
+SOPCommon success after verifying TimezoneOffsetFromUTC success
+SOPCommon success after verifying ContributingEquipmentSequence success
+Valid Element - Type 3 Optional Element=&lt;InstanceNumber&gt; Module=&lt;SOPCommon&gt;
+SOPCommon success after verifying InstanceNumber success
+SOPCommon success after verifying SOPInstanceStatus success
+SOPCommon success after verifying SOPAuthorizationDateTime success
+SOPCommon success after verifying SOPAuthorizationComment success
+SOPCommon success after verifying AuthorizationEquipmentCertificationNumber success
+Verifying Macro DigitalSignaturesMacro
+DigitalSignaturesMacro success after verifying MACParametersSequence success
+DigitalSignaturesMacro success after verifying DigitalSignaturesSequence success
+SOPCommon success after verifying DigitalSignaturesMacro success
+SOPCommon success after verifying EncryptedAttributesSequence success
+SOPCommon success after verifying OriginalAttributesSequence success
+SOPCommon success after verifying HL7StructuredDocumentReferenceSequence success
+SOPCommon success after verifying LongitudinalTemporalInformationModified success
+SOPCommon success after verifying string enumerated values LongitudinalTemporalInformationModified success
+SOPCommon success after verifying QueryRetrieveView success
+SOPCommon success after verifying string enumerated values QueryRetrieveView success
+SOPCommon success after verifying ConversionSourceAttributesSequence success
+SOPCommon success after verifying ContentQualification success
+SOPCommon success after verifying string enumerated values ContentQualification success
+SOPCommon success after verifying PrivateDataElementCharacteristicsSequence success
+SOPCommon success after verifying InstanceOriginStatus success
+SOPCommon success after verifying string enumerated values InstanceOriginStatus success
+SOPCommon success after verifying BarcodeValue success
+Verifying Macro GeneralProcedureProtocolReferenceMacro
+GeneralProcedureProtocolReferenceMacro success after verifying ReferencedDefinedProtocolSequence success
+GeneralProcedureProtocolReferenceMacro success after verifying ReferencedPerformedProtocolSequence success
+SOPCommon success after verifying GeneralProcedureProtocolReferenceMacro success
+SCImage success after verifying SOPCommon failure
+SCImage success after verifying CommonInstanceReference failure
+Verifying Module CheckSingleFramePseudo
+Valid Element - Type 3 Optional Element=&lt;NumberOfFrames&gt; Module=&lt;CheckSingleFramePseudo&gt;
+CheckSingleFramePseudo success after verifying NumberOfFrames success
+Recognized enumerated value &lt;0x1&gt; is &lt;0x0001&gt; for value 1 of attribute &lt;Number of Frames&gt;
+CheckSingleFramePseudo success after verifying binary enumerated values NumberOfFrames success
+SCImage success after verifying CheckSingleFramePseudo failure
+	CompositeIOD &lt;SCImage&gt;
+	Module &lt;FileMetaInformation&gt;
+		(0x0002,0x0000) UL File Meta Information Group Length 	 VR=&lt;UL&gt;   VL=&lt;0x0004&gt;  [0x000000cc] 
+		(0x0002,0x0001) OB File Meta Information Version 	 VR=&lt;OB&gt;   VL=&lt;0x0002&gt;  [0x00,0x01] 
+		(0x0002,0x0002) UI Media Storage SOP Class UID 	 VR=&lt;UI&gt;   VL=&lt;0x001a&gt;  &lt;1.2.840.10008.5.1.4.1.1.7&gt; 
+		(0x0002,0x0003) UI Media Storage SOP Instance UID 	 VR=&lt;UI&gt;   VL=&lt;0x0040&gt;  &lt;1.2.528.1.1001.100.4.11681.8413.66325071390980.20250825013503590&gt; 
+		(0x0002,0x0010) UI Transfer Syntax UID 	 VR=&lt;UI&gt;   VL=&lt;0x0014&gt;  &lt;1.2.840.10008.1.2.1&gt; 
+		(0x0002,0x0012) UI Implementation Class UID 	 VR=&lt;UI&gt;   VL=&lt;0x001c&gt;  &lt;1.2.528.1.1001.2.20060808.1&gt; 
+		(0x0002,0x0013) SH Implementation Version Name 	 VR=&lt;SH&gt;   VL=&lt;0x000c&gt;  &lt;GEHC_DCM06_1&gt; 
+		Element &lt;SourceApplicationEntityTitle&gt; not present
+		Element &lt;SendingApplicationEntityTitle&gt; not present
+		Element &lt;ReceivingApplicationEntityTitle&gt; not present
+		Element &lt;SourcePresentationAddress&gt; not present
+		Element &lt;SendingPresentationAddress&gt; not present
+		Element &lt;ReceivingPresentationAddress&gt; not present
+		Element &lt;PrivateInformationCreatorUID&gt; not present
+		Element &lt;PrivateInformation&gt; not present
+	Module &lt;Patient&gt;
+		(0x0010,0x0010) PN Patient's Name 	 VR=&lt;PN&gt;   VL=&lt;0x0008&gt;  &lt;20213401&gt; 
+		(0x0010,0x0020) LO Patient ID 	 VR=&lt;LO&gt;   VL=&lt;0x000a&gt;  &lt;2021-08-20&gt; 
+		Macro &lt;IssuerOfPatientIDMacro&gt;
+		Element &lt;IssuerOfPatientID&gt; not present
+		Sequence &lt;IssuerOfPatientIDQualifiersSequence&gt; not present
+		EndMacro &lt;IssuerOfPatientIDMacro&gt;
+		Element &lt;TypeOfPatientID&gt; not present
+		(0x0010,0x0030) DA Patient's Birth Date 	 VR=&lt;DA&gt;   VL=&lt;0x0008&gt;  &lt;20210824&gt; 
+		Element &lt;PatientBirthDateInAlternativeCalendar&gt; not present
+		Element &lt;PatientDeathDateInAlternativeCalendar&gt; not present
+		Element &lt;PatientAlternativeCalendar&gt; not present
+		(0x0010,0x0040) CS Patient's Sex 	 VR=&lt;CS&gt;   VL=&lt;0x0002&gt;  &lt;O &gt; 
+		Sequence &lt;ReferencedPatientPhotoSequence&gt; not present
+		Element &lt;QualityControlSubject&gt; not present
+		Sequence &lt;ReferencedPatientSequence&gt; not present
+		Element &lt;PatientBirthTime&gt; not present
+		Sequence &lt;OtherPatientIDsSequence&gt; not present
+		Element &lt;OtherPatientNames&gt; not present
+		Element &lt;EthnicGroup&gt; not present
+		Sequence &lt;EthnicGroupCodeSequence&gt; not present
+		Element &lt;PatientComments&gt; not present
+		Element &lt;PatientSpeciesDescription&gt; not present
+		Sequence &lt;PatientSpeciesCodeSequence&gt; not present
+		Element &lt;PatientBreedDescription&gt; not present
+		Sequence &lt;PatientBreedCodeSequence&gt; not present
+		Sequence &lt;BreedRegistrationSequence&gt; not present
+		Element &lt;StrainDescription&gt; not present
+		Element &lt;StrainNomenclature&gt; not present
+		Sequence &lt;StrainCodeSequence&gt; not present
+		Element &lt;StrainAdditionalInformation&gt; not present
+		Sequence &lt;StrainStockSequence&gt; not present
+		Sequence &lt;GeneticModificationsSequence&gt; not present
+		Element &lt;ResponsiblePerson&gt; not present
+		Element &lt;ResponsiblePersonRole&gt; not present
+		Element &lt;ResponsibleOrganization&gt; not present
+		Element &lt;PatientIdentityRemoved&gt; not present
+		Element &lt;DeidentificationMethod&gt; not present
+		Sequence &lt;DeidentificationMethodCodeSequence&gt; not present
+		Macro &lt;PatientGroupMacro&gt;
+		Sequence &lt;SourcePatientGroupIdentificationSequence&gt; not present
+		Sequence &lt;GroupOfPatientsIdentificationSequence&gt; not present
+		EndMacro &lt;PatientGroupMacro&gt;
+	Module &lt;ClinicalTrialSubject&gt; not present
+	Module &lt;GeneralStudy&gt;
+		(0x0020,0x000d) UI Study Instance UID 	 VR=&lt;UI&gt;   VL=&lt;0x0040&gt;  &lt;1.2.528.1.1001.100.2.11681.8413.66325071390980.20250825013503641&gt; 
+		(0x0008,0x0020) DA Study Date 	 VR=&lt;DA&gt;   VL=&lt;0x0008&gt;  &lt;20250825&gt; 
+		(0x0008,0x0030) TM Study Time 	 VR=&lt;TM&gt;   VL=&lt;0x0006&gt;  &lt;103503&gt; 
+		(0x0008,0x0090) PN Referring Physician's Name 	 VR=&lt;PN&gt;   VL=&lt;0x0000&gt;  &lt;&gt; 
+		Sequence &lt;ReferringPhysicianIdentificationSequence&gt; not present
+		Element &lt;ConsultingPhysicianName&gt; not present
+		Sequence &lt;ConsultingPhysicianIdentificationSequence&gt; not present
+		(0x0020,0x0010) SH Study ID 	 VR=&lt;SH&gt;   VL=&lt;0x000a&gt;  &lt;20213401-3&gt; 
+		(0x0008,0x0050) SH Accession Number 	 VR=&lt;SH&gt;   VL=&lt;0x000c&gt;  &lt;UNSPECIFIED &gt; 
+		Sequence &lt;IssuerOfAccessionNumberSequence&gt; not present
+		(0x0008,0x1030) LO Study Description 	 VR=&lt;LO&gt;   VL=&lt;0x000a&gt;  &lt;20213401-3&gt; 
+		(0x0008,0x1048) PN Physician(s) of Record 	 VR=&lt;PN&gt;   VL=&lt;0x000c&gt;  &lt;UNSPECIFIED &gt; 
+		Sequence &lt;PhysiciansOfRecordIdentificationSequence&gt; not present
+		(0x0008,0x1060) PN Name of Physician(s) Reading Study 	 VR=&lt;PN&gt;   VL=&lt;0x000c&gt;  &lt;UNSPECIFIED &gt; 
+		Sequence &lt;PhysiciansReadingStudyIdentificationSequence&gt; not present
+		Sequence &lt;RequestingServiceCodeSequence&gt; not present
+		Sequence &lt;ReferencedStudySequence&gt; not present
+		Sequence &lt;ProcedureCodeSequence&gt; not present
+		Sequence &lt;ReasonForPerformedProcedureCodeSequence&gt; not present
+	Module &lt;PatientStudy&gt;
+		Element &lt;AdmittingDiagnosesDescription&gt; not present
+		Sequence &lt;AdmittingDiagnosesCodeSequence&gt; not present
+		Element &lt;PatientAge&gt; not present
+		Element &lt;PatientSize&gt; not present
+		Element &lt;PatientWeight&gt; not present
+		Element &lt;PatientBodyMassIndex&gt; not present
+		Element &lt;MeasuredAPDimension&gt; not present
+		Element &lt;MeasuredLateralDimension&gt; not present
+		Sequence &lt;PatientSizeCodeSequence&gt; not present
+		Element &lt;MedicalAlerts&gt; not present
+		Element &lt;Allergies&gt; not present
+		Element &lt;SmokingStatus&gt; not present
+		Element &lt;PregnancyStatus&gt; not present
+		Element &lt;LastMenstrualDate&gt; not present
+		Element &lt;PatientState&gt; not present
+		Element &lt;Occupation&gt; not present
+		Element &lt;AdditionalPatientHistory&gt; not present
+		Element &lt;AdmissionID&gt; not present
+		Element &lt;IssuerOfAdmissionID&gt; not present
+		Sequence &lt;IssuerOfAdmissionIDSequence&gt; not present
+		Element &lt;ReasonForVisit&gt; not present
+		Sequence &lt;ReasonForVisitCodeSequence&gt; not present
+		Element &lt;ServiceEpisodeID&gt; not present
+		Sequence &lt;IssuerOfServiceEpisodeIDSequence&gt; not present
+		Element &lt;ServiceEpisodeDescription&gt; not present
+		Element &lt;PatientSexNeutered&gt; not present
+	Module &lt;ClinicalTrialStudy&gt; not present
+	Module &lt;GeneralSeries&gt;
+		(0x0008,0x0060) CS Modality 	 VR=&lt;CS&gt;   VL=&lt;0x0002&gt;  &lt;SC&gt; 
+		(0x0020,0x000e) UI Series Instance UID 	 VR=&lt;UI&gt;   VL=&lt;0x0040&gt;  &lt;1.2.528.1.1001.100.3.11681.8413.66325071390980.20250825013503588&gt; 
+		(0x0020,0x0011) IS Series Number 	 VR=&lt;IS&gt;   VL=&lt;0x0002&gt;  &lt;1 &gt; 
+		Element &lt;Laterality&gt; not present
+		(0x0008,0x0021) DA Series Date 	 VR=&lt;DA&gt;   VL=&lt;0x0008&gt;  &lt;20250825&gt; 
+		(0x0008,0x0031) TM Series Time 	 VR=&lt;TM&gt;   VL=&lt;0x0006&gt;  &lt;103503&gt; 
+		Element &lt;PerformingPhysicianName&gt; not present
+		Sequence &lt;PerformingPhysicianIdentificationSequence&gt; not present
+		Element &lt;ProtocolName&gt; not present
+		(0x0008,0x103e) LO Series Description 	 VR=&lt;LO&gt;   VL=&lt;0x0012&gt;  &lt;Secondary Capture &gt; 
+		Sequence &lt;SeriesDescriptionCodeSequence&gt; not present
+		Element &lt;OperatorsName&gt; not present
+		Sequence &lt;OperatorIdentificationSequence&gt; not present
+		Sequence &lt;ReferencedPerformedProcedureStepSequence&gt; not present
+		Sequence &lt;RelatedSeriesSequence&gt; not present
+		Element &lt;BodyPartExamined&gt; not present
+		Element &lt;PatientPosition&gt; not present
+		Element &lt;SmallestPixelValueInSeries&gt; not present
+		Element &lt;LargestPixelValueInSeries&gt; not present
+		Sequence &lt;RequestAttributesSequence&gt; not present
+		Macro &lt;PerformedProcedureStepSummaryMacro&gt;
+		Element &lt;PerformedProcedureStepID&gt; not present
+		Element &lt;PerformedProcedureStepStartDate&gt; not present
+		Element &lt;PerformedProcedureStepStartTime&gt; not present
+		Element &lt;PerformedProcedureStepEndDate&gt; not present
+		Element &lt;PerformedProcedureStepEndTime&gt; not present
+		Element &lt;PerformedProcedureStepDescription&gt; not present
+		Sequence &lt;PerformedProtocolCodeSequence&gt; not present
+		Element &lt;CommentsOnThePerformedProcedureStep&gt; not present
+		EndMacro &lt;PerformedProcedureStepSummaryMacro&gt;
+		Element &lt;AnatomicalOrientationType&gt; not present
+	Module &lt;ClinicalTrialSeries&gt; not present
+	Module &lt;FrameOfReference&gt; not present
+	Module &lt;Synchronization&gt; not present
+	Module &lt;GeneralEquipment&gt;
+		(0x0008,0x0070) LO Manufacturer 	 VR=&lt;LO&gt;   VL=&lt;0x001a&gt;  &lt;GE Inspection Technologies&gt; 
+		Element &lt;InstitutionName&gt; not present
+		Element &lt;InstitutionAddress&gt; not present
+		(0x0008,0x1010) SH Station Name 	 VR=&lt;SH&gt;   VL=&lt;0x000a&gt;  &lt;CZC75173PY&gt; 
+		Element &lt;InstitutionalDepartmentName&gt; not present
+		Sequence &lt;InstitutionalDepartmentTypeCodeSequence&gt; not present
+		(0x0008,0x1090) LO Manufacturer's Model Name 	 VR=&lt;LO&gt;   VL=&lt;0x000e&gt;  &lt;Rhythm Review &gt; 
+		Element &lt;ManufacturerDeviceClassUID&gt; not present
+		(0x0018,0x1000) LO Device Serial Number 	 VR=&lt;LO&gt;   VL=&lt;0x000e&gt;  &lt;66325071390980&gt; 
+		(0x0018,0x1020) LO Software Versions 	 VR=&lt;LO&gt;   VL=&lt;0x0004&gt;  &lt;8.0 &gt; 
+		Element &lt;GantryID&gt; not present
+		Sequence &lt;UDISequence&gt; not present
+		Element &lt;DeviceUID&gt; not present
+		Element &lt;SpatialResolution&gt; not present
+		Element &lt;DateOfManufacture&gt; not present
+		Element &lt;DateOfInstallation&gt; not present
+		Element &lt;DateOfLastCalibration&gt; not present
+		Element &lt;TimeOfLastCalibration&gt; not present
+		Element &lt;PixelPaddingValue&gt; not present
+	Module &lt;SCEquipment&gt;
+		Element &lt;ConversionType&gt; not present
+		(0x0008,0x0060) CS Modality 	 VR=&lt;CS&gt;   VL=&lt;0x0002&gt;  &lt;SC&gt; 
+		Element &lt;SecondaryCaptureDeviceID&gt; not present
+		Element &lt;SecondaryCaptureDeviceManufacturer&gt; not present
+		Element &lt;SecondaryCaptureDeviceManufacturerModelName&gt; not present
+		Element &lt;SecondaryCaptureDeviceSoftwareVersions&gt; not present
+		Element &lt;VideoImageFormatAcquired&gt; not present
+		Element &lt;DigitalImageFormatAcquired&gt; not present
+	Module &lt;GeneralAcquisition&gt;
+		Element &lt;AcquisitionUID&gt; not present
+		Element &lt;AcquisitionNumber&gt; not present
+		Element &lt;AcquisitionDate&gt; not present
+		Element &lt;AcquisitionTime&gt; not present
+		Element &lt;AcquisitionDateTime&gt; not present
+		Element &lt;ImagesInAcquisition&gt; not present
+		Element &lt;IrradiationEventUID&gt; not present
+	Module &lt;GeneralImage&gt;
+		(0x0020,0x0013) IS Instance Number 	 VR=&lt;IS&gt;   VL=&lt;0x0002&gt;  &lt;1 &gt; 
+		Element &lt;PatientOrientation&gt; not present
+		Element &lt;ContentDate&gt; not present
+		Element &lt;ContentTime&gt; not present
+		(0x0008,0x0008) CS Image Type 	 VR=&lt;CS&gt;   VL=&lt;0x001e&gt;  &lt;DERIVED\SECONDARY\SINGLE PLANE&gt; 
+		Element &lt;ImageComments&gt; not present
+		Element &lt;QualityControlImage&gt; not present
+		Element &lt;BurnedInAnnotation&gt; not present
+		Element &lt;RecognizableVisualFeatures&gt; not present
+		Element &lt;LossyImageCompression&gt; not present
+		Element &lt;LossyImageCompressionRatio&gt; not present
+		Element &lt;LossyImageCompressionMethod&gt; not present
+		Sequence &lt;IconImageSequence&gt; not present
+		Element &lt;PresentationLUTShape&gt; not present
+		Sequence &lt;RealWorldValueMappingSequence&gt; not present
+		Element &lt;ImageLaterality&gt; not present
+		Sequence &lt;AnatomicRegionSequence&gt; not present
+		Macro &lt;PrimaryAnatomicStructureMacro&gt;
+		Sequence &lt;PrimaryAnatomicStructureSequence&gt; not present
+		EndMacro &lt;PrimaryAnatomicStructureMacro&gt;
+		Sequence &lt;AnatomicRegionModifierSequence&gt; not present
+		Sequence &lt;PrimaryAnatomicStructureModifierSequence&gt; not present
+	Module &lt;GeneralReference&gt;
+		Sequence &lt;ReferencedImageSequence&gt; not present
+		Sequence &lt;ReferencedInstanceSequence&gt; not present
+		(0x0008,0x2111) ST Derivation Description 	 VR=&lt;ST&gt;   VL=&lt;0x000c&gt;  &lt;Image Export&gt; 
+		Sequence &lt;DerivationCodeSequence&gt; not present
+		Sequence &lt;SourceImageSequence&gt;
+		Item
+			Macro &lt;ImageSOPInstanceReferenceMacro&gt;
+		Macro &lt;SOPInstanceReferenceMacro&gt;
+		(0x0008,0x1150) UI Referenced SOP Class UID 	 VR=&lt;UI&gt;   VL=&lt;0x001a&gt;  &lt;1.2.840.10008.5.1.4.1.1.1&gt; 
+		(0x0008,0x1155) UI Referenced SOP Instance UID 	 VR=&lt;UI&gt;   VL=&lt;0x0016&gt;  &lt;1.1.20210824.105814949&gt; 
+		EndMacro &lt;SOPInstanceReferenceMacro&gt;
+		Element &lt;ReferencedFrameNumber&gt; not present
+		Element &lt;ReferencedSegmentNumber&gt; not present
+			EndMacro &lt;ImageSOPInstanceReferenceMacro&gt;
+			Sequence &lt;PurposeOfReferenceCodeSequence&gt; not present
+			Element &lt;SpatialLocationsPreserved&gt; not present
+			Element &lt;PatientOrientation&gt; not present
+		Sequence &lt;SourceInstanceSequence&gt; not present
+	Module &lt;ImagePlane&gt; not present
+	Module &lt;ImagePixel&gt;
+		Macro &lt;ImagePixelDescriptionMacro&gt;
+		(0x0028,0x0002) US Samples per Pixel 	 VR=&lt;US&gt;   VL=&lt;0x0002&gt;  [0x0001] 
+		(0x0028,0x0004) CS Photometric Interpretation 	 VR=&lt;CS&gt;   VL=&lt;0x000c&gt;  &lt;MONOCHROME2 &gt; 
+		(0x0028,0x0010) US Rows 	 VR=&lt;US&gt;   VL=&lt;0x0002&gt;  [0x3049] 
+		(0x0028,0x0011) US Columns 	 VR=&lt;US&gt;   VL=&lt;0x0002&gt;  [0x2793] 
+		(0x0028,0x0100) US Bits Allocated 	 VR=&lt;US&gt;   VL=&lt;0x0002&gt;  [0x0010] 
+		(0x0028,0x0101) US Bits Stored 	 VR=&lt;US&gt;   VL=&lt;0x0002&gt;  [0x0010] 
+		(0x0028,0x0102) US High Bit 	 VR=&lt;US&gt;   VL=&lt;0x0002&gt;  [0x000f] 
+		(0x0028,0x0103) US Pixel Representation 	 VR=&lt;US&gt;   VL=&lt;0x0002&gt;  [0x0000] 
+		(0x0028,0x0006) US Planar Configuration 	 VR=&lt;US&gt;   VL=&lt;0x0002&gt;  [0x0000] 
+		(0x0028,0x0034) IS Pixel Aspect Ratio 	 VR=&lt;IS&gt;   VL=&lt;0x0000&gt;  &lt;&gt; 
+		Element &lt;SmallestImagePixelValue&gt; not present
+		Element &lt;LargestImagePixelValue&gt; not present
+		Element &lt;RedPaletteColorLookupTableDescriptor&gt; not present
+		Element &lt;GreenPaletteColorLookupTableDescriptor&gt; not present
+		Element &lt;BluePaletteColorLookupTableDescriptor&gt; not present
+		Element &lt;RedPaletteColorLookupTableData&gt; not present
+		Element &lt;GreenPaletteColorLookupTableData&gt; not present
+		Element &lt;BluePaletteColorLookupTableData&gt; not present
+		Element &lt;ICCProfile&gt; not present
+		Element &lt;ColorSpace&gt; not present
+		EndMacro &lt;ImagePixelDescriptionMacro&gt;
+		(0x7fe0,0x0010) OX Pixel Data 	 VR=&lt;OW&gt;   VL=&lt;0xeedb1d6&gt;  
+		Element &lt;PixelDataProviderURL&gt; not present
+		Element &lt;PixelPaddingRangeLimit&gt; not present
+		Element &lt;ExtendedOffsetTable&gt; not present
+		Element &lt;ExtendedOffsetTableLengths&gt; not present
+	Module &lt;Device&gt; not present
+	Module &lt;Specimen&gt; not present
+	Module &lt;SCImage&gt;
+		Element &lt;DateOfSecondaryCapture&gt; not present
+		Element &lt;TimeOfSecondaryCapture&gt; not present
+		Element &lt;NominalScannedPixelSpacing&gt; not present
+		Sequence &lt;DocumentClassCodeSequence&gt; not present
+		Macro &lt;BasicPixelSpacingCalibrationMacro&gt;
+		Element &lt;PixelSpacing&gt; not present
+		Element &lt;PixelSpacingCalibrationType&gt; not present
+		Element &lt;PixelSpacingCalibrationDescription&gt; not present
+		EndMacro &lt;BasicPixelSpacingCalibrationMacro&gt;
+		Macro &lt;OptionalViewAndSliceProgressionDirectionMacro&gt;
+		Sequence &lt;ViewCodeSequence&gt; not present
+		Element &lt;SliceProgressionDirection&gt; not present
+		EndMacro &lt;OptionalViewAndSliceProgressionDirectionMacro&gt;
+	Module &lt;OverlayPlane&gt; not present
+	Module &lt;ModalityLUT&gt; not present
+	Module &lt;VOILUT&gt;
+		Macro &lt;VOILUTMacro&gt;
+		Sequence &lt;VOILUTSequence&gt; not present
+		(0x0028,0x1050) DS Window Center 	 VR=&lt;DS&gt;   VL=&lt;0x0006&gt;  &lt;32768 &gt; 
+		(0x0028,0x1051) DS Window Width 	 VR=&lt;DS&gt;   VL=&lt;0x0006&gt;  &lt;65536 &gt; 
+		(0x0028,0x1055) LO Window Center &amp; Width Explanation 	 VR=&lt;LO&gt;   VL=&lt;0x000c&gt;  &lt;32768/65536 &gt; 
+		Element &lt;VOILUTFunction&gt; not present
+		EndMacro &lt;VOILUTMacro&gt;
+	Module &lt;ICCProfile&gt; not present
+	Module &lt;SOPCommon&gt;
+		(0x0008,0x0016) UI SOP Class UID 	 VR=&lt;UI&gt;   VL=&lt;0x001a&gt;  &lt;1.2.840.10008.5.1.4.1.1.7&gt; 
+		(0x0008,0x0018) UI SOP Instance UID 	 VR=&lt;UI&gt;   VL=&lt;0x0040&gt;  &lt;1.2.528.1.1001.100.4.11681.8413.66325071390980.20250825013503590&gt; 
+		(0x0008,0x0005) CS Specific Character Set 	 VR=&lt;CS&gt;   VL=&lt;0x000a&gt;  &lt;ISO_IR 192&gt; 
+		Element &lt;InstanceCreationDate&gt; not present
+		Element &lt;InstanceCreationTime&gt; not present
+		Element &lt;InstanceCoercionDateTime&gt; not present
+		Element &lt;InstanceCreatorUID&gt; not present
+		Element &lt;RelatedGeneralSOPClassUID&gt; not present
+		Element &lt;OriginalSpecializedSOPClassUID&gt; not present
+		Element &lt;SyntheticData&gt; not present
+		Sequence &lt;CodingSchemeIdentificationSequence&gt; not present
+		Sequence &lt;ContextGroupIdentificationSequence&gt; not present
+		Sequence &lt;MappingResourceIdentificationSequence&gt; not present
+		Element &lt;TimezoneOffsetFromUTC&gt; not present
+		Sequence &lt;ContributingEquipmentSequence&gt; not present
+		(0x0020,0x0013) IS Instance Number 	 VR=&lt;IS&gt;   VL=&lt;0x0002&gt;  &lt;1 &gt; 
+		Element &lt;SOPInstanceStatus&gt; not present
+		Element &lt;SOPAuthorizationDateTime&gt; not present
+		Element &lt;SOPAuthorizationComment&gt; not present
+		Element &lt;AuthorizationEquipmentCertificationNumber&gt; not present
+		Macro &lt;DigitalSignaturesMacro&gt;
+		Sequence &lt;MACParametersSequence&gt; not present
+		Sequence &lt;DigitalSignaturesSequence&gt; not present
+		EndMacro &lt;DigitalSignaturesMacro&gt;
+		Sequence &lt;EncryptedAttributesSequence&gt; not present
+		Sequence &lt;OriginalAttributesSequence&gt; not present
+		Sequence &lt;HL7StructuredDocumentReferenceSequence&gt; not present
+		Element &lt;LongitudinalTemporalInformationModified&gt; not present
+		Element &lt;QueryRetrieveView&gt; not present
+		Sequence &lt;ConversionSourceAttributesSequence&gt; not present
+		Element &lt;ContentQualification&gt; not present
+		Sequence &lt;PrivateDataElementCharacteristicsSequence&gt; not present
+		Element &lt;InstanceOriginStatus&gt; not present
+		Element &lt;BarcodeValue&gt; not present
+		Macro &lt;GeneralProcedureProtocolReferenceMacro&gt;
+		Sequence &lt;ReferencedDefinedProtocolSequence&gt; not present
+		Sequence &lt;ReferencedPerformedProtocolSequence&gt; not present
+		EndMacro &lt;GeneralProcedureProtocolReferenceMacro&gt;
+	Module &lt;CommonInstanceReference&gt; not present
+	Module &lt;CheckSingleFramePseudo&gt;
+		(0x0028,0x0008) IS Number of Frames 	 VR=&lt;IS&gt;   VL=&lt;0x0002&gt;  &lt;1 &gt; 
+success after iod verify failure
+Warning - Attribute is not present in standard DICOM IOD - (0x0008,0x0061) CS Modalities in Study 
+Warning - Attribute is not present in standard DICOM IOD - (0x0020,0x1206) IS Number of Study Related Series 
+Warning - Attribute is not present in standard DICOM IOD - (0x0020,0x1208) IS Number of Study Related Instances 
+Warning - Attribute is not present in standard DICOM IOD - (0x0028,0x0008) IS Number of Frames 
+Warning - Dicom dataset contains attributes not present in standard DICOM IOD - this is a Standard Extended SOP Class
+success at end failure</pre></details><h2>DICOM Tag Logs (from dataset)</h2><details><summary>image_current_dcm_하회탈_raw_filter.dcm</summary><pre>(0008,0005) CS SpecificCharacterSet: ISO_IR 192\n(0008,0008) CS ImageType: ['DERIVED', 'SECONDARY', 'SINGLE PLANE']\n(0008,0016) UI SOPClassUID: 1.2.840.10008.5.1.4.1.1.7\n(0008,0018) UI SOPInstanceUID: 1.2.528.1.1001.100.4.11681.8413.66325071390980.20250825013503590\n(0008,0020) DA StudyDate: 20250825\n(0008,0021) DA SeriesDate: 20250825\n(0008,0030) TM StudyTime: 103503\n(0008,0031) TM SeriesTime: 103503\n(0008,0050) SH AccessionNumber: UNSPECIFIED\n(0008,0060) CS Modality: SC\n(0008,0061) CS ModalitiesInStudy: CR\n(0008,0070) LO Manufacturer: GE Inspection Technologies\n(0008,0090) PN ReferringPhysicianName: \n(0008,1010) SH StationName: CZC75173PY\n(0008,1030) LO StudyDescription: 20213401-3\n(0008,103E) LO SeriesDescription: Secondary Capture\n(0008,1048) PN PhysiciansOfRecord: UNSPECIFIED\n(0008,1060) PN NameOfPhysiciansReadingStudy: UNSPECIFIED\n(0008,1090) LO ManufacturerModelName: Rhythm Review\n(0008,2111) ST DerivationDescription: Image Export\n(0008,2112) SQ SourceImageSequence: [(0008,1150) Referenced SOP Class UID            UI: Computed Radiography Image Storage
+(0008,1155) Referenced SOP Instance UID         UI: 1.1.20210824.1058149\n(0008,1150) UI ReferencedSOPClassUID: 1.2.840.10008.5.1.4.1.1.1\n(0008,1155) UI ReferencedSOPInstanceUID: 1.1.20210824.105814949\n(0010,0010) PN PatientName: 20213401\n(0010,0020) LO PatientID: 2021-08-20\n(0010,0030) DA PatientBirthDate: 20210824\n(0010,0040) CS PatientSex: O\n(0018,1000) LO DeviceSerialNumber: 66325071390980\n(0018,1020) LO SoftwareVersions: 8.0\n(0020,000D) UI StudyInstanceUID: 1.2.528.1.1001.100.2.11681.8413.66325071390980.20250825013503641\n(0020,000E) UI SeriesInstanceUID: 1.2.528.1.1001.100.3.11681.8413.66325071390980.20250825013503588\n(0020,0010) SH StudyID: 20213401-3\n(0020,0011) IS SeriesNumber: 1\n(0020,0013) IS InstanceNumber: 1\n(0020,1206) IS NumberOfStudyRelatedSeries: 1\n(0020,1208) IS NumberOfStudyRelatedInstances: 1\n(0028,0002) US SamplesPerPixel: 1\n(0028,0004) CS PhotometricInterpretation: MONOCHROME2\n(0028,0006) US PlanarConfiguration: 0\n(0028,0008) IS NumberOfFrames: 1\n(0028,0010) US Rows: 12361\n(0028,0011) US Columns: 10131\n(0028,0034) IS PixelAspectRatio: None\n(0028,0100) US BitsAllocated: 16\n(0028,0101) US BitsStored: 16\n(0028,0102) US HighBit: 15\n(0028,0103) US PixelRepresentation: 0\n(0028,1050) DS WindowCenter: 32768\n(0028,1051) DS WindowWidth: 65536\n(0028,1055) LO WindowCenterWidthExplanation: 32768/65536\n(3109,0010) LO : Applicare/RadWorks/Version 5.0\n(3109,0011) LO : Applicare/RadWorks/Version 6.0/Summary\n(3109,1001) ST : \n(3109,1002) SH : SEEN\n(3109,1008) LO : CZC75173PY\n(3109,100A) DA : 20210824\n(3109,100B) TM : 105816\n(3109,1112) ST : AE_Changename</pre></details><p class='muted'>Raw JSONL: E:\2025 논문_문화유산 디지털 데이터 개선\논문 1안_문화유산 비파괴진단 디지털 데이터의 표준화 방안 연구\논문&코드 검증_20250911\20250909_CT 규격dcm과 기존 dcm 제작_태그 샘플 작성\20250905 CR\RAW_DCM_CR\output_20250911_1447\validation_20250911_144749\dciodvfy.jsonl</p></body></html>
