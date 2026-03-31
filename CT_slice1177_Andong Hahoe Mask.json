@@ -1,0 +1,4592 @@
+{
+  "@context": "https://iiif.io/api/presentation/3/context.json",
+  "id": "https://song-jung-il.github.io/Public_image/manifest_20250915_1029.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "DICOCH DICOM Study"
+    ]
+  },
+  "summary": {
+    "en": [
+      "2025-09-15T10:29:01.106687"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://song-jung-il.github.io/Public_image/canvas/1",
+      "type": "Canvas",
+      "height": 2048,
+      "width": 2048,
+      "items": [
+        {
+          "id": "https://song-jung-il.github.io/Public_image/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://song-jung-il.github.io/Public_image/anno/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://raw.githubusercontent.com/SONG-JUNG-IL/Public_image/main/CT_slice1177_Andong Hahoe Mask.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2048,
+                "width": 2048
+              },
+              "target": "https://song-jung-il.github.io/Public_image/canvas/1"
+            }
+          ]
+        }
+      ],
+      "metadata": [
+        {
+          "group": 8,
+          "element": 5,
+          "groupHex": "0008",
+          "elementHex": "0005",
+          "tag": "(0008,0005)",
+          "vr": "CS",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "SpecificCharacterSet (0008,0005)"
+            ]
+          },
+          "value": {
+            "none": [
+              "ISO_IR 192"
+            ]
+          }
+        },
+        {
+          "group": 8,
+          "element": 8,
+          "groupHex": "0008",
+          "elementHex": "0008",
+          "tag": "(0008,0008)",
+          "vr": "CS",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "Image Type (0008,0008)"
+            ]
+          },
+          "value": {
+            "none": [
+              "DERIVED, PRIMARY, AXIAL"
+            ]
+          }
+        },
+        {
+          "group": 8,
+          "element": 22,
+          "groupHex": "0008",
+          "elementHex": "0016",
+          "tag": "(0008,0016)",
+          "vr": "UI",
+          "level": 0,
+          "type": "UID",
+          "label": {
+            "none": [
+              "SOPClassUID (0008,0016)"
+            ]
+          },
+          "value": {
+            "none": [
+              "1.2.840.10008.5.1.4.1.1.2"
+            ]
+          }
+        },
+        {
+          "group": 8,
+          "element": 24,
+          "groupHex": "0008",
+          "elementHex": "0018",
+          "tag": "(0008,0018)",
+          "vr": "UI",
+          "level": 0,
+          "type": "UID",
+          "label": {
+            "none": [
+              "SOPInstanceUID (0008,0018)"
+            ]
+          },
+          "value": {
+            "none": [
+              "1.2.276.0.7230010.3.1.4.3719806279.3380.1645512530.9818"
+            ]
+          }
+        },
+        {
+          "group": 8,
+          "element": 32,
+          "groupHex": "0008",
+          "elementHex": "0020",
+          "tag": "(0008,0020)",
+          "vr": "DA",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "StudyDate (0008,0020)"
+            ]
+          },
+          "value": {
+            "none": [
+              "20220222"
+            ]
+          }
+        },
+        {
+          "group": 8,
+          "element": 33,
+          "groupHex": "0008",
+          "elementHex": "0021",
+          "tag": "(0008,0021)",
+          "vr": "DA",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "SeriesDate (0008,0021)"
+            ]
+          },
+          "value": {
+            "none": [
+              "20220222"
+            ]
+          }
+        },
+        {
+          "group": 8,
+          "element": 35,
+          "groupHex": "0008",
+          "elementHex": "0023",
+          "tag": "(0008,0023)",
+          "vr": "DA",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "ContentDate (0008,0023)"
+            ]
+          },
+          "value": {
+            "none": [
+              "20220222"
+            ]
+          }
+        },
+        {
+          "group": 8,
+          "element": 48,
+          "groupHex": "0008",
+          "elementHex": "0030",
+          "tag": "(0008,0030)",
+          "vr": "TM",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "StudyTime (0008,0030)"
+            ]
+          },
+          "value": {
+            "none": [
+              "154144"
+            ]
+          }
+        },
+        {
+          "group": 8,
+          "element": 49,
+          "groupHex": "0008",
+          "elementHex": "0031",
+          "tag": "(0008,0031)",
+          "vr": "TM",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "SeriesTime (0008,0031)"
+            ]
+          },
+          "value": {
+            "none": [
+              "154144"
+            ]
+          }
+        },
+        {
+          "group": 8,
+          "element": 51,
+          "groupHex": "0008",
+          "elementHex": "0033",
+          "tag": "(0008,0033)",
+          "vr": "TM",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "ContentTime (0008,0033)"
+            ]
+          },
+          "value": {
+            "none": [
+              "154144"
+            ]
+          }
+        },
+        {
+          "group": 8,
+          "element": 80,
+          "groupHex": "0008",
+          "elementHex": "0050",
+          "tag": "(0008,0050)",
+          "vr": "SH",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "AccessionNumber (0008,0050)"
+            ]
+          },
+          "value": {
+            "none": [
+              "1177"
+            ]
+          }
+        },
+        {
+          "group": 8,
+          "element": 96,
+          "groupHex": "0008",
+          "elementHex": "0060",
+          "tag": "(0008,0060)",
+          "vr": "CS",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "Modality (0008,0060)"
+            ]
+          },
+          "value": {
+            "none": [
+              "CT"
+            ]
+          }
+        },
+        {
+          "group": 8,
+          "element": 112,
+          "groupHex": "0008",
+          "elementHex": "0070",
+          "tag": "(0008,0070)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "Manufacturer (0008,0070)"
+            ]
+          },
+          "value": {
+            "none": [
+              "NRICH by SONG JUNG IL"
+            ]
+          }
+        },
+        {
+          "group": 8,
+          "element": 128,
+          "groupHex": "0008",
+          "elementHex": "0080",
+          "tag": "(0008,0080)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "Institution Name (0008,0080)"
+            ]
+          },
+          "value": {
+            "none": [
+              "NRICH"
+            ]
+          }
+        },
+        {
+          "group": 8,
+          "element": 144,
+          "groupHex": "0008",
+          "elementHex": "0090",
+          "tag": "(0008,0090)",
+          "vr": "PN",
+          "level": 0,
+          "type": "PersonName",
+          "label": {
+            "none": [
+              "ReferringPhysicianName (0008,0090)"
+            ]
+          },
+          "value": {
+            "none": [
+              "KOREA^Object"
+            ]
+          }
+        },
+        {
+          "group": 8,
+          "element": 4144,
+          "groupHex": "0008",
+          "elementHex": "1030",
+          "tag": "(0008,1030)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "StudyDescription (0008,1030)"
+            ]
+          },
+          "value": {
+            "none": [
+              "X-ray CT scan of cultural heritage"
+            ]
+          }
+        },
+        {
+          "group": 8,
+          "element": 4158,
+          "groupHex": "0008",
+          "elementHex": "103E",
+          "tag": "(0008,103E)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "SeriesDescription (0008,103E)"
+            ]
+          },
+          "value": {
+            "none": [
+              "National Treasure No. 21 Andong Hahoe Mask"
+            ]
+          }
+        },
+        {
+          "group": 8,
+          "element": 4240,
+          "groupHex": "0008",
+          "elementHex": "1090",
+          "tag": "(0008,1090)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "Manufacturer’sModelName (0008,1090)"
+            ]
+          },
+          "value": {
+            "none": [
+              "DICOCH Converter v3.3"
+            ]
+          }
+        },
+        {
+          "group": 8,
+          "element": 8465,
+          "groupHex": "0008",
+          "elementHex": "2111",
+          "tag": "(0008,2111)",
+          "vr": "ST",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "DerivationDescription (0008,2111)"
+            ]
+          },
+          "value": {
+            "none": [
+              "slice1177; 2048*2048; dcm to TIFF"
+            ]
+          }
+        },
+        {
+          "group": 16,
+          "element": 16,
+          "groupHex": "0010",
+          "elementHex": "0010",
+          "tag": "(0010,0010)",
+          "vr": "PN",
+          "level": 0,
+          "type": "PersonName",
+          "label": {
+            "none": [
+              "PatientName (0010,0010)"
+            ]
+          },
+          "value": {
+            "none": [
+              "KOREAObject^HeritageObject"
+            ]
+          }
+        },
+        {
+          "group": 16,
+          "element": 32,
+          "groupHex": "0010",
+          "elementHex": "0020",
+          "tag": "(0010,0020)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "PatientID (0010,0020)"
+            ]
+          },
+          "value": {
+            "none": [
+              "OBJ-CT-TEST-HAHOE"
+            ]
+          }
+        },
+        {
+          "group": 16,
+          "element": 48,
+          "groupHex": "0010",
+          "elementHex": "0030",
+          "tag": "(0010,0030)",
+          "vr": "DA",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "PatientBirthDate (0010,0030)"
+            ]
+          },
+          "value": {
+            "none": [
+              "20220222"
+            ]
+          }
+        },
+        {
+          "group": 16,
+          "element": 64,
+          "groupHex": "0010",
+          "elementHex": "0040",
+          "tag": "(0010,0040)",
+          "vr": "CS",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "PatientSex (0010,0040)"
+            ]
+          },
+          "value": {
+            "none": [
+              "O"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 16,
+          "groupHex": "0013",
+          "elementHex": "0010",
+          "tag": "(0013,0010)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "_PrivateCreator (0013,0010)"
+            ]
+          },
+          "value": {
+            "none": [
+              "DICOCH_NRICH by SONG JUNG IL"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 17,
+          "groupHex": "0013",
+          "elementHex": "0011",
+          "tag": "(0013,0011)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "PrivateCreator20 (0013,0011)"
+            ]
+          },
+          "value": {
+            "none": [
+              "HeritageMetadataSequence"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 18,
+          "groupHex": "0013",
+          "elementHex": "0012",
+          "tag": "(0013,0012)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "PrivateCreator30 (0013,0012)"
+            ]
+          },
+          "value": {
+            "none": [
+              "GrayValue-HU_PointSequence"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 19,
+          "groupHex": "0013",
+          "elementHex": "0013",
+          "tag": "(0013,0013)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "PrivateCreator40 (0013,0013)"
+            ]
+          },
+          "value": {
+            "none": [
+              "DICOCH_GrayValue-HU_ROISequence"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 20,
+          "groupHex": "0013",
+          "elementHex": "0014",
+          "tag": "(0013,0014)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "PrivateCreator50 (0013,0014)"
+            ]
+          },
+          "value": {
+            "none": [
+              "HUCalibrationSequence"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 21,
+          "groupHex": "0013",
+          "elementHex": "0015",
+          "tag": "(0013,0015)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "PrivateCreator60 (0013,0015)"
+            ]
+          },
+          "value": {
+            "none": [
+              "IIIFInternationalNormLinkSequence"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 22,
+          "groupHex": "0013",
+          "elementHex": "0016",
+          "tag": "(0013,0016)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "PrivateCreator70 (0013,0016)"
+            ]
+          },
+          "value": {
+            "none": [
+              "SecurityAccessSequence"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 23,
+          "groupHex": "0013",
+          "elementHex": "0017",
+          "tag": "(0013,0017)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "PrivateCreator80 (0013,0017)"
+            ]
+          },
+          "value": {
+            "none": [
+              "DICOCH_X-ray CR Sequence"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 24,
+          "groupHex": "0013",
+          "elementHex": "0018",
+          "tag": "(0013,0018)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "PrivateCreator90 (0013,0018)"
+            ]
+          },
+          "value": {
+            "none": [
+              "DICOCH_X-ray CT Sequence"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 25,
+          "groupHex": "0013",
+          "elementHex": "0019",
+          "tag": "(0013,0019)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "PrivateCreator100 (0013,0019)"
+            ]
+          },
+          "value": {
+            "none": [
+              "DICOCHPrivateTagSequence"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4352,
+          "groupHex": "0013",
+          "elementHex": "1100",
+          "tag": "(0013,1100)",
+          "vr": "SQ",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "HeritageMetadataSequence (0013,1100)"
+            ]
+          },
+          "value": {
+            "none": [
+              "[Sequence: 0 item(s)]"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4353,
+          "groupHex": "0013",
+          "elementHex": "1101",
+          "tag": "(0013,1101)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "HeritageName (0013,1101)"
+            ]
+          },
+          "value": {
+            "none": [
+              "Andong Hahoe Yangban Mask"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4354,
+          "groupHex": "0013",
+          "elementHex": "1102",
+          "tag": "(0013,1102)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "HeritageID (0013,1102)"
+            ]
+          },
+          "value": {
+            "none": [
+              "KR-AHYM-NT121-YB"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4355,
+          "groupHex": "0013",
+          "elementHex": "1103",
+          "tag": "(0013,1103)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "HistoricPeriod (0013,1103)"
+            ]
+          },
+          "value": {
+            "none": [
+              "Goryeo Dynasty, 12th–13th"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4356,
+          "groupHex": "0013",
+          "elementHex": "1104",
+          "tag": "(0013,1104)",
+          "vr": "UT",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "MaterialComposition (0013,1104)"
+            ]
+          },
+          "value": {
+            "none": [
+              "Salix spp."
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4357,
+          "groupHex": "0013",
+          "elementHex": "1105",
+          "tag": "(0013,1105)",
+          "vr": "UT",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "ConditionStatus (0013,1105)"
+            ]
+          },
+          "value": {
+            "none": [
+              "Surface_Crack_3"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4358,
+          "groupHex": "0013",
+          "elementHex": "1106",
+          "tag": "(0013,1106)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "CulturalSignificance (0013,1106)"
+            ]
+          },
+          "value": {
+            "none": [
+              "NationalTreasure NO.121"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4359,
+          "groupHex": "0013",
+          "elementHex": "1107",
+          "tag": "(0013,1107)",
+          "vr": "UT",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "InvestigationPurpose (0013,1107)"
+            ]
+          },
+          "value": {
+            "none": [
+              "X-ray Non-destructive Precision Documentation and Internal Structure Analysis"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4360,
+          "groupHex": "0013",
+          "elementHex": "1108",
+          "tag": "(0013,1108)",
+          "vr": "UT",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "Investigator (0013,1108)"
+            ]
+          },
+          "value": {
+            "none": [
+              "National Research Institute of Cultural Heritage, NRICH"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4361,
+          "groupHex": "0013",
+          "elementHex": "1109",
+          "tag": "(0013,1109)",
+          "vr": "UT",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "SiteLocation (0013,1109)"
+            ]
+          },
+          "value": {
+            "none": [
+              "132 Munji-ro, Yuseong-gu, Daejeon, South Korea"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4608,
+          "groupHex": "0013",
+          "elementHex": "1200",
+          "tag": "(0013,1200)",
+          "vr": "SQ",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValue-HU_PointSequence (0013,1200)"
+            ]
+          },
+          "value": {
+            "none": [
+              "[Sequence: 0 item(s)]"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4609,
+          "groupHex": "0013",
+          "elementHex": "1201",
+          "tag": "(0013,1201)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValue-HU_1_Label (0013,1201)"
+            ]
+          },
+          "value": {
+            "none": [
+              "MASK_1_WoodMask_Slice1177_Air"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4610,
+          "groupHex": "0013",
+          "elementHex": "1202",
+          "tag": "(0013,1202)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValue-HU_1_Position(x,y) (0013,1202)"
+            ]
+          },
+          "value": {
+            "none": [
+              "(x=124, y=140)"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4611,
+          "groupHex": "0013",
+          "elementHex": "1203",
+          "tag": "(0013,1203)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValue_1 (0013,1203)"
+            ]
+          },
+          "value": {
+            "none": [
+              "0"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4612,
+          "groupHex": "0013",
+          "elementHex": "1204",
+          "tag": "(0013,1204)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "HU_1 (0013,1204)"
+            ]
+          },
+          "value": {
+            "none": [
+              "-1024"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4613,
+          "groupHex": "0013",
+          "elementHex": "1205",
+          "tag": "(0013,1205)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValue-HU_2_Label (0013,1205)"
+            ]
+          },
+          "value": {
+            "none": [
+              "MASK_2_WoodMask_Slice1177_Background"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4614,
+          "groupHex": "0013",
+          "elementHex": "1206",
+          "tag": "(0013,1206)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValue-HU_2_Position(x,y) (0013,1206)"
+            ]
+          },
+          "value": {
+            "none": [
+              "(x=416, y=472)"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4615,
+          "groupHex": "0013",
+          "elementHex": "1207",
+          "tag": "(0013,1207)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValue_2 (0013,1207)"
+            ]
+          },
+          "value": {
+            "none": [
+              "2000"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4616,
+          "groupHex": "0013",
+          "elementHex": "1208",
+          "tag": "(0013,1208)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "HU_2 (0013,1208)"
+            ]
+          },
+          "value": {
+            "none": [
+              "976"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4617,
+          "groupHex": "0013",
+          "elementHex": "1209",
+          "tag": "(0013,1209)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValue-HU_3_Label (0013,1209)"
+            ]
+          },
+          "value": {
+            "none": [
+              "MASK_3_WoodMask_Slice1177_Wood Core"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4624,
+          "groupHex": "0013",
+          "elementHex": "1210",
+          "tag": "(0013,1210)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValue-HU_3_Position(x,y) (0013,1210)"
+            ]
+          },
+          "value": {
+            "none": [
+              "(x=568, y=848)"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4625,
+          "groupHex": "0013",
+          "elementHex": "1211",
+          "tag": "(0013,1211)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValue_3 (0013,1211)"
+            ]
+          },
+          "value": {
+            "none": [
+              "2008"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4626,
+          "groupHex": "0013",
+          "elementHex": "1212",
+          "tag": "(0013,1212)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "HU_3 (0013,1212)"
+            ]
+          },
+          "value": {
+            "none": [
+              "984"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4627,
+          "groupHex": "0013",
+          "elementHex": "1213",
+          "tag": "(0013,1213)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValue-HU_4_Label (0013,1213)"
+            ]
+          },
+          "value": {
+            "none": [
+              "MASK_4_WoodMask_Slice1177_Pgment"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4628,
+          "groupHex": "0013",
+          "elementHex": "1214",
+          "tag": "(0013,1214)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValue-HU_4_Position(x,y) (0013,1214)"
+            ]
+          },
+          "value": {
+            "none": [
+              "(x=680, y=676)"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4629,
+          "groupHex": "0013",
+          "elementHex": "1215",
+          "tag": "(0013,1215)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValue_4 (0013,1215)"
+            ]
+          },
+          "value": {
+            "none": [
+              "2092"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4630,
+          "groupHex": "0013",
+          "elementHex": "1216",
+          "tag": "(0013,1216)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "HU_4 (0013,1216)"
+            ]
+          },
+          "value": {
+            "none": [
+              "1068"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4631,
+          "groupHex": "0013",
+          "elementHex": "1217",
+          "tag": "(0013,1217)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValue-HU_6_Label (0013,1217)"
+            ]
+          },
+          "value": {
+            "none": [
+              "MASK_6_WoodMask_Slice1177_MetalNail"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4632,
+          "groupHex": "0013",
+          "elementHex": "1218",
+          "tag": "(0013,1218)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValue-HU_6_Position(x,y) (0013,1218)"
+            ]
+          },
+          "value": {
+            "none": [
+              "(x=1328, y=952)"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4633,
+          "groupHex": "0013",
+          "elementHex": "1219",
+          "tag": "(0013,1219)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValue_6 (0013,1219)"
+            ]
+          },
+          "value": {
+            "none": [
+              "2113"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4640,
+          "groupHex": "0013",
+          "elementHex": "1220",
+          "tag": "(0013,1220)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "HU_6 (0013,1220)"
+            ]
+          },
+          "value": {
+            "none": [
+              "1098"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4864,
+          "groupHex": "0013",
+          "elementHex": "1300",
+          "tag": "(0013,1300)",
+          "vr": "SQ",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "DICOCH_GrayValue-HU_ROISequence (0013,1300)"
+            ]
+          },
+          "value": {
+            "none": [
+              "[Sequence: 0 item(s)]"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4865,
+          "groupHex": "0013",
+          "elementHex": "1301",
+          "tag": "(0013,1301)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValue-HU_1_ROILabel (0013,1301)"
+            ]
+          },
+          "value": {
+            "none": [
+              "MASK_1_ROI_WoodMask_Slice1177_Air"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4866,
+          "groupHex": "0013",
+          "elementHex": "1302",
+          "tag": "(0013,1302)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValue-HU_1_ROIType (0013,1302)"
+            ]
+          },
+          "value": {
+            "none": [
+              "Polygon"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4867,
+          "groupHex": "0013",
+          "elementHex": "1303",
+          "tag": "(0013,1303)",
+          "vr": "UT",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValue-HU_1_ROICoordinates (0013,1303)"
+            ]
+          },
+          "value": {
+            "none": [
+              "ROI_point(x=148, y=140), ROI_px(W=64, H=64)"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4868,
+          "groupHex": "0013",
+          "elementHex": "1304",
+          "tag": "(0013,1304)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValueROIMean_1 (0013,1304)"
+            ]
+          },
+          "value": {
+            "none": [
+              "0"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4869,
+          "groupHex": "0013",
+          "elementHex": "1305",
+          "tag": "(0013,1305)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValueROIMin_1 (0013,1305)"
+            ]
+          },
+          "value": {
+            "none": [
+              "0"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4870,
+          "groupHex": "0013",
+          "elementHex": "1306",
+          "tag": "(0013,1306)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValueROIMax_1 (0013,1306)"
+            ]
+          },
+          "value": {
+            "none": [
+              "0"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4871,
+          "groupHex": "0013",
+          "elementHex": "1307",
+          "tag": "(0013,1307)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValueROIStdDev_1 (0013,1307)"
+            ]
+          },
+          "value": {
+            "none": [
+              "0"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4872,
+          "groupHex": "0013",
+          "elementHex": "1308",
+          "tag": "(0013,1308)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "HUROIMean_1 (0013,1308)"
+            ]
+          },
+          "value": {
+            "none": [
+              "-1024"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4873,
+          "groupHex": "0013",
+          "elementHex": "1309",
+          "tag": "(0013,1309)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "HUROIMin_1 (0013,1309)"
+            ]
+          },
+          "value": {
+            "none": [
+              "-1024"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4880,
+          "groupHex": "0013",
+          "elementHex": "1310",
+          "tag": "(0013,1310)",
+          "vr": "UT",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "HUROIMax_1 (0013,1310)"
+            ]
+          },
+          "value": {
+            "none": [
+              "-1024"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4881,
+          "groupHex": "0013",
+          "elementHex": "1311",
+          "tag": "(0013,1311)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "HUROIStdDev_1 (0013,1311)"
+            ]
+          },
+          "value": {
+            "none": [
+              "0"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4882,
+          "groupHex": "0013",
+          "elementHex": "1312",
+          "tag": "(0013,1312)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValue-HU_2_ROILabel (0013,1312)"
+            ]
+          },
+          "value": {
+            "none": [
+              "MASK_2_ROI_WoodMask_Slice1177_Background"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4883,
+          "groupHex": "0013",
+          "elementHex": "1313",
+          "tag": "(0013,1313)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValue-HU_2_ROIType (0013,1313)"
+            ]
+          },
+          "value": {
+            "none": [
+              "Polygon"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4884,
+          "groupHex": "0013",
+          "elementHex": "1314",
+          "tag": "(0013,1314)",
+          "vr": "UT",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValue-HU_2_ROICoordinates (0013,1314)"
+            ]
+          },
+          "value": {
+            "none": [
+              "ROI_point(x=440, y=496), ROI_px(W=64, H=64)"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4885,
+          "groupHex": "0013",
+          "elementHex": "1315",
+          "tag": "(0013,1315)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValueROIMean_2 (0013,1315)"
+            ]
+          },
+          "value": {
+            "none": [
+              "1999.893066"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4886,
+          "groupHex": "0013",
+          "elementHex": "1316",
+          "tag": "(0013,1316)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValueROIMin_2 (0013,1316)"
+            ]
+          },
+          "value": {
+            "none": [
+              "1999"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4887,
+          "groupHex": "0013",
+          "elementHex": "1317",
+          "tag": "(0013,1317)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValueROIMax_2 (0013,1317)"
+            ]
+          },
+          "value": {
+            "none": [
+              "2000"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4888,
+          "groupHex": "0013",
+          "elementHex": "1318",
+          "tag": "(0013,1318)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValueROIStdDev_2 (0013,1318)"
+            ]
+          },
+          "value": {
+            "none": [
+              "0.309029"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4889,
+          "groupHex": "0013",
+          "elementHex": "1319",
+          "tag": "(0013,1319)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "HUROIMean_2 (0013,1319)"
+            ]
+          },
+          "value": {
+            "none": [
+              "975.893066"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4896,
+          "groupHex": "0013",
+          "elementHex": "1320",
+          "tag": "(0013,1320)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "HUROIMin_2 (0013,1320)"
+            ]
+          },
+          "value": {
+            "none": [
+              "975"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4897,
+          "groupHex": "0013",
+          "elementHex": "1321",
+          "tag": "(0013,1321)",
+          "vr": "UT",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "HUROIMax_2 (0013,1321)"
+            ]
+          },
+          "value": {
+            "none": [
+              "976"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4898,
+          "groupHex": "0013",
+          "elementHex": "1322",
+          "tag": "(0013,1322)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "HUROIStdDev_2 (0013,1322)"
+            ]
+          },
+          "value": {
+            "none": [
+              "0.309029"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4899,
+          "groupHex": "0013",
+          "elementHex": "1323",
+          "tag": "(0013,1323)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValue-HU_3_ROILabel (0013,1323)"
+            ]
+          },
+          "value": {
+            "none": [
+              "MASK_3_ROI_WoodMask_Slice1177_Wood Core"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4900,
+          "groupHex": "0013",
+          "elementHex": "1324",
+          "tag": "(0013,1324)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValue-HU_3_ROIType (0013,1324)"
+            ]
+          },
+          "value": {
+            "none": [
+              "Polygon"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4901,
+          "groupHex": "0013",
+          "elementHex": "1325",
+          "tag": "(0013,1325)",
+          "vr": "UT",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValue-HU_3_ROICoordinates (0013,1325)"
+            ]
+          },
+          "value": {
+            "none": [
+              "ROI_point(x=528, y=808), ROI_px(W=64, H=64)"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4902,
+          "groupHex": "0013",
+          "elementHex": "1326",
+          "tag": "(0013,1326)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValueROIMean_3 (0013,1326)"
+            ]
+          },
+          "value": {
+            "none": [
+              "2007.664307"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4903,
+          "groupHex": "0013",
+          "elementHex": "1327",
+          "tag": "(0013,1327)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValueROIMin_3 (0013,1327)"
+            ]
+          },
+          "value": {
+            "none": [
+              "2006"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4904,
+          "groupHex": "0013",
+          "elementHex": "1328",
+          "tag": "(0013,1328)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValueROIMax_3 (0013,1328)"
+            ]
+          },
+          "value": {
+            "none": [
+              "2009"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4905,
+          "groupHex": "0013",
+          "elementHex": "1329",
+          "tag": "(0013,1329)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValueROIStdDev_3 (0013,1329)"
+            ]
+          },
+          "value": {
+            "none": [
+              "0.492478"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4912,
+          "groupHex": "0013",
+          "elementHex": "1330",
+          "tag": "(0013,1330)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "HUROIMean_3 (0013,1330)"
+            ]
+          },
+          "value": {
+            "none": [
+              "983.664307"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4913,
+          "groupHex": "0013",
+          "elementHex": "1331",
+          "tag": "(0013,1331)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "HUROIMin_3 (0013,1331)"
+            ]
+          },
+          "value": {
+            "none": [
+              "982"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4914,
+          "groupHex": "0013",
+          "elementHex": "1332",
+          "tag": "(0013,1332)",
+          "vr": "UT",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "HUROIMax_3 (0013,1332)"
+            ]
+          },
+          "value": {
+            "none": [
+              "985"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4915,
+          "groupHex": "0013",
+          "elementHex": "1333",
+          "tag": "(0013,1333)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "HUROIStdDev_3 (0013,1333)"
+            ]
+          },
+          "value": {
+            "none": [
+              "0.492478"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4916,
+          "groupHex": "0013",
+          "elementHex": "1334",
+          "tag": "(0013,1334)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValue-HU_4_ROILabel (0013,1334)"
+            ]
+          },
+          "value": {
+            "none": [
+              "MASK_4_WoodMask_Slice1177_Pgment"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4917,
+          "groupHex": "0013",
+          "elementHex": "1335",
+          "tag": "(0013,1335)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValue-HU_4_ROIType (0013,1335)"
+            ]
+          },
+          "value": {
+            "none": [
+              "Polygon"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4918,
+          "groupHex": "0013",
+          "elementHex": "1336",
+          "tag": "(0013,1336)",
+          "vr": "UT",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValue-HU_4_ROICoordinates (0013,1336)"
+            ]
+          },
+          "value": {
+            "none": [
+              "ROI_point(x=668, y=648), ROI_px(W=64, H=64)"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4919,
+          "groupHex": "0013",
+          "elementHex": "1337",
+          "tag": "(0013,1337)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValueROIMean_4 (0013,1337)"
+            ]
+          },
+          "value": {
+            "none": [
+              "2010.585938"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4920,
+          "groupHex": "0013",
+          "elementHex": "1338",
+          "tag": "(0013,1338)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValueROIMin_4 (0013,1338)"
+            ]
+          },
+          "value": {
+            "none": [
+              "1993"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4921,
+          "groupHex": "0013",
+          "elementHex": "1339",
+          "tag": "(0013,1339)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValueROIMax_4 (0013,1339)"
+            ]
+          },
+          "value": {
+            "none": [
+              "2161"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4928,
+          "groupHex": "0013",
+          "elementHex": "1340",
+          "tag": "(0013,1340)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValueROIStdDev_4 (0013,1340)"
+            ]
+          },
+          "value": {
+            "none": [
+              "17.791872"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4929,
+          "groupHex": "0013",
+          "elementHex": "1341",
+          "tag": "(0013,1341)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "HUROIMean_4 (0013,1341)"
+            ]
+          },
+          "value": {
+            "none": [
+              "986.585938"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4930,
+          "groupHex": "0013",
+          "elementHex": "1342",
+          "tag": "(0013,1342)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "HUROIMin_4 (0013,1342)"
+            ]
+          },
+          "value": {
+            "none": [
+              "969"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4931,
+          "groupHex": "0013",
+          "elementHex": "1343",
+          "tag": "(0013,1343)",
+          "vr": "UT",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "HUROIMax_4 (0013,1343)"
+            ]
+          },
+          "value": {
+            "none": [
+              "1137"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4932,
+          "groupHex": "0013",
+          "elementHex": "1344",
+          "tag": "(0013,1344)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "HUROIStdDev_4 (0013,1344)"
+            ]
+          },
+          "value": {
+            "none": [
+              "17.791874"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4933,
+          "groupHex": "0013",
+          "elementHex": "1345",
+          "tag": "(0013,1345)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValue-HU_5_ROILabel (0013,1345)"
+            ]
+          },
+          "value": {
+            "none": [
+              "MASK_5_WoodMask_Slice1177_MetalNail_Artfct"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4934,
+          "groupHex": "0013",
+          "elementHex": "1346",
+          "tag": "(0013,1346)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValue-HU_5_ROIType (0013,1346)"
+            ]
+          },
+          "value": {
+            "none": [
+              "Polygon"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4935,
+          "groupHex": "0013",
+          "elementHex": "1347",
+          "tag": "(0013,1347)",
+          "vr": "UT",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValue-HU_5_ROICoordinates (0013,1347)"
+            ]
+          },
+          "value": {
+            "none": [
+              "ROI_point(x=1384, y=992), ROI_px(W=64, H=64)"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4936,
+          "groupHex": "0013",
+          "elementHex": "1348",
+          "tag": "(0013,1348)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValueROIMean_5 (0013,1348)"
+            ]
+          },
+          "value": {
+            "none": [
+              "1992.13501"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4937,
+          "groupHex": "0013",
+          "elementHex": "1349",
+          "tag": "(0013,1349)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValueROIMin_5 (0013,1349)"
+            ]
+          },
+          "value": {
+            "none": [
+              "1924"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4944,
+          "groupHex": "0013",
+          "elementHex": "1350",
+          "tag": "(0013,1350)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValueROIMax_5 (0013,1350)"
+            ]
+          },
+          "value": {
+            "none": [
+              "2051"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4945,
+          "groupHex": "0013",
+          "elementHex": "1351",
+          "tag": "(0013,1351)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValueROIStdDev_5 (0013,1351)"
+            ]
+          },
+          "value": {
+            "none": [
+              "14.414165"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4946,
+          "groupHex": "0013",
+          "elementHex": "1352",
+          "tag": "(0013,1352)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "HUROIMean_5 (0013,1352)"
+            ]
+          },
+          "value": {
+            "none": [
+              "968.13501"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4947,
+          "groupHex": "0013",
+          "elementHex": "1353",
+          "tag": "(0013,1353)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "HUROIMin_5 (0013,1353)"
+            ]
+          },
+          "value": {
+            "none": [
+              "900"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4948,
+          "groupHex": "0013",
+          "elementHex": "1354",
+          "tag": "(0013,1354)",
+          "vr": "UT",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "HUROIMax_5 (0013,1354)"
+            ]
+          },
+          "value": {
+            "none": [
+              "1027"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4949,
+          "groupHex": "0013",
+          "elementHex": "1355",
+          "tag": "(0013,1355)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "HUROIStdDev_5 (0013,1355)"
+            ]
+          },
+          "value": {
+            "none": [
+              "14.414165"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4950,
+          "groupHex": "0013",
+          "elementHex": "1356",
+          "tag": "(0013,1356)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValue-HU_6_ROILabel (0013,1356)"
+            ]
+          },
+          "value": {
+            "none": [
+              "MASK_5_WoodMask_Slice1177_MetalNail_Artfct"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4951,
+          "groupHex": "0013",
+          "elementHex": "1357",
+          "tag": "(0013,1357)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValue-HU_6_ROIType (0013,1357)"
+            ]
+          },
+          "value": {
+            "none": [
+              "Polygon"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4952,
+          "groupHex": "0013",
+          "elementHex": "1358",
+          "tag": "(0013,1358)",
+          "vr": "UT",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValue-HU_6_ROICoordinates (0013,1358)"
+            ]
+          },
+          "value": {
+            "none": [
+              "ROI_point(x=1304, y=920), ROI_px(W=64, H=64)"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4953,
+          "groupHex": "0013",
+          "elementHex": "1359",
+          "tag": "(0013,1359)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValueROIMean_6 (0013,1359)"
+            ]
+          },
+          "value": {
+            "none": [
+              "2066.185303"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4960,
+          "groupHex": "0013",
+          "elementHex": "1360",
+          "tag": "(0013,1360)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValueROIMin_6 (0013,1360)"
+            ]
+          },
+          "value": {
+            "none": [
+              "2019"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4961,
+          "groupHex": "0013",
+          "elementHex": "1361",
+          "tag": "(0013,1361)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValueROIMax_6 (0013,1361)"
+            ]
+          },
+          "value": {
+            "none": [
+              "2181"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4962,
+          "groupHex": "0013",
+          "elementHex": "1362",
+          "tag": "(0013,1362)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GrayValueROIStdDev_6 (0013,1362)"
+            ]
+          },
+          "value": {
+            "none": [
+              "34.452832"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4963,
+          "groupHex": "0013",
+          "elementHex": "1363",
+          "tag": "(0013,1363)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "HUROIMean_6 (0013,1363)"
+            ]
+          },
+          "value": {
+            "none": [
+              "1042.185303"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4964,
+          "groupHex": "0013",
+          "elementHex": "1364",
+          "tag": "(0013,1364)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "HUROIMin_6 (0013,1364)"
+            ]
+          },
+          "value": {
+            "none": [
+              "995"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4965,
+          "groupHex": "0013",
+          "elementHex": "1365",
+          "tag": "(0013,1365)",
+          "vr": "UT",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "HUROIMax_6 (0013,1365)"
+            ]
+          },
+          "value": {
+            "none": [
+              "1157"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 4966,
+          "groupHex": "0013",
+          "elementHex": "1366",
+          "tag": "(0013,1366)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "HUROIStdDev_6 (0013,1366)"
+            ]
+          },
+          "value": {
+            "none": [
+              "34.452831"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 5120,
+          "groupHex": "0013",
+          "elementHex": "1400",
+          "tag": "(0013,1400)",
+          "vr": "SQ",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "HUCalibrationSequence (0013,1400)"
+            ]
+          },
+          "value": {
+            "none": [
+              "[Sequence: 0 item(s)]"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 5121,
+          "groupHex": "0013",
+          "elementHex": "1401",
+          "tag": "(0013,1401)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "DICOCH-HUCalRef (0013,1401)"
+            ]
+          },
+          "value": {
+            "none": [
+              "WaterPhantom"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 5122,
+          "groupHex": "0013",
+          "elementHex": "1402",
+          "tag": "(0013,1402)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "MassAttenData (0013,1402)"
+            ]
+          },
+          "value": {
+            "none": [
+              "NIST XCOM"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 5123,
+          "groupHex": "0013",
+          "elementHex": "1403",
+          "tag": "(0013,1403)",
+          "vr": "UT",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "MassAttenDataSrc (0013,1403)"
+            ]
+          },
+          "value": {
+            "none": [
+              "https://physics.nist.gov/PhysRefData/Xcom/html/xcom1.html"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 5124,
+          "groupHex": "0013",
+          "elementHex": "1404",
+          "tag": "(0013,1404)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "DICOCH_-HUCalibrationRescaleSlope (0013,1404)"
+            ]
+          },
+          "value": {
+            "none": [
+              "1"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 5125,
+          "groupHex": "0013",
+          "elementHex": "1405",
+          "tag": "(0013,1405)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "DICOCH_-HUCalibrationRescaleIntercept (0013,1405)"
+            ]
+          },
+          "value": {
+            "none": [
+              "-1024"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 5126,
+          "groupHex": "0013",
+          "elementHex": "1406",
+          "tag": "(0013,1406)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "DICOCH_-HUCalibrationRescaleType (0013,1406)"
+            ]
+          },
+          "value": {
+            "none": [
+              "HU_DICOM"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 5376,
+          "groupHex": "0013",
+          "elementHex": "1500",
+          "tag": "(0013,1500)",
+          "vr": "SQ",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "IIIFInternationalNormLinkSequence (0013,1500)"
+            ]
+          },
+          "value": {
+            "none": [
+              "[Sequence: 0 item(s)]"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 5377,
+          "groupHex": "0013",
+          "elementHex": "1501",
+          "tag": "(0013,1501)",
+          "vr": "UT",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "IIIFManifestURI (0013,1501)"
+            ]
+          },
+          "value": {
+            "none": [
+              "https://song-jung-il.github.io/Public_image/CT_slice1177_Andong Hahoe Mask.json"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 5378,
+          "groupHex": "0013",
+          "elementHex": "1502",
+          "tag": "(0013,1502)",
+          "vr": "UT",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "IIIFImageServiceURI (0013,1502)"
+            ]
+          },
+          "value": {
+            "none": [
+              "https://github.com/SONG-JUNG-IL/Public_image/blob/main/CT_slice1177_Andong Hahoe Mask.jpg"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 5379,
+          "groupHex": "0013",
+          "elementHex": "1503",
+          "tag": "(0013,1503)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "IIIFComplianceLevel (0013,1503)"
+            ]
+          },
+          "value": {
+            "none": [
+              "LEVEL1"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 5380,
+          "groupHex": "0013",
+          "elementHex": "1504",
+          "tag": "(0013,1504)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "IIIFViewerURImirador (0013,1504)"
+            ]
+          },
+          "value": {
+            "none": [
+              "https://projectmirador.org/demo/"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 5381,
+          "groupHex": "0013",
+          "elementHex": "1505",
+          "tag": "(0013,1505)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "OpenLicenseStatement (0013,1505)"
+            ]
+          },
+          "value": {
+            "none": [
+              "PUBLIC"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 5632,
+          "groupHex": "0013",
+          "elementHex": "1600",
+          "tag": "(0013,1600)",
+          "vr": "SQ",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "SecurityAccessSequence (0013,1600)"
+            ]
+          },
+          "value": {
+            "none": [
+              "[Sequence: 0 item(s)]"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 5633,
+          "groupHex": "0013",
+          "elementHex": "1601",
+          "tag": "(0013,1601)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "AccessLevel (0013,1601)"
+            ]
+          },
+          "value": {
+            "none": [
+              "PUBLIC"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 5634,
+          "groupHex": "0013",
+          "elementHex": "1602",
+          "tag": "(0013,1602)",
+          "vr": "DA",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "EmbargoEndDate (0013,1602)"
+            ]
+          },
+          "value": {
+            "none": [
+              "20250101"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 5635,
+          "groupHex": "0013",
+          "elementHex": "1603",
+          "tag": "(0013,1603)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "EncryptionMethod (0013,1603)"
+            ]
+          },
+          "value": {
+            "none": [
+              "AES-256-GCM"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 5636,
+          "groupHex": "0013",
+          "elementHex": "1604",
+          "tag": "(0013,1604)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "HashAlgorithm (0013,1604)"
+            ]
+          },
+          "value": {
+            "none": [
+              "SHA-256"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 5637,
+          "groupHex": "0013",
+          "elementHex": "1605",
+          "tag": "(0013,1605)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "DataChecksum (0013,1605)"
+            ]
+          },
+          "value": {
+            "none": [
+              "16 byte MD5"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 5638,
+          "groupHex": "0013",
+          "elementHex": "1606",
+          "tag": "(0013,1606)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "LicenseType (0013,1606)"
+            ]
+          },
+          "value": {
+            "none": [
+              "NRICH-INT-DATA v1"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 5639,
+          "groupHex": "0013",
+          "elementHex": "1607",
+          "tag": "(0013,1607)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "AuthorizedUserID (0013,1607)"
+            ]
+          },
+          "value": {
+            "none": [
+              "DICOCH_NRICH by SONG JUNG IL"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 5640,
+          "groupHex": "0013",
+          "elementHex": "1608",
+          "tag": "(0013,1608)",
+          "vr": "UT",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "AccessAuditTrail (0013,1608)"
+            ]
+          },
+          "value": {
+            "none": [
+              "Created:20250613;Accessed:20250613"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 5888,
+          "groupHex": "0013",
+          "elementHex": "1700",
+          "tag": "(0013,1700)",
+          "vr": "SQ",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "DICOCH_X-ray CR Sequence (0013,1700)"
+            ]
+          },
+          "value": {
+            "none": [
+              "[Sequence: 0 item(s)]"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 5889,
+          "groupHex": "0013",
+          "elementHex": "1701",
+          "tag": "(0013,1701)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "BodyPartExamined (0013,1701)"
+            ]
+          },
+          "value": {
+            "none": [
+              "NONE"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 5890,
+          "groupHex": "0013",
+          "elementHex": "1702",
+          "tag": "(0013,1702)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "KVP (0013,1702)"
+            ]
+          },
+          "value": {
+            "none": [
+              "NONE"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 5891,
+          "groupHex": "0013",
+          "elementHex": "1703",
+          "tag": "(0013,1703)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "PlateID (0013,1703)"
+            ]
+          },
+          "value": {
+            "none": [
+              "NONE"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 5892,
+          "groupHex": "0013",
+          "elementHex": "1704",
+          "tag": "(0013,1704)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "SoftwareVersions (0013,1704)"
+            ]
+          },
+          "value": {
+            "none": [
+              "NONE"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 5893,
+          "groupHex": "0013",
+          "elementHex": "1705",
+          "tag": "(0013,1705)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "ProtocolName (0013,1705)"
+            ]
+          },
+          "value": {
+            "none": [
+              "NONE"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 5894,
+          "groupHex": "0013",
+          "elementHex": "1706",
+          "tag": "(0013,1706)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "DistanceSource-Detector (0013,1706)"
+            ]
+          },
+          "value": {
+            "none": [
+              "NONE"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 5895,
+          "groupHex": "0013",
+          "elementHex": "1707",
+          "tag": "(0013,1707)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "DistanceSource-Patient (0013,1707)"
+            ]
+          },
+          "value": {
+            "none": [
+              "NONE"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 5896,
+          "groupHex": "0013",
+          "elementHex": "1708",
+          "tag": "(0013,1708)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "ExposureTime (0013,1708)"
+            ]
+          },
+          "value": {
+            "none": [
+              "NONE"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 5897,
+          "groupHex": "0013",
+          "elementHex": "1709",
+          "tag": "(0013,1709)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "X-rayTubeCurrent (0013,1709)"
+            ]
+          },
+          "value": {
+            "none": [
+              "NONE"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 5904,
+          "groupHex": "0013",
+          "elementHex": "1710",
+          "tag": "(0013,1710)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "Exposure (0013,1710)"
+            ]
+          },
+          "value": {
+            "none": [
+              "NONE"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 5905,
+          "groupHex": "0013",
+          "elementHex": "1711",
+          "tag": "(0013,1711)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "FilterType (0013,1711)"
+            ]
+          },
+          "value": {
+            "none": [
+              "NONE"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 5906,
+          "groupHex": "0013",
+          "elementHex": "1712",
+          "tag": "(0013,1712)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "ImagerPixelSpacing (0013,1712)"
+            ]
+          },
+          "value": {
+            "none": [
+              "NONE"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 5907,
+          "groupHex": "0013",
+          "elementHex": "1713",
+          "tag": "(0013,1713)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "GeneratorPower (0013,1713)"
+            ]
+          },
+          "value": {
+            "none": [
+              "NONE"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 5908,
+          "groupHex": "0013",
+          "elementHex": "1714",
+          "tag": "(0013,1714)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "PlateType (0013,1714)"
+            ]
+          },
+          "value": {
+            "none": [
+              "NONE"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 5909,
+          "groupHex": "0013",
+          "elementHex": "1715",
+          "tag": "(0013,1715)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "PhosphorType (0013,1715)"
+            ]
+          },
+          "value": {
+            "none": [
+              "NONE"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 5910,
+          "groupHex": "0013",
+          "elementHex": "1716",
+          "tag": "(0013,1716)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "AcquisitionDeviceProcessingDescription (0013,1716)"
+            ]
+          },
+          "value": {
+            "none": [
+              "NONE"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 5911,
+          "groupHex": "0013",
+          "elementHex": "1717",
+          "tag": "(0013,1717)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "AcquisitionDeviceProcessingCode (0013,1717)"
+            ]
+          },
+          "value": {
+            "none": [
+              "NONE"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 5912,
+          "groupHex": "0013",
+          "elementHex": "1718",
+          "tag": "(0013,1718)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "CassetteOrientation (0013,1718)"
+            ]
+          },
+          "value": {
+            "none": [
+              "NONE"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 5913,
+          "groupHex": "0013",
+          "elementHex": "1719",
+          "tag": "(0013,1719)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "CassetteSize (0013,1719)"
+            ]
+          },
+          "value": {
+            "none": [
+              "NONE"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 5920,
+          "groupHex": "0013",
+          "elementHex": "1720",
+          "tag": "(0013,1720)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "ViewPosition (0013,1720)"
+            ]
+          },
+          "value": {
+            "none": [
+              "NONE"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 5921,
+          "groupHex": "0013",
+          "elementHex": "1721",
+          "tag": "(0013,1721)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "Sensitivity (0013,1721)"
+            ]
+          },
+          "value": {
+            "none": [
+              "NONE"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 6144,
+          "groupHex": "0013",
+          "elementHex": "1800",
+          "tag": "(0013,1800)",
+          "vr": "SQ",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "DICOCH_X-ray CT Sequence (0013,1800)"
+            ]
+          },
+          "value": {
+            "none": [
+              "[Sequence: 0 item(s)]"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 6145,
+          "groupHex": "0013",
+          "elementHex": "1801",
+          "tag": "(0013,1801)",
+          "vr": "DS",
+          "level": 0,
+          "type": "float",
+          "label": {
+            "none": [
+              "KVP (0013,1801)"
+            ]
+          },
+          "value": {
+            "none": [
+              "90"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 6146,
+          "groupHex": "0013",
+          "elementHex": "1802",
+          "tag": "(0013,1802)",
+          "vr": "DS",
+          "level": 0,
+          "type": "float",
+          "label": {
+            "none": [
+              "DistanceSource-Detector (0013,1802)"
+            ]
+          },
+          "value": {
+            "none": [
+              "975"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 6147,
+          "groupHex": "0013",
+          "elementHex": "1803",
+          "tag": "(0013,1803)",
+          "vr": "DS",
+          "level": 0,
+          "type": "float",
+          "label": {
+            "none": [
+              "DistanceSource-Patient (0013,1803)"
+            ]
+          },
+          "value": {
+            "none": [
+              "735.065"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 6148,
+          "groupHex": "0013",
+          "elementHex": "1804",
+          "tag": "(0013,1804)",
+          "vr": "DS",
+          "level": 0,
+          "type": "float",
+          "label": {
+            "none": [
+              "GantryDetectorTilt (0013,1804)"
+            ]
+          },
+          "value": {
+            "none": [
+              "0"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 6149,
+          "groupHex": "0013",
+          "elementHex": "1805",
+          "tag": "(0013,1805)",
+          "vr": "IS",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "ExposureTime (0013,1805)"
+            ]
+          },
+          "value": {
+            "none": [
+              "350"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 6150,
+          "groupHex": "0013",
+          "elementHex": "1806",
+          "tag": "(0013,1806)",
+          "vr": "IS",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "X-rayTubeCurrent (0013,1806)"
+            ]
+          },
+          "value": {
+            "none": [
+              "200"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 6151,
+          "groupHex": "0013",
+          "elementHex": "1807",
+          "tag": "(0013,1807)",
+          "vr": "IS",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "Exposure (0013,1807)"
+            ]
+          },
+          "value": {
+            "none": [
+              "6"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 6152,
+          "groupHex": "0013",
+          "elementHex": "1808",
+          "tag": "(0013,1808)",
+          "vr": "DS",
+          "level": 0,
+          "type": "float",
+          "label": {
+            "none": [
+              "FocalSpot(s) (0013,1808)"
+            ]
+          },
+          "value": {
+            "none": [
+              "0.004"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 6153,
+          "groupHex": "0013",
+          "elementHex": "1809",
+          "tag": "(0013,1809)",
+          "vr": "CS",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "FilterMaterial (0013,1809)"
+            ]
+          },
+          "value": {
+            "none": [
+              "COPPER"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 6160,
+          "groupHex": "0013",
+          "elementHex": "1810",
+          "tag": "(0013,1810)",
+          "vr": "FD",
+          "level": 0,
+          "type": "float",
+          "label": {
+            "none": [
+              "TableFeedperRotation (0013,1810)"
+            ]
+          },
+          "value": {
+            "none": [
+              "0.019531"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 6161,
+          "groupHex": "0013",
+          "elementHex": "1811",
+          "tag": "(0013,1811)",
+          "vr": "CS",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "ReconstructionAlgorithm (0013,1811)"
+            ]
+          },
+          "value": {
+            "none": [
+              "FBP"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 6400,
+          "groupHex": "0013",
+          "elementHex": "1900",
+          "tag": "(0013,1900)",
+          "vr": "SQ",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "DICOCHPrivateTagSequence (0013,1900)"
+            ]
+          },
+          "value": {
+            "none": [
+              "[Sequence: 0 item(s)]"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 6401,
+          "groupHex": "0013",
+          "elementHex": "1901",
+          "tag": "(0013,1901)",
+          "vr": "UT",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "README_DICOCH_Private_Tags (0013,1901)"
+            ]
+          },
+          "value": {
+            "none": [
+              "https://song-jung-il.github.io/Public_image/README_DICOCH_Private_Tags.txt"
+            ]
+          }
+        },
+        {
+          "group": 19,
+          "element": 6402,
+          "groupHex": "0013",
+          "elementHex": "1902",
+          "tag": "(0013,1902)",
+          "vr": "UT",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "DICOCH_private_dict (0013,1902)"
+            ]
+          },
+          "value": {
+            "none": [
+              "https://song-jung-il.github.io/Public_image/CT_DICOCH_private_dict.txt"
+            ]
+          }
+        },
+        {
+          "group": 24,
+          "element": 80,
+          "groupHex": "0018",
+          "elementHex": "0050",
+          "tag": "(0018,0050)",
+          "vr": "DS",
+          "level": 0,
+          "type": "float",
+          "label": {
+            "none": [
+              "SliceThickness (0018,0050)"
+            ]
+          },
+          "value": {
+            "none": [
+              "0.127204"
+            ]
+          }
+        },
+        {
+          "group": 24,
+          "element": 96,
+          "groupHex": "0018",
+          "elementHex": "0060",
+          "tag": "(0018,0060)",
+          "vr": "DS",
+          "level": 0,
+          "type": "float",
+          "label": {
+            "none": [
+              "KVP (0018,0060)"
+            ]
+          },
+          "value": {
+            "none": [
+              "90"
+            ]
+          }
+        },
+        {
+          "group": 24,
+          "element": 136,
+          "groupHex": "0018",
+          "elementHex": "0088",
+          "tag": "(0018,0088)",
+          "vr": "DS",
+          "level": 0,
+          "type": "float",
+          "label": {
+            "none": [
+              "SpacingBetweenSlices (0018,0088)"
+            ]
+          },
+          "value": {
+            "none": [
+              "0.127204"
+            ]
+          }
+        },
+        {
+          "group": 24,
+          "element": 4144,
+          "groupHex": "0018",
+          "elementHex": "1030",
+          "tag": "(0018,1030)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "ProtocolName (0018,1030)"
+            ]
+          },
+          "value": {
+            "none": [
+              "DICOCH_NRICH by SONG JUNG IL"
+            ]
+          }
+        },
+        {
+          "group": 24,
+          "element": 4432,
+          "groupHex": "0018",
+          "elementHex": "1150",
+          "tag": "(0018,1150)",
+          "vr": "IS",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "ExposureTime (0018,1150)"
+            ]
+          },
+          "value": {
+            "none": [
+              "350"
+            ]
+          }
+        },
+        {
+          "group": 24,
+          "element": 4433,
+          "groupHex": "0018",
+          "elementHex": "1151",
+          "tag": "(0018,1151)",
+          "vr": "IS",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "X-rayTubeCurrent (0018,1151)"
+            ]
+          },
+          "value": {
+            "none": [
+              "200"
+            ]
+          }
+        },
+        {
+          "group": 24,
+          "element": 4434,
+          "groupHex": "0018",
+          "elementHex": "1152",
+          "tag": "(0018,1152)",
+          "vr": "IS",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "Exposure (0018,1152)"
+            ]
+          },
+          "value": {
+            "none": [
+              "6"
+            ]
+          }
+        },
+        {
+          "group": 24,
+          "element": 4624,
+          "groupHex": "0018",
+          "elementHex": "1210",
+          "tag": "(0018,1210)",
+          "vr": "SH",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "ConvolutionKernel (0018,1210)"
+            ]
+          },
+          "value": {
+            "none": [
+              "STANDARD"
+            ]
+          }
+        },
+        {
+          "group": 24,
+          "element": 20736,
+          "groupHex": "0018",
+          "elementHex": "5100",
+          "tag": "(0018,5100)",
+          "vr": "CS",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "PatientPosition (0018,5100)"
+            ]
+          },
+          "value": {
+            "none": [
+              "HFS"
+            ]
+          }
+        },
+        {
+          "group": 24,
+          "element": 37648,
+          "groupHex": "0018",
+          "elementHex": "9310",
+          "tag": "(0018,9310)",
+          "vr": "FD",
+          "level": 0,
+          "type": "float",
+          "label": {
+            "none": [
+              "TableFeedperRotation (0018,9310)"
+            ]
+          },
+          "value": {
+            "none": [
+              "0.019531"
+            ]
+          }
+        },
+        {
+          "group": 32,
+          "element": 13,
+          "groupHex": "0020",
+          "elementHex": "000D",
+          "tag": "(0020,000D)",
+          "vr": "UI",
+          "level": 0,
+          "type": "UID",
+          "label": {
+            "none": [
+              "StudyInstanceUID (0020,000D)"
+            ]
+          },
+          "value": {
+            "none": [
+              "1.2.276.0.7230010.3.1.4.3719806279.3380.1645512104.8639"
+            ]
+          }
+        },
+        {
+          "group": 32,
+          "element": 14,
+          "groupHex": "0020",
+          "elementHex": "000E",
+          "tag": "(0020,000E)",
+          "vr": "UI",
+          "level": 0,
+          "type": "UID",
+          "label": {
+            "none": [
+              "SeriesInstanceUID (0020,000E)"
+            ]
+          },
+          "value": {
+            "none": [
+              "1.2.276.0.7230010.3.1.4.3719806279.3380.1645512104.8640"
+            ]
+          }
+        },
+        {
+          "group": 32,
+          "element": 16,
+          "groupHex": "0020",
+          "elementHex": "0010",
+          "tag": "(0020,0010)",
+          "vr": "SH",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "StudyID (0020,0010)"
+            ]
+          },
+          "value": {
+            "none": [
+              "1"
+            ]
+          }
+        },
+        {
+          "group": 32,
+          "element": 17,
+          "groupHex": "0020",
+          "elementHex": "0011",
+          "tag": "(0020,0011)",
+          "vr": "IS",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "SeriesNumber (0020,0011)"
+            ]
+          },
+          "value": {
+            "none": [
+              "1"
+            ]
+          }
+        },
+        {
+          "group": 32,
+          "element": 18,
+          "groupHex": "0020",
+          "elementHex": "0012",
+          "tag": "(0020,0012)",
+          "vr": "IS",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "AcquisitionNumber (0020,0012)"
+            ]
+          },
+          "value": {
+            "none": [
+              "1177"
+            ]
+          }
+        },
+        {
+          "group": 32,
+          "element": 19,
+          "groupHex": "0020",
+          "elementHex": "0013",
+          "tag": "(0020,0013)",
+          "vr": "IS",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "InstanceNumber (0020,0013)"
+            ]
+          },
+          "value": {
+            "none": [
+              "1177"
+            ]
+          }
+        },
+        {
+          "group": 32,
+          "element": 50,
+          "groupHex": "0020",
+          "elementHex": "0032",
+          "tag": "(0020,0032)",
+          "vr": "DS",
+          "level": 0,
+          "type": "float",
+          "label": {
+            "none": [
+              "ImagePositionPatient (0020,0032)"
+            ]
+          },
+          "value": {
+            "none": [
+              "-159.328949, 159.328949, -19.525833"
+            ]
+          }
+        },
+        {
+          "group": 32,
+          "element": 55,
+          "groupHex": "0020",
+          "elementHex": "0037",
+          "tag": "(0020,0037)",
+          "vr": "DS",
+          "level": 0,
+          "type": "float",
+          "label": {
+            "none": [
+              "ImageOrientationPatient (0020,0037)"
+            ]
+          },
+          "value": {
+            "none": [
+              "1.000000, 0.000000, 0.000000, 0.000000, -1.000000, 0.000000"
+            ]
+          }
+        },
+        {
+          "group": 32,
+          "element": 82,
+          "groupHex": "0020",
+          "elementHex": "0052",
+          "tag": "(0020,0052)",
+          "vr": "UI",
+          "level": 0,
+          "type": "UID",
+          "label": {
+            "none": [
+              "FrameofReference UID (0020,0052)"
+            ]
+          },
+          "value": {
+            "none": [
+              "1.2.276.0.7230010.3.1.4.3719806279.3380.1645512104.8641"
+            ]
+          }
+        },
+        {
+          "group": 32,
+          "element": 96,
+          "groupHex": "0020",
+          "elementHex": "0060",
+          "tag": "(0020,0060)",
+          "vr": "CS",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "Laterality (0020,0060)"
+            ]
+          },
+          "value": {
+            "none": [
+              "R"
+            ]
+          }
+        },
+        {
+          "group": 32,
+          "element": 4160,
+          "groupHex": "0020",
+          "elementHex": "1040",
+          "tag": "(0020,1040)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "PositionReferenceIndicator (0020,1040)"
+            ]
+          },
+          "value": {
+            "none": [
+              "R"
+            ]
+          }
+        },
+        {
+          "group": 32,
+          "element": 4161,
+          "groupHex": "0020",
+          "elementHex": "1041",
+          "tag": "(0020,1041)",
+          "vr": "DS",
+          "level": 0,
+          "type": "float",
+          "label": {
+            "none": [
+              "SliceLocation (0020,1041)"
+            ]
+          },
+          "value": {
+            "none": [
+              "149.719269"
+            ]
+          }
+        },
+        {
+          "group": 40,
+          "element": 2,
+          "groupHex": "0028",
+          "elementHex": "0002",
+          "tag": "(0028,0002)",
+          "vr": "US",
+          "level": 0,
+          "type": "int",
+          "label": {
+            "none": [
+              "SamplesperPixel (0028,0002)"
+            ]
+          },
+          "value": {
+            "none": [
+              "1"
+            ]
+          }
+        },
+        {
+          "group": 40,
+          "element": 4,
+          "groupHex": "0028",
+          "elementHex": "0004",
+          "tag": "(0028,0004)",
+          "vr": "CS",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "PhotometricInterpretation (0028,0004)"
+            ]
+          },
+          "value": {
+            "none": [
+              "MONOCHROME2"
+            ]
+          }
+        },
+        {
+          "group": 40,
+          "element": 16,
+          "groupHex": "0028",
+          "elementHex": "0010",
+          "tag": "(0028,0010)",
+          "vr": "US",
+          "level": 0,
+          "type": "int",
+          "label": {
+            "none": [
+              "Rows (0028,0010)"
+            ]
+          },
+          "value": {
+            "none": [
+              "2048"
+            ]
+          }
+        },
+        {
+          "group": 40,
+          "element": 17,
+          "groupHex": "0028",
+          "elementHex": "0011",
+          "tag": "(0028,0011)",
+          "vr": "US",
+          "level": 0,
+          "type": "int",
+          "label": {
+            "none": [
+              "Columns (0028,0011)"
+            ]
+          },
+          "value": {
+            "none": [
+              "2048"
+            ]
+          }
+        },
+        {
+          "group": 40,
+          "element": 48,
+          "groupHex": "0028",
+          "elementHex": "0030",
+          "tag": "(0028,0030)",
+          "vr": "DS",
+          "level": 0,
+          "type": "float",
+          "label": {
+            "none": [
+              "PixelSpacing (0028,0030)"
+            ]
+          },
+          "value": {
+            "none": [
+              "0.155671, 0.155671"
+            ]
+          }
+        },
+        {
+          "group": 40,
+          "element": 256,
+          "groupHex": "0028",
+          "elementHex": "0100",
+          "tag": "(0028,0100)",
+          "vr": "US",
+          "level": 0,
+          "type": "int",
+          "label": {
+            "none": [
+              "BitsAllocated (0028,0100)"
+            ]
+          },
+          "value": {
+            "none": [
+              "16"
+            ]
+          }
+        },
+        {
+          "group": 40,
+          "element": 257,
+          "groupHex": "0028",
+          "elementHex": "0101",
+          "tag": "(0028,0101)",
+          "vr": "US",
+          "level": 0,
+          "type": "int",
+          "label": {
+            "none": [
+              "BitsStored (0028,0101)"
+            ]
+          },
+          "value": {
+            "none": [
+              "16"
+            ]
+          }
+        },
+        {
+          "group": 40,
+          "element": 258,
+          "groupHex": "0028",
+          "elementHex": "0102",
+          "tag": "(0028,0102)",
+          "vr": "US",
+          "level": 0,
+          "type": "int",
+          "label": {
+            "none": [
+              "HighBit (0028,0102)"
+            ]
+          },
+          "value": {
+            "none": [
+              "15"
+            ]
+          }
+        },
+        {
+          "group": 40,
+          "element": 259,
+          "groupHex": "0028",
+          "elementHex": "0103",
+          "tag": "(0028,0103)",
+          "vr": "US",
+          "level": 0,
+          "type": "int",
+          "label": {
+            "none": [
+              "PixelRepresentation (0028,0103)"
+            ]
+          },
+          "value": {
+            "none": [
+              "0"
+            ]
+          }
+        },
+        {
+          "group": 40,
+          "element": 4176,
+          "groupHex": "0028",
+          "elementHex": "1050",
+          "tag": "(0028,1050)",
+          "vr": "DS",
+          "level": 0,
+          "type": "float",
+          "label": {
+            "none": [
+              "WindowCenter (0028,1050)"
+            ]
+          },
+          "value": {
+            "none": [
+              "2317"
+            ]
+          }
+        },
+        {
+          "group": 40,
+          "element": 4177,
+          "groupHex": "0028",
+          "elementHex": "1051",
+          "tag": "(0028,1051)",
+          "vr": "DS",
+          "level": 0,
+          "type": "float",
+          "label": {
+            "none": [
+              "WindowWidth (0028,1051)"
+            ]
+          },
+          "value": {
+            "none": [
+              "68743"
+            ]
+          }
+        },
+        {
+          "group": 40,
+          "element": 4178,
+          "groupHex": "0028",
+          "elementHex": "1052",
+          "tag": "(0028,1052)",
+          "vr": "DS",
+          "level": 0,
+          "type": "float",
+          "label": {
+            "none": [
+              "RescaleIntercept (0028,1052)"
+            ]
+          },
+          "value": {
+            "none": [
+              "0"
+            ]
+          }
+        },
+        {
+          "group": 40,
+          "element": 4179,
+          "groupHex": "0028",
+          "elementHex": "1053",
+          "tag": "(0028,1053)",
+          "vr": "DS",
+          "level": 0,
+          "type": "float",
+          "label": {
+            "none": [
+              "RescaleSlope (0028,1053)"
+            ]
+          },
+          "value": {
+            "none": [
+              "1"
+            ]
+          }
+        },
+        {
+          "group": 40,
+          "element": 4180,
+          "groupHex": "0028",
+          "elementHex": "1054",
+          "tag": "(0028,1054)",
+          "vr": "LO",
+          "level": 0,
+          "type": "str",
+          "label": {
+            "none": [
+              "RescaleType (0028,1054)"
+            ]
+          },
+          "value": {
+            "none": [
+              "HU"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "Total Tags"
+        ]
+      },
+      "value": {
+        "none": [
+          "226"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "Private Tags"
+        ]
+      },
+      "value": {
+        "none": [
+          "167"
+        ]
+      }
+    }
+  ]
+}
