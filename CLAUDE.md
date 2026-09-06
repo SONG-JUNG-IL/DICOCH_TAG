@@ -33,9 +33,11 @@ Supplementary Information for DICOCH/
 세 스크립트 모두 **표준 라이브러리 `tkinter` 기반 GUI**다. PySide6/PyQt는 코드 어디에도 사용되지 않는다.
 
 ```bash
-pip install pydicom numpy pandas openpyxl Pillow tifffile chardet SimpleITK python-gdcm pynrrd scipy psutil
+pip install -r "Supplementary Information for DICOCH/Source_Code/requirements.txt"
 # Linux 에서는 tkinter 별도 설치 필요:  sudo apt install python3-tk
 ```
+
+`requirements.txt` 가 의존성 정본이다. 스크립트에 `import` 를 추가하면 **같은 커밋에서** 함께 갱신한다.
 
 | 스크립트 | 고유 의존성 |
 |---|---|
@@ -79,8 +81,7 @@ GUI 응답성 유지를 위해 `except: pass` 가 다수 존재한다(`c.` 54개
 |---|---|---|
 | 저자 로컬 경로가 주석으로 잔존 | `b.` 202행 (`C:\Users\USER\Desktop\논문_ 코드20250702\...`) | SI 공개 전 삭제 필요 |
 | `tools.zip` (21 MB) 이 Git에 직접 커밋됨 | `Source_Code/tools.zip` | 저장소 비대화. 배포 시 별도 첨부 검토 |
-| Excel 임시파일 커밋 | `~$2.tag_template_filled_...xlsx` | 삭제 필요 |
-| `requirements.txt` 부재 | 저장소 루트 | 3장 목록으로 생성 권고 |
+| 침묵 예외 처리 74개소 | `a.`/`b.`/`c.` (4.4절) | 일괄 정리 시 dciodvfy 결과 동일성 확인 필요 |
 
 ## 6. 작업 규칙
 
