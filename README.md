@@ -56,7 +56,16 @@ The package is organized into three main categories based on the workflow and mo
 
 To verify the results reported in the manuscript:
 
-1.  **Environment:** Install Python 3.9+ and dependencies (`pip install pydicom numpy pandas Pillow PySide6`).
+1.  **Environment:** Install Python 3.9+ and the dependencies actually imported by the scripts:
+    ```bash
+    pip install pydicom numpy pandas openpyxl Pillow tifffile chardet SimpleITK python-gdcm pynrrd scipy psutil
+    ```
+    * The GUIs are built on the standard-library `tkinter`; no Qt binding (PySide6/PyQt) is required.
+      On Linux, install it separately (`sudo apt install python3-tk`).
+    * Script `b.` additionally requires the `dciodvfy` executable from
+      [dicom3tools](https://www.dclunie.com/dicom3tools.html) on `PATH`.
+    * `ctypes.windll` is used in script `b.` for Windows 8.3 short-path conversion, so the
+      validation stage is currently Windows-only.
 2.  **Generation:** Run script `a.` using the provided `Tag Template` and `Image Template` from the CT/CR directories.
 3.  **Validation:** Run script `b.` targeting the output folder.
     * *Verification:* Compare the newly generated log with the provided `Validation Logs_..._output` to confirm they match.

@@ -1,0 +1,28 @@
+# DICOCH Pipeline — Supplementary Information
+# Derived from the actual `import` statements of the three scripts in this directory.
+# Python 3.9+ ; the GUIs use the standard-library `tkinter` (no Qt binding required).
+#   Linux: install tkinter separately -> sudo apt install python3-tk
+#
+# External binary (not installable via pip):
+#   dciodvfy  from dicom3tools <https://www.dclunie.com/dicom3tools.html>
+#   required by "b.DICOCH - JPEG - Manifest - Validation.py"
+
+# --- common ---------------------------------------------------------------
+pydicom
+numpy
+Pillow
+
+# --- a. DICOCH DICOM Converter --------------------------------------------
+pandas
+openpyxl
+tifffile
+
+# --- b. DICOCH - JPEG - Manifest - Validation ------------------------------
+chardet
+
+# --- c. DICOM ROI Cropper --------------------------------------------------
+SimpleITK
+python-gdcm
+pynrrd
+scipy
+psutil

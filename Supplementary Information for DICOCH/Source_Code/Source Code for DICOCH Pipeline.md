@@ -52,9 +52,18 @@ To run these scripts, the following environment is required:
 * **Python:** Version 3.9 or higher
 * **Dependencies:** Please install the required libraries using pip:
     ```bash
-    pip install pydicom numpy pandas Pillow PySide6 openpyxl
+    pip install pydicom numpy pandas openpyxl Pillow tifffile chardet SimpleITK python-gdcm pynrrd scipy psutil
     ```
-    *(Note: `PySide6` or `PyQt5` is required for the GUI elements shown in Fig. 2-4 of the paper.)*
+    *(Note: the GUI elements shown in Fig. 2-4 are implemented with the standard-library `tkinter`.
+    No Qt binding is required. On Linux, install `tkinter` separately: `sudo apt install python3-tk`.)*
+
+    Per-script dependencies:
+
+    | Script | Additional imports |
+    |---|---|
+    | `a.DICOCH DICOM Converter.py` | `tifffile`, `openpyxl`, `pandas` |
+    | `b.DICOCH - JPEG - Manifest - Validation.py` | `chardet`, `openpyxl`, `pandas` |
+    | `c.DICOM ROI Cropper.py` | `SimpleITK`, `python-gdcm`, `pynrrd`, `scipy`, `psutil` |
 
 * **External Validator:**
     * The `dciodvfy` executable (from `dicom3tools`) must be present.
